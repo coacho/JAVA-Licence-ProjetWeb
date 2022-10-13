@@ -1,0 +1,1056 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:change="http://www.eclipse.org/emf/2003/Change" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_Qpk3UErvEe26Ra5ck-ZzUA">
+  <eAnnotations xmi:id="_qpbEgErvEe26Ra5ck-ZzUA" source="http://ns.yatta.de/umllab">
+    <contents xsi:type="ecore:EAnnotation" xmi:id="_qpbrkErvEe26Ra5ck-ZzUA" source="dangling-refs">
+      <contents xsi:type="change:ChangeDescription" xmi:id="_qpbrkUrvEe26Ra5ck-ZzUA">
+        <objectChanges xmi:id="_qpbrkkrvEe26Ra5ck-ZzUA" key="_QwzgsErvEe26Ra5ck-ZzUA">
+          <value xmi:id="_qpbrk0rvEe26Ra5ck-ZzUA" featureName="interfaceRealization">
+            <listChanges xmi:id="_qpbrlErvEe26Ra5ck-ZzUA" index="0" referenceValues="_QxCxQErvEe26Ra5ck-ZzUA"/>
+          </value>
+          <value xmi:id="_qpbrlUrvEe26Ra5ck-ZzUA" featureName="generalization">
+            <listChanges xmi:id="_qpbrlkrvEe26Ra5ck-ZzUA" index="0" referenceValues="_QxCxQUrvEe26Ra5ck-ZzUA"/>
+          </value>
+        </objectChanges>
+        <objectChanges xmi:id="_qpbrl0rvEe26Ra5ck-ZzUA" key="_QxCxQErvEe26Ra5ck-ZzUA">
+          <value xmi:id="_qpbrmErvEe26Ra5ck-ZzUA" featureName="contract" referenceValue="_Qw188ErvEe26Ra5ck-ZzUA"/>
+          <value xmi:id="_qpbrmUrvEe26Ra5ck-ZzUA" featureName="supplier">
+            <listChanges xmi:id="_qpbrmkrvEe26Ra5ck-ZzUA" index="0" referenceValues="_Qw188ErvEe26Ra5ck-ZzUA"/>
+          </value>
+        </objectChanges>
+        <objectChanges xmi:id="_qpbrm0rvEe26Ra5ck-ZzUA" key="_QxCxQUrvEe26Ra5ck-ZzUA">
+          <value xmi:id="_qpbrnErvEe26Ra5ck-ZzUA" featureName="general" referenceValue="_Qw3yI0rvEe26Ra5ck-ZzUA"/>
+        </objectChanges>
+        <objectChanges xmi:id="_qpbrnUrvEe26Ra5ck-ZzUA" key="_Qw0u1krvEe26Ra5ck-ZzUA">
+          <value xmi:id="_qpbrnkrvEe26Ra5ck-ZzUA" featureName="interfaceRealization">
+            <listChanges xmi:id="_qpbrn0rvEe26Ra5ck-ZzUA" index="0" referenceValues="_QxDYUErvEe26Ra5ck-ZzUA"/>
+          </value>
+          <value xmi:id="_qpbroErvEe26Ra5ck-ZzUA" featureName="generalization">
+            <listChanges xmi:id="_qpbroUrvEe26Ra5ck-ZzUA" index="0" referenceValues="_QxDYUUrvEe26Ra5ck-ZzUA"/>
+          </value>
+          <value xmi:id="_qpbrokrvEe26Ra5ck-ZzUA" featureName="ownedBehavior">
+            <listChanges xmi:id="_qpbro0rvEe26Ra5ck-ZzUA" index="0" referenceValues="_QxFNhUrvEe26Ra5ck-ZzUA _QxFNiErvEe26Ra5ck-ZzUA _QxF0kErvEe26Ra5ck-ZzUA"/>
+          </value>
+        </objectChanges>
+        <objectChanges xmi:id="_qpbrpErvEe26Ra5ck-ZzUA" key="_QxDYUErvEe26Ra5ck-ZzUA">
+          <value xmi:id="_qpbrpUrvEe26Ra5ck-ZzUA" featureName="contract" referenceValue="_Qw188ErvEe26Ra5ck-ZzUA"/>
+          <value xmi:id="_qpbrpkrvEe26Ra5ck-ZzUA" featureName="supplier">
+            <listChanges xmi:id="_qpbrp0rvEe26Ra5ck-ZzUA" index="0" referenceValues="_Qw188ErvEe26Ra5ck-ZzUA"/>
+          </value>
+        </objectChanges>
+        <objectChanges xmi:id="_qpbrqErvEe26Ra5ck-ZzUA" key="_QxDYUUrvEe26Ra5ck-ZzUA">
+          <value xmi:id="_qpbrqUrvEe26Ra5ck-ZzUA" featureName="general" referenceValue="_Qw3yI0rvEe26Ra5ck-ZzUA"/>
+        </objectChanges>
+        <objectChanges xmi:id="_qpbrqkrvEe26Ra5ck-ZzUA" key="_Qw1880rvEe26Ra5ck-ZzUA">
+          <value xmi:id="_qpbrq0rvEe26Ra5ck-ZzUA" featureName="interfaceRealization">
+            <listChanges xmi:id="_qpbrrErvEe26Ra5ck-ZzUA" index="0" referenceValues="_QxDYUkrvEe26Ra5ck-ZzUA"/>
+          </value>
+          <value xmi:id="_qpbrrUrvEe26Ra5ck-ZzUA" featureName="generalization">
+            <listChanges xmi:id="_qpbrrkrvEe26Ra5ck-ZzUA" index="0" referenceValues="_QxDYU0rvEe26Ra5ck-ZzUA"/>
+          </value>
+          <value xmi:id="_qpbrr0rvEe26Ra5ck-ZzUA" featureName="ownedBehavior">
+            <listChanges xmi:id="_qpbrsErvEe26Ra5ck-ZzUA" index="0" referenceValues="_QxF0kUrvEe26Ra5ck-ZzUA _QxF0lErvEe26Ra5ck-ZzUA _QxF0mErvEe26Ra5ck-ZzUA _QxF0mUrvEe26Ra5ck-ZzUA"/>
+          </value>
+        </objectChanges>
+        <objectChanges xmi:id="_qpbrsUrvEe26Ra5ck-ZzUA" key="_QxDYUkrvEe26Ra5ck-ZzUA">
+          <value xmi:id="_qpbrskrvEe26Ra5ck-ZzUA" featureName="contract" referenceValue="_Qw188ErvEe26Ra5ck-ZzUA"/>
+          <value xmi:id="_qpbrs0rvEe26Ra5ck-ZzUA" featureName="supplier">
+            <listChanges xmi:id="_qpbrtErvEe26Ra5ck-ZzUA" index="0" referenceValues="_Qw188ErvEe26Ra5ck-ZzUA"/>
+          </value>
+        </objectChanges>
+        <objectChanges xmi:id="_qpbrtUrvEe26Ra5ck-ZzUA" key="_QxDYU0rvEe26Ra5ck-ZzUA">
+          <value xmi:id="_qpbrtkrvEe26Ra5ck-ZzUA" featureName="general" referenceValue="_Qw3yI0rvEe26Ra5ck-ZzUA"/>
+        </objectChanges>
+        <objectChanges xmi:id="_qpbrt0rvEe26Ra5ck-ZzUA" key="_Qw2kB0rvEe26Ra5ck-ZzUA">
+          <value xmi:id="_qpbruErvEe26Ra5ck-ZzUA" featureName="interfaceRealization">
+            <listChanges xmi:id="_qpbruUrvEe26Ra5ck-ZzUA" index="0" referenceValues="_QxDYVErvEe26Ra5ck-ZzUA"/>
+          </value>
+          <value xmi:id="_qpbrukrvEe26Ra5ck-ZzUA" featureName="generalization">
+            <listChanges xmi:id="_qpbru0rvEe26Ra5ck-ZzUA" index="0" referenceValues="_QxDYVUrvEe26Ra5ck-ZzUA"/>
+          </value>
+          <value xmi:id="_qpbrvErvEe26Ra5ck-ZzUA" featureName="ownedBehavior">
+            <listChanges xmi:id="_qpbrvUrvEe26Ra5ck-ZzUA" index="0" referenceValues="_QxF0mkrvEe26Ra5ck-ZzUA _QxF0nUrvEe26Ra5ck-ZzUA _QxF0nkrvEe26Ra5ck-ZzUA"/>
+          </value>
+        </objectChanges>
+        <objectChanges xmi:id="_qpbrvkrvEe26Ra5ck-ZzUA" key="_QxDYVErvEe26Ra5ck-ZzUA">
+          <value xmi:id="_qpbrv0rvEe26Ra5ck-ZzUA" featureName="contract" referenceValue="_Qw188ErvEe26Ra5ck-ZzUA"/>
+          <value xmi:id="_qpbrwErvEe26Ra5ck-ZzUA" featureName="supplier">
+            <listChanges xmi:id="_qpbrwUrvEe26Ra5ck-ZzUA" index="0" referenceValues="_Qw188ErvEe26Ra5ck-ZzUA"/>
+          </value>
+        </objectChanges>
+        <objectChanges xmi:id="_qpbrwkrvEe26Ra5ck-ZzUA" key="_QxDYVUrvEe26Ra5ck-ZzUA">
+          <value xmi:id="_qpbrw0rvEe26Ra5ck-ZzUA" featureName="general" referenceValue="_Qw3yI0rvEe26Ra5ck-ZzUA"/>
+        </objectChanges>
+        <objectChanges xmi:id="_qpbrxErvEe26Ra5ck-ZzUA" key="_QwySkUrvEe26Ra5ck-ZzUA">
+          <value xmi:id="_qpbrxUrvEe26Ra5ck-ZzUA" featureName="packagedElement">
+            <listChanges xmi:id="_qpbrxkrvEe26Ra5ck-ZzUA" index="0" referenceValues="_QxDYVkrvEe26Ra5ck-ZzUA"/>
+          </value>
+        </objectChanges>
+        <objectChanges xmi:id="_qpbrx0rvEe26Ra5ck-ZzUA" key="_QxDYVkrvEe26Ra5ck-ZzUA">
+          <value xmi:id="_qpbryErvEe26Ra5ck-ZzUA" featureName="name" dataValue="Scanner"/>
+        </objectChanges>
+        <objectChanges xmi:id="_qpbryUrvEe26Ra5ck-ZzUA" key="_QxD_YErvEe26Ra5ck-ZzUA">
+          <value xmi:id="_qpbrykrvEe26Ra5ck-ZzUA" featureName="base_Element" referenceValue="_QxDYVkrvEe26Ra5ck-ZzUA"/>
+        </objectChanges>
+        <objectChanges xmi:id="_qpbry0rvEe26Ra5ck-ZzUA" key="_QwySkkrvEe26Ra5ck-ZzUA">
+          <value xmi:id="_qpbrzErvEe26Ra5ck-ZzUA" featureName="packagedElement">
+            <listChanges xmi:id="_qpbrzUrvEe26Ra5ck-ZzUA" index="0" referenceValues="_QxD_YUrvEe26Ra5ck-ZzUA _QxEmcErvEe26Ra5ck-ZzUA _QxEmckrvEe26Ra5ck-ZzUA"/>
+          </value>
+        </objectChanges>
+        <objectChanges xmi:id="_qpbrzkrvEe26Ra5ck-ZzUA" key="_QxD_YUrvEe26Ra5ck-ZzUA">
+          <value xmi:id="_qpbrz0rvEe26Ra5ck-ZzUA" featureName="name" dataValue="File"/>
+        </objectChanges>
+        <objectChanges xmi:id="_qpbr0ErvEe26Ra5ck-ZzUA" key="_QxD_YkrvEe26Ra5ck-ZzUA">
+          <value xmi:id="_qpbr0UrvEe26Ra5ck-ZzUA" featureName="base_Element" referenceValue="_QxD_YUrvEe26Ra5ck-ZzUA"/>
+        </objectChanges>
+        <objectChanges xmi:id="_qpbr0krvEe26Ra5ck-ZzUA" key="_QxEmcErvEe26Ra5ck-ZzUA">
+          <value xmi:id="_qpbr00rvEe26Ra5ck-ZzUA" featureName="name" dataValue="FileInputStream"/>
+        </objectChanges>
+        <objectChanges xmi:id="_qpbr1ErvEe26Ra5ck-ZzUA" key="_QxEmcUrvEe26Ra5ck-ZzUA">
+          <value xmi:id="_qpbr1UrvEe26Ra5ck-ZzUA" featureName="base_Element" referenceValue="_QxEmcErvEe26Ra5ck-ZzUA"/>
+        </objectChanges>
+        <objectChanges xmi:id="_qpbr1krvEe26Ra5ck-ZzUA" key="_QxEmckrvEe26Ra5ck-ZzUA">
+          <value xmi:id="_qpbr10rvEe26Ra5ck-ZzUA" featureName="name" dataValue="IOException"/>
+        </objectChanges>
+        <objectChanges xmi:id="_qpbr2ErvEe26Ra5ck-ZzUA" key="_QxEmc0rvEe26Ra5ck-ZzUA">
+          <value xmi:id="_qpbr2UrvEe26Ra5ck-ZzUA" featureName="base_Element" referenceValue="_QxEmckrvEe26Ra5ck-ZzUA"/>
+        </objectChanges>
+        <objectChanges xmi:id="_qpbr2krvEe26Ra5ck-ZzUA" key="_Qw3yI0rvEe26Ra5ck-ZzUA">
+          <value xmi:id="_qpbr20rvEe26Ra5ck-ZzUA" featureName="ownedAttribute">
+            <listChanges xmi:id="_qpbr3ErvEe26Ra5ck-ZzUA" index="0" referenceValues="_QxFNgErvEe26Ra5ck-ZzUA _QxFNgkrvEe26Ra5ck-ZzUA"/>
+          </value>
+          <value xmi:id="_qpbr3UrvEe26Ra5ck-ZzUA" featureName="ownedBehavior">
+            <listChanges xmi:id="_qpbr3krvEe26Ra5ck-ZzUA" index="0" referenceValues="_QxF0okrvEe26Ra5ck-ZzUA"/>
+          </value>
+        </objectChanges>
+        <objectChanges xmi:id="_qpbr30rvEe26Ra5ck-ZzUA" key="_QxFNgErvEe26Ra5ck-ZzUA">
+          <value xmi:id="_qpbr4ErvEe26Ra5ck-ZzUA" featureName="name" dataValue="file"/>
+          <value xmi:id="_qpbr4UrvEe26Ra5ck-ZzUA" featureName="type">
+            <referenceValue href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </value>
+          <value xmi:id="_qpbr4krvEe26Ra5ck-ZzUA" featureName="visibility" dataValue="protected"/>
+        </objectChanges>
+        <objectChanges xmi:id="_qpbr40rvEe26Ra5ck-ZzUA" key="_QxFNgUrvEe26Ra5ck-ZzUA">
+          <value xmi:id="_qpbr5ErvEe26Ra5ck-ZzUA" featureName="base_Element" referenceValue="_QxFNgErvEe26Ra5ck-ZzUA"/>
+        </objectChanges>
+        <objectChanges xmi:id="_qpbr5UrvEe26Ra5ck-ZzUA" key="_QxFNgkrvEe26Ra5ck-ZzUA">
+          <value xmi:id="_qpbr5krvEe26Ra5ck-ZzUA" featureName="name" dataValue="content"/>
+          <value xmi:id="_qpbr50rvEe26Ra5ck-ZzUA" featureName="type">
+            <referenceValue href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </value>
+          <value xmi:id="_qpbr6ErvEe26Ra5ck-ZzUA" featureName="visibility" dataValue="protected"/>
+          <value xmi:id="_qpbr6UrvEe26Ra5ck-ZzUA" featureName="defaultValue" referenceValue="_QxFNg0rvEe26Ra5ck-ZzUA"/>
+        </objectChanges>
+        <objectChanges xmi:id="_qpbr6krvEe26Ra5ck-ZzUA" key="_QxFNg0rvEe26Ra5ck-ZzUA">
+          <value xmi:id="_qpbr60rvEe26Ra5ck-ZzUA" featureName="value" dataValue="&quot;&quot;"/>
+        </objectChanges>
+        <objectChanges xmi:id="_qpbr7ErvEe26Ra5ck-ZzUA" key="_QxFNhErvEe26Ra5ck-ZzUA">
+          <value xmi:id="_qpbr7UrvEe26Ra5ck-ZzUA" featureName="base_Element" referenceValue="_QxFNgkrvEe26Ra5ck-ZzUA"/>
+        </objectChanges>
+        <objectChanges xmi:id="_qpbr7krvEe26Ra5ck-ZzUA" key="_Qw1V4ErvEe26Ra5ck-ZzUA">
+          <value xmi:id="_qpbr70rvEe26Ra5ck-ZzUA" featureName="method">
+            <listChanges xmi:id="_qpbr8ErvEe26Ra5ck-ZzUA" index="0" referenceValues="_QxFNhUrvEe26Ra5ck-ZzUA"/>
+          </value>
+        </objectChanges>
+        <objectChanges xmi:id="_qpbr8UrvEe26Ra5ck-ZzUA" key="_QxFNhUrvEe26Ra5ck-ZzUA">
+          <value xmi:id="_qpbr8krvEe26Ra5ck-ZzUA" featureName="body">
+            <listChanges xmi:id="_qpbr80rvEe26Ra5ck-ZzUA" index="0">
+              <dataValues>super.file = file;
+	</dataValues>
+            </listChanges>
+          </value>
+          <value xmi:id="_qpbr9ErvEe26Ra5ck-ZzUA" featureName="language">
+            <listChanges xmi:id="_qpbr9UrvEe26Ra5ck-ZzUA" index="0">
+              <dataValues>java</dataValues>
+            </listChanges>
+          </value>
+        </objectChanges>
+        <objectChanges xmi:id="_qpbr9krvEe26Ra5ck-ZzUA" key="_Qw1V5UrvEe26Ra5ck-ZzUA">
+          <value xmi:id="_qpbr90rvEe26Ra5ck-ZzUA" featureName="method">
+            <listChanges xmi:id="_qpbr-ErvEe26Ra5ck-ZzUA" index="0" referenceValues="_QxFNiErvEe26Ra5ck-ZzUA"/>
+          </value>
+        </objectChanges>
+        <objectChanges xmi:id="_qpbr-UrvEe26Ra5ck-ZzUA" key="_QxFNiErvEe26Ra5ck-ZzUA">
+          <value xmi:id="_qpbr-krvEe26Ra5ck-ZzUA" featureName="body">
+            <listChanges xmi:id="_qpbr-0rvEe26Ra5ck-ZzUA" index="0">
+              <dataValues>System.out.println(content);
+	</dataValues>
+            </listChanges>
+          </value>
+          <value xmi:id="_qpbr_ErvEe26Ra5ck-ZzUA" featureName="language">
+            <listChanges xmi:id="_qpbr_UrvEe26Ra5ck-ZzUA" index="0">
+              <dataValues>java</dataValues>
+            </listChanges>
+          </value>
+        </objectChanges>
+        <objectChanges xmi:id="_qpbr_krvEe26Ra5ck-ZzUA" key="_Qw1V5krvEe26Ra5ck-ZzUA">
+          <value xmi:id="_qpbr_0rvEe26Ra5ck-ZzUA" featureName="method">
+            <listChanges xmi:id="_qpbsAErvEe26Ra5ck-ZzUA" index="0" referenceValues="_QxF0kErvEe26Ra5ck-ZzUA"/>
+          </value>
+        </objectChanges>
+        <objectChanges xmi:id="_qpbsAUrvEe26Ra5ck-ZzUA" key="_QxF0kErvEe26Ra5ck-ZzUA">
+          <value xmi:id="_qpbsAkrvEe26Ra5ck-ZzUA" featureName="body">
+            <listChanges xmi:id="_qpbsA0rvEe26Ra5ck-ZzUA" index="0">
+              <dataValues>super.read(file);		
+	</dataValues>
+            </listChanges>
+          </value>
+          <value xmi:id="_qpbsBErvEe26Ra5ck-ZzUA" featureName="language">
+            <listChanges xmi:id="_qpbsBUrvEe26Ra5ck-ZzUA" index="0">
+              <dataValues>java</dataValues>
+            </listChanges>
+          </value>
+        </objectChanges>
+        <objectChanges xmi:id="_qpbsBkrvEe26Ra5ck-ZzUA" key="_Qw189ErvEe26Ra5ck-ZzUA">
+          <value xmi:id="_qpbsB0rvEe26Ra5ck-ZzUA" featureName="method">
+            <listChanges xmi:id="_qpbsCErvEe26Ra5ck-ZzUA" index="0" referenceValues="_QxF0kUrvEe26Ra5ck-ZzUA"/>
+          </value>
+        </objectChanges>
+        <objectChanges xmi:id="_qpbsCUrvEe26Ra5ck-ZzUA" key="_QxF0kUrvEe26Ra5ck-ZzUA">
+          <value xmi:id="_qpbsCkrvEe26Ra5ck-ZzUA" featureName="body">
+            <listChanges xmi:id="_qpbsC0rvEe26Ra5ck-ZzUA" index="0">
+              <dataValues>super.file = file;
+	</dataValues>
+            </listChanges>
+          </value>
+          <value xmi:id="_qpbsDErvEe26Ra5ck-ZzUA" featureName="language">
+            <listChanges xmi:id="_qpbsDUrvEe26Ra5ck-ZzUA" index="0">
+              <dataValues>java</dataValues>
+            </listChanges>
+          </value>
+        </objectChanges>
+        <objectChanges xmi:id="_qpbsDkrvEe26Ra5ck-ZzUA" key="_Qw18-UrvEe26Ra5ck-ZzUA">
+          <value xmi:id="_qpbsD0rvEe26Ra5ck-ZzUA" featureName="method">
+            <listChanges xmi:id="_qpbsEErvEe26Ra5ck-ZzUA" index="0" referenceValues="_QxF0lErvEe26Ra5ck-ZzUA"/>
+          </value>
+        </objectChanges>
+        <objectChanges xmi:id="_qpbsEUrvEe26Ra5ck-ZzUA" key="_QxF0lErvEe26Ra5ck-ZzUA">
+          <value xmi:id="_qpbsEkrvEe26Ra5ck-ZzUA" featureName="body">
+            <listChanges xmi:id="_qpbsE0rvEe26Ra5ck-ZzUA" index="0">
+              <dataValues>if(begin == end) {
+ 		return true;
+ 	}
+	    if(content.charAt(begin) == content.charAt(end)) {
+	    	if(!palindrome(begin+1, end-1)) {
+	            return true; 
+	        }
+	    }
+	    else {
+	        return false;
+	    }
+	    return false; 
+	</dataValues>
+            </listChanges>
+          </value>
+          <value xmi:id="_qpbsFErvEe26Ra5ck-ZzUA" featureName="language">
+            <listChanges xmi:id="_qpbsFUrvEe26Ra5ck-ZzUA" index="0">
+              <dataValues>java</dataValues>
+            </listChanges>
+          </value>
+        </objectChanges>
+        <objectChanges xmi:id="_qpbsFkrvEe26Ra5ck-ZzUA" key="_Qw2kAkrvEe26Ra5ck-ZzUA">
+          <value xmi:id="_qpbsF0rvEe26Ra5ck-ZzUA" featureName="method">
+            <listChanges xmi:id="_qpbsGErvEe26Ra5ck-ZzUA" index="0" referenceValues="_QxF0mErvEe26Ra5ck-ZzUA"/>
+          </value>
+        </objectChanges>
+        <objectChanges xmi:id="_qpbsGUrvEe26Ra5ck-ZzUA" key="_QxF0mErvEe26Ra5ck-ZzUA">
+          <value xmi:id="_qpbsGkrvEe26Ra5ck-ZzUA" featureName="body">
+            <listChanges xmi:id="_qpbsG0rvEe26Ra5ck-ZzUA" index="0">
+              <dataValues>if(palindrome(0, super.content.length()-1)) {
+			System.out.println(&quot;C'est un palindrome&quot;);
+		}
+		else {
+			System.out.println(&quot;Ce n'est pas un palindrome&quot;);
+		}
+	</dataValues>
+            </listChanges>
+          </value>
+          <value xmi:id="_qpbsHErvEe26Ra5ck-ZzUA" featureName="language">
+            <listChanges xmi:id="_qpbsHUrvEe26Ra5ck-ZzUA" index="0">
+              <dataValues>java</dataValues>
+            </listChanges>
+          </value>
+        </objectChanges>
+        <objectChanges xmi:id="_qpbsHkrvEe26Ra5ck-ZzUA" key="_Qw2kA0rvEe26Ra5ck-ZzUA">
+          <value xmi:id="_qpbsH0rvEe26Ra5ck-ZzUA" featureName="method">
+            <listChanges xmi:id="_qpbsIErvEe26Ra5ck-ZzUA" index="0" referenceValues="_QxF0mUrvEe26Ra5ck-ZzUA"/>
+          </value>
+        </objectChanges>
+        <objectChanges xmi:id="_qpbsIUrvEe26Ra5ck-ZzUA" key="_QxF0mUrvEe26Ra5ck-ZzUA">
+          <value xmi:id="_qpbsIkrvEe26Ra5ck-ZzUA" featureName="body">
+            <listChanges xmi:id="_qpbsI0rvEe26Ra5ck-ZzUA" index="0">
+              <dataValues>super.read(file);
+	</dataValues>
+            </listChanges>
+          </value>
+          <value xmi:id="_qpbsJErvEe26Ra5ck-ZzUA" featureName="language">
+            <listChanges xmi:id="_qpbsJUrvEe26Ra5ck-ZzUA" index="0">
+              <dataValues>java</dataValues>
+            </listChanges>
+          </value>
+        </objectChanges>
+        <objectChanges xmi:id="_qpbsJkrvEe26Ra5ck-ZzUA" key="_Qw3LEErvEe26Ra5ck-ZzUA">
+          <value xmi:id="_qpbsJ0rvEe26Ra5ck-ZzUA" featureName="method">
+            <listChanges xmi:id="_qpbsKErvEe26Ra5ck-ZzUA" index="0" referenceValues="_QxF0mkrvEe26Ra5ck-ZzUA"/>
+          </value>
+        </objectChanges>
+        <objectChanges xmi:id="_qpbsKUrvEe26Ra5ck-ZzUA" key="_QxF0mkrvEe26Ra5ck-ZzUA">
+          <value xmi:id="_qpbsKkrvEe26Ra5ck-ZzUA" featureName="body">
+            <listChanges xmi:id="_qpbsK0rvEe26Ra5ck-ZzUA" index="0">
+              <dataValues>super.file = file;
+	</dataValues>
+            </listChanges>
+          </value>
+          <value xmi:id="_qpbsLErvEe26Ra5ck-ZzUA" featureName="language">
+            <listChanges xmi:id="_qpbsLUrvEe26Ra5ck-ZzUA" index="0">
+              <dataValues>java</dataValues>
+            </listChanges>
+          </value>
+        </objectChanges>
+        <objectChanges xmi:id="_qpbsLkrvEe26Ra5ck-ZzUA" key="_Qw3LFUrvEe26Ra5ck-ZzUA">
+          <value xmi:id="_qpbsL0rvEe26Ra5ck-ZzUA" featureName="method">
+            <listChanges xmi:id="_qpbsMErvEe26Ra5ck-ZzUA" index="0" referenceValues="_QxF0nUrvEe26Ra5ck-ZzUA"/>
+          </value>
+        </objectChanges>
+        <objectChanges xmi:id="_qpbsMUrvEe26Ra5ck-ZzUA" key="_QxF0nUrvEe26Ra5ck-ZzUA">
+          <value xmi:id="_qpbsMkrvEe26Ra5ck-ZzUA" featureName="body">
+            <listChanges xmi:id="_qpbsM0rvEe26Ra5ck-ZzUA" index="0">
+              <dataValues>for(int i=super.content.length()-1; i>= 0; i--) {
+			if(content.charAt(i) != '\n') {
+				System.out.print(super.content.charAt(i));
+			}
+		}
+		System.out.println();
+	</dataValues>
+            </listChanges>
+          </value>
+          <value xmi:id="_qpbsNErvEe26Ra5ck-ZzUA" featureName="language">
+            <listChanges xmi:id="_qpbsNUrvEe26Ra5ck-ZzUA" index="0">
+              <dataValues>java</dataValues>
+            </listChanges>
+          </value>
+        </objectChanges>
+        <objectChanges xmi:id="_qpbsNkrvEe26Ra5ck-ZzUA" key="_Qw3LFkrvEe26Ra5ck-ZzUA">
+          <value xmi:id="_qpbsN0rvEe26Ra5ck-ZzUA" featureName="method">
+            <listChanges xmi:id="_qpbsOErvEe26Ra5ck-ZzUA" index="0" referenceValues="_QxF0nkrvEe26Ra5ck-ZzUA"/>
+          </value>
+        </objectChanges>
+        <objectChanges xmi:id="_qpbsOUrvEe26Ra5ck-ZzUA" key="_QxF0nkrvEe26Ra5ck-ZzUA">
+          <value xmi:id="_qpbsOkrvEe26Ra5ck-ZzUA" featureName="body">
+            <listChanges xmi:id="_qpbsO0rvEe26Ra5ck-ZzUA" index="0">
+              <dataValues>super.read(file);
+	</dataValues>
+            </listChanges>
+          </value>
+          <value xmi:id="_qpbsPErvEe26Ra5ck-ZzUA" featureName="language">
+            <listChanges xmi:id="_qpbsPUrvEe26Ra5ck-ZzUA" index="0">
+              <dataValues>java</dataValues>
+            </listChanges>
+          </value>
+        </objectChanges>
+        <objectChanges xmi:id="_qpbsPkrvEe26Ra5ck-ZzUA" key="_Qw3yIErvEe26Ra5ck-ZzUA">
+          <value xmi:id="_qpbsP0rvEe26Ra5ck-ZzUA" featureName="method">
+            <listChanges xmi:id="_qpbsQErvEe26Ra5ck-ZzUA" index="0" referenceValues="_QxF0n0rvEe26Ra5ck-ZzUA"/>
+          </value>
+        </objectChanges>
+        <objectChanges xmi:id="_qpbsQUrvEe26Ra5ck-ZzUA" key="_Qw3LGkrvEe26Ra5ck-ZzUA">
+          <value xmi:id="_qpbsQkrvEe26Ra5ck-ZzUA" featureName="ownedBehavior">
+            <listChanges xmi:id="_qpbsQ0rvEe26Ra5ck-ZzUA" index="0" referenceValues="_QxF0n0rvEe26Ra5ck-ZzUA"/>
+          </value>
+        </objectChanges>
+        <objectChanges xmi:id="_qpbsRErvEe26Ra5ck-ZzUA" key="_QxF0n0rvEe26Ra5ck-ZzUA">
+          <value xmi:id="_qpbsRUrvEe26Ra5ck-ZzUA" featureName="body">
+            <listChanges xmi:id="_qpbsRkrvEe26Ra5ck-ZzUA" index="0">
+              <dataValues>System.out.println(&quot;Entrer le chemin du fichier à tester : &quot;);
+		Scanner scan = new Scanner(System.in);
+		String userInput = scan.nextLine();
+		
+		//LecteurFichier
+		System.out.println(&quot;Lecture du fichier sans modifs: &quot;);&#xD;		LecteurFichierInterface lf = new LecteurFichier(userInput);
+		lf.read();
+		lf.display();
+		System.out.println();
+		
+		//LecteurReverse
+		System.out.println(&quot;Lecture du fichier à l'envers: &quot;);
+		LecteurFichierInterface lr = new LecteurReverse(userInput);
+		lr.read();
+		lr.display();
+		System.out.println();
+		
+		//LecteurPalindrome
+		System.out.println(&quot;Test du fichier si palindrome: &quot;);
+		LecteurFichierInterface lp = new LecteurPalindrome(userInput);
+		lp.read();
+		lp.display();
+		
+		/*//LecteurDiff
+		System.out.println(&quot;*Diff*&quot;);
+		LecteurFichierInterface ld = new LecteurDiff(userInput);
+		ld.read();
+		ld.display();
+		*/
+		&#xD;
+	</dataValues>
+            </listChanges>
+          </value>
+          <value xmi:id="_qpbsR0rvEe26Ra5ck-ZzUA" featureName="language">
+            <listChanges xmi:id="_qpbsSErvEe26Ra5ck-ZzUA" index="0">
+              <dataValues>java</dataValues>
+            </listChanges>
+          </value>
+        </objectChanges>
+        <objectChanges xmi:id="_qpbsSUrvEe26Ra5ck-ZzUA" key="_Qw4ZMErvEe26Ra5ck-ZzUA">
+          <value xmi:id="_qpbsSkrvEe26Ra5ck-ZzUA" featureName="method">
+            <listChanges xmi:id="_qpbsS0rvEe26Ra5ck-ZzUA" index="0" referenceValues="_QxF0okrvEe26Ra5ck-ZzUA"/>
+          </value>
+        </objectChanges>
+        <objectChanges xmi:id="_qpbsTErvEe26Ra5ck-ZzUA" key="_QxF0okrvEe26Ra5ck-ZzUA">
+          <value xmi:id="_qpbsTUrvEe26Ra5ck-ZzUA" featureName="body">
+            <listChanges xmi:id="_qpbsTkrvEe26Ra5ck-ZzUA" index="0">
+              <dataValues>FileInputStream in = null;
+		File f = new File(file);
+		
+		try {
+			in = new FileInputStream(f);
+			int content;
+			while ((content = in.read()) != -1) {
+				//int to String
+				this.content += (char)content;
+			}
+		}
+		catch (IOException e) {
+			e.printStackTrace();
+		}
+		finally {
+			try {
+				if (in != null)
+					in.close();
+			} catch (IOException ex) {
+				ex.printStackTrace();
+			}
+		}
+	</dataValues>
+            </listChanges>
+          </value>
+          <value xmi:id="_qpbsT0rvEe26Ra5ck-ZzUA" featureName="language">
+            <listChanges xmi:id="_qpbsUErvEe26Ra5ck-ZzUA" index="0">
+              <dataValues>java</dataValues>
+            </listChanges>
+          </value>
+        </objectChanges>
+        <objectsToAttach xsi:type="uml:InterfaceRealization" xmi:id="_QxCxQErvEe26Ra5ck-ZzUA" client="_QwzgsErvEe26Ra5ck-ZzUA"/>
+        <objectsToAttach xsi:type="uml:Generalization" xmi:id="_QxCxQUrvEe26Ra5ck-ZzUA"/>
+        <objectsToAttach xsi:type="uml:InterfaceRealization" xmi:id="_QxDYUErvEe26Ra5ck-ZzUA" client="_Qw0u1krvEe26Ra5ck-ZzUA"/>
+        <objectsToAttach xsi:type="uml:Generalization" xmi:id="_QxDYUUrvEe26Ra5ck-ZzUA"/>
+        <objectsToAttach xsi:type="uml:OpaqueBehavior" xmi:id="_QxFNhUrvEe26Ra5ck-ZzUA" name="LecteurFichier">
+          <ownedParameter xmi:id="_QxFNhkrvEe26Ra5ck-ZzUA" name="file">
+            <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_QxFNh0rvEe26Ra5ck-ZzUA" type="_Qw0u1krvEe26Ra5ck-ZzUA" direction="return"/>
+        </objectsToAttach>
+        <objectsToAttach xsi:type="uml:OpaqueBehavior" xmi:id="_QxFNiErvEe26Ra5ck-ZzUA" name="display"/>
+        <objectsToAttach xsi:type="uml:OpaqueBehavior" xmi:id="_QxF0kErvEe26Ra5ck-ZzUA" name="read"/>
+        <objectsToAttach xsi:type="uml:InterfaceRealization" xmi:id="_QxDYUkrvEe26Ra5ck-ZzUA" client="_Qw1880rvEe26Ra5ck-ZzUA"/>
+        <objectsToAttach xsi:type="uml:Generalization" xmi:id="_QxDYU0rvEe26Ra5ck-ZzUA"/>
+        <objectsToAttach xsi:type="uml:OpaqueBehavior" xmi:id="_QxF0kUrvEe26Ra5ck-ZzUA" name="LecteurPalindrome">
+          <ownedParameter xmi:id="_QxF0kkrvEe26Ra5ck-ZzUA" name="file">
+            <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_QxF0k0rvEe26Ra5ck-ZzUA" type="_Qw1880rvEe26Ra5ck-ZzUA" direction="return"/>
+        </objectsToAttach>
+        <objectsToAttach xsi:type="uml:OpaqueBehavior" xmi:id="_QxF0lErvEe26Ra5ck-ZzUA" name="palindrome">
+          <ownedParameter xmi:id="_QxF0lUrvEe26Ra5ck-ZzUA" name="begin">
+            <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_QxF0lkrvEe26Ra5ck-ZzUA" name="end">
+            <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_QxF0l0rvEe26Ra5ck-ZzUA" direction="return">
+            <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedParameter>
+        </objectsToAttach>
+        <objectsToAttach xsi:type="uml:OpaqueBehavior" xmi:id="_QxF0mErvEe26Ra5ck-ZzUA" name="display"/>
+        <objectsToAttach xsi:type="uml:OpaqueBehavior" xmi:id="_QxF0mUrvEe26Ra5ck-ZzUA" name="read"/>
+        <objectsToAttach xsi:type="uml:InterfaceRealization" xmi:id="_QxDYVErvEe26Ra5ck-ZzUA" client="_Qw2kB0rvEe26Ra5ck-ZzUA"/>
+        <objectsToAttach xsi:type="uml:Generalization" xmi:id="_QxDYVUrvEe26Ra5ck-ZzUA"/>
+        <objectsToAttach xsi:type="uml:OpaqueBehavior" xmi:id="_QxF0mkrvEe26Ra5ck-ZzUA" name="LecteurReverse">
+          <ownedParameter xmi:id="_QxF0m0rvEe26Ra5ck-ZzUA" name="file">
+            <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+          <ownedParameter xmi:id="_QxF0nErvEe26Ra5ck-ZzUA" type="_Qw2kB0rvEe26Ra5ck-ZzUA" direction="return"/>
+        </objectsToAttach>
+        <objectsToAttach xsi:type="uml:OpaqueBehavior" xmi:id="_QxF0nUrvEe26Ra5ck-ZzUA" name="display"/>
+        <objectsToAttach xsi:type="uml:OpaqueBehavior" xmi:id="_QxF0nkrvEe26Ra5ck-ZzUA" name="read"/>
+        <objectsToAttach xsi:type="uml:Class" xmi:id="_QxDYVkrvEe26Ra5ck-ZzUA"/>
+        <objectsToAttach xsi:type="uml:Class" xmi:id="_QxD_YUrvEe26Ra5ck-ZzUA"/>
+        <objectsToAttach xsi:type="uml:Class" xmi:id="_QxEmcErvEe26Ra5ck-ZzUA"/>
+        <objectsToAttach xsi:type="uml:Class" xmi:id="_QxEmckrvEe26Ra5ck-ZzUA"/>
+        <objectsToAttach xsi:type="uml:Property" xmi:id="_QxFNgErvEe26Ra5ck-ZzUA"/>
+        <objectsToAttach xsi:type="uml:Property" xmi:id="_QxFNgkrvEe26Ra5ck-ZzUA"/>
+        <objectsToAttach xsi:type="uml:OpaqueBehavior" xmi:id="_QxF0okrvEe26Ra5ck-ZzUA" name="read">
+          <ownedParameter xmi:id="_QxF0o0rvEe26Ra5ck-ZzUA" name="file">
+            <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedParameter>
+        </objectsToAttach>
+        <objectsToAttach xsi:type="uml:LiteralString" xmi:id="_QxFNg0rvEe26Ra5ck-ZzUA"/>
+        <objectsToAttach xsi:type="uml:OpaqueBehavior" xmi:id="_QxF0n0rvEe26Ra5ck-ZzUA" name="main">
+          <ownedParameter xmi:id="_QxF0oErvEe26Ra5ck-ZzUA" name="args">
+            <type xsi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            <upperValue xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_QxF0oUrvEe26Ra5ck-ZzUA" value="*"/>
+          </ownedParameter>
+        </objectsToAttach>
+        <objectsToAttach xsi:type="UMLLabProfile:Reference" xmi:id="_QxD_YErvEe26Ra5ck-ZzUA"/>
+        <objectsToAttach xsi:type="UMLLabProfile:Reference" xmi:id="_QxD_YkrvEe26Ra5ck-ZzUA"/>
+        <objectsToAttach xsi:type="UMLLabProfile:Reference" xmi:id="_QxEmcUrvEe26Ra5ck-ZzUA"/>
+        <objectsToAttach xsi:type="UMLLabProfile:Reference" xmi:id="_QxEmc0rvEe26Ra5ck-ZzUA"/>
+        <objectsToAttach xsi:type="UMLLabProfile:LegacyStyledElement" xmi:id="_QxFNgUrvEe26Ra5ck-ZzUA"/>
+        <objectsToAttach xsi:type="UMLLabProfile:LegacyStyledElement" xmi:id="_QxFNhErvEe26Ra5ck-ZzUA"/>
+        <resourceChanges xmi:id="_qpbsUUrvEe26Ra5ck-ZzUA" resourceURI="platform:/resource/LecteurFichier/LecteurFichier.uml">
+          <listChanges xmi:id="_qpbsUkrvEe26Ra5ck-ZzUA" index="12" referenceValues="_QxFNhErvEe26Ra5ck-ZzUA"/>
+          <listChanges xmi:id="_qpbsU0rvEe26Ra5ck-ZzUA" index="12" referenceValues="_QxFNgUrvEe26Ra5ck-ZzUA"/>
+          <listChanges xmi:id="_qpbsVErvEe26Ra5ck-ZzUA" index="12" referenceValues="_QxEmc0rvEe26Ra5ck-ZzUA"/>
+          <listChanges xmi:id="_qpbsVUrvEe26Ra5ck-ZzUA" index="12" referenceValues="_QxEmcUrvEe26Ra5ck-ZzUA"/>
+          <listChanges xmi:id="_qpbsVkrvEe26Ra5ck-ZzUA" index="12" referenceValues="_QxD_YkrvEe26Ra5ck-ZzUA"/>
+          <listChanges xmi:id="_qpbsV0rvEe26Ra5ck-ZzUA" index="12" referenceValues="_QxD_YErvEe26Ra5ck-ZzUA"/>
+        </resourceChanges>
+      </contents>
+      <contents xsi:type="change:ChangeDescription" xmi:id="_qpcSoErvEe26Ra5ck-ZzUA">
+        <objectChanges xmi:id="_qpcSoUrvEe26Ra5ck-ZzUA" key="_QwzgsErvEe26Ra5ck-ZzUA">
+          <value xmi:id="_qpcSokrvEe26Ra5ck-ZzUA" featureName="ownedOperation">
+            <listChanges xmi:id="_qpcSo0rvEe26Ra5ck-ZzUA" index="0" referenceValues="_Qw0HyUrvEe26Ra5ck-ZzUA _Qw0u0krvEe26Ra5ck-ZzUA"/>
+          </value>
+        </objectChanges>
+        <objectChanges xmi:id="_qpcSpErvEe26Ra5ck-ZzUA" key="_Qw0HykrvEe26Ra5ck-ZzUA">
+          <value xmi:id="_qpcSpUrvEe26Ra5ck-ZzUA" featureName="base_Element" referenceValue="_Qw0HyUrvEe26Ra5ck-ZzUA"/>
+        </objectChanges>
+        <objectChanges xmi:id="_qpcSpkrvEe26Ra5ck-ZzUA" key="_Qw0u0ErvEe26Ra5ck-ZzUA">
+          <value xmi:id="_qpcSp0rvEe26Ra5ck-ZzUA" featureName="base_Element" referenceValue="_Qw0HyUrvEe26Ra5ck-ZzUA"/>
+          <value xmi:id="_qpcSqErvEe26Ra5ck-ZzUA" featureName="annotations">
+            <listChanges xmi:id="_qpcSqUrvEe26Ra5ck-ZzUA" index="0" referenceValues="_Qw0u0UrvEe26Ra5ck-ZzUA"/>
+          </value>
+        </objectChanges>
+        <objectChanges xmi:id="_qpcSqkrvEe26Ra5ck-ZzUA" key="_Qw0u0UrvEe26Ra5ck-ZzUA">
+          <value xmi:id="_qpcSq0rvEe26Ra5ck-ZzUA" featureName="name" dataValue="Override"/>
+        </objectChanges>
+        <objectChanges xmi:id="_qpcSrErvEe26Ra5ck-ZzUA" key="_Qw0u00rvEe26Ra5ck-ZzUA">
+          <value xmi:id="_qpcSrUrvEe26Ra5ck-ZzUA" featureName="base_Element" referenceValue="_Qw0u0krvEe26Ra5ck-ZzUA"/>
+        </objectChanges>
+        <objectChanges xmi:id="_qpcSrkrvEe26Ra5ck-ZzUA" key="_Qw0u1ErvEe26Ra5ck-ZzUA">
+          <value xmi:id="_qpcSr0rvEe26Ra5ck-ZzUA" featureName="base_Element" referenceValue="_Qw0u0krvEe26Ra5ck-ZzUA"/>
+          <value xmi:id="_qpcSsErvEe26Ra5ck-ZzUA" featureName="annotations">
+            <listChanges xmi:id="_qpcSsUrvEe26Ra5ck-ZzUA" index="0" referenceValues="_Qw0u1UrvEe26Ra5ck-ZzUA"/>
+          </value>
+        </objectChanges>
+        <objectChanges xmi:id="_qpcSskrvEe26Ra5ck-ZzUA" key="_Qw0u1UrvEe26Ra5ck-ZzUA">
+          <value xmi:id="_qpcSs0rvEe26Ra5ck-ZzUA" featureName="name" dataValue="Override"/>
+        </objectChanges>
+        <objectChanges xmi:id="_qpcStErvEe26Ra5ck-ZzUA">
+          <key href="LecteurFichier.uml#_Qo_ogErvEe26Ra5ck-ZzUA"/>
+          <value xmi:id="_qpcStUrvEe26Ra5ck-ZzUA" featureName="packagedElement">
+            <listChanges xmi:id="_qpcStkrvEe26Ra5ck-ZzUA" index="2" referenceValues="_Qw3yI0rvEe26Ra5ck-ZzUA"/>
+            <listChanges xmi:id="_qpcSt0rvEe26Ra5ck-ZzUA" index="2" referenceValues="_Qw3LGkrvEe26Ra5ck-ZzUA"/>
+            <listChanges xmi:id="_qpcSuErvEe26Ra5ck-ZzUA" index="2" referenceValues="_Qw2kB0rvEe26Ra5ck-ZzUA"/>
+            <listChanges xmi:id="_qpcSuUrvEe26Ra5ck-ZzUA" index="2" referenceValues="_Qw1880rvEe26Ra5ck-ZzUA"/>
+            <listChanges xmi:id="_qpcSukrvEe26Ra5ck-ZzUA" index="2" referenceValues="_Qw188ErvEe26Ra5ck-ZzUA"/>
+            <listChanges xmi:id="_qpcSu0rvEe26Ra5ck-ZzUA" index="2" referenceValues="_Qw0u1krvEe26Ra5ck-ZzUA"/>
+          </value>
+        </objectChanges>
+        <objectChanges xmi:id="_qpcSvErvEe26Ra5ck-ZzUA" key="_Qw0u1krvEe26Ra5ck-ZzUA">
+          <value xmi:id="_qpcSvUrvEe26Ra5ck-ZzUA" featureName="name" dataValue="LecteurFichier"/>
+          <value xmi:id="_qpcSvkrvEe26Ra5ck-ZzUA" featureName="ownedOperation">
+            <listChanges xmi:id="_qpcSv0rvEe26Ra5ck-ZzUA" index="0" referenceValues="_Qw1V4ErvEe26Ra5ck-ZzUA _Qw1V5UrvEe26Ra5ck-ZzUA _Qw1V5krvEe26Ra5ck-ZzUA"/>
+          </value>
+        </objectChanges>
+        <objectChanges xmi:id="_qpcSwErvEe26Ra5ck-ZzUA" key="_Qw1V4ErvEe26Ra5ck-ZzUA">
+          <value xmi:id="_qpcSwUrvEe26Ra5ck-ZzUA" featureName="ownedParameter">
+            <listChanges xmi:id="_qpcSwkrvEe26Ra5ck-ZzUA" index="0" referenceValues="_Qw1V4UrvEe26Ra5ck-ZzUA _Qw1V5ErvEe26Ra5ck-ZzUA"/>
+          </value>
+          <value xmi:id="_qpcSw0rvEe26Ra5ck-ZzUA" featureName="eAnnotations">
+            <listChanges xmi:id="_qpcSxErvEe26Ra5ck-ZzUA" index="0" referenceValues="_Qw1V4krvEe26Ra5ck-ZzUA"/>
+          </value>
+        </objectChanges>
+        <objectChanges xmi:id="_qpcSxUrvEe26Ra5ck-ZzUA" key="_Qw1V4UrvEe26Ra5ck-ZzUA">
+          <value xmi:id="_qpcSxkrvEe26Ra5ck-ZzUA" featureName="name" dataValue="file"/>
+          <value xmi:id="_qpcSx0rvEe26Ra5ck-ZzUA" featureName="type">
+            <referenceValue href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </value>
+        </objectChanges>
+        <objectChanges xmi:id="_qpcSyErvEe26Ra5ck-ZzUA" key="_Qw1V4krvEe26Ra5ck-ZzUA">
+          <value xmi:id="_qpcSyUrvEe26Ra5ck-ZzUA" featureName="source" dataValue="http://www.eclipse.org/uml2/2.0.0/UML"/>
+          <value xmi:id="_qpcSykrvEe26Ra5ck-ZzUA" featureName="details">
+            <listChanges xmi:id="_qpcSy0rvEe26Ra5ck-ZzUA" index="0" referenceValues="_Qw1V40rvEe26Ra5ck-ZzUA"/>
+          </value>
+        </objectChanges>
+        <objectChanges xmi:id="_qpcSzErvEe26Ra5ck-ZzUA" key="_Qw1V5ErvEe26Ra5ck-ZzUA">
+          <value xmi:id="_qpcSzUrvEe26Ra5ck-ZzUA" featureName="direction" dataValue="return"/>
+          <value xmi:id="_qpcSzkrvEe26Ra5ck-ZzUA" featureName="type" referenceValue="_Qw0u1krvEe26Ra5ck-ZzUA"/>
+        </objectChanges>
+        <objectChanges xmi:id="_qpcSz0rvEe26Ra5ck-ZzUA" key="_Qw1V50rvEe26Ra5ck-ZzUA">
+          <value xmi:id="_qpcS0ErvEe26Ra5ck-ZzUA" featureName="base_Element" referenceValue="_Qw1V5krvEe26Ra5ck-ZzUA"/>
+        </objectChanges>
+        <objectChanges xmi:id="_qpcS0UrvEe26Ra5ck-ZzUA" key="_Qw1V6ErvEe26Ra5ck-ZzUA">
+          <value xmi:id="_qpcS0krvEe26Ra5ck-ZzUA" featureName="base_Element" referenceValue="_Qw1V5krvEe26Ra5ck-ZzUA"/>
+          <value xmi:id="_qpcS00rvEe26Ra5ck-ZzUA" featureName="annotations">
+            <listChanges xmi:id="_qpcS1ErvEe26Ra5ck-ZzUA" index="0" referenceValues="_Qw1V6UrvEe26Ra5ck-ZzUA"/>
+          </value>
+        </objectChanges>
+        <objectChanges xmi:id="_qpcS1UrvEe26Ra5ck-ZzUA" key="_Qw1V6UrvEe26Ra5ck-ZzUA">
+          <value xmi:id="_qpcS1krvEe26Ra5ck-ZzUA" featureName="name" dataValue="Override"/>
+        </objectChanges>
+        <objectChanges xmi:id="_qpcS10rvEe26Ra5ck-ZzUA" key="_Qw188ErvEe26Ra5ck-ZzUA">
+          <value xmi:id="_qpcS2ErvEe26Ra5ck-ZzUA" featureName="name" dataValue="LecteurFichierInterface"/>
+          <value xmi:id="_qpcS2UrvEe26Ra5ck-ZzUA" featureName="ownedOperation">
+            <listChanges xmi:id="_qpcS2krvEe26Ra5ck-ZzUA" index="0" referenceValues="_Qw188UrvEe26Ra5ck-ZzUA _Qw188krvEe26Ra5ck-ZzUA"/>
+          </value>
+        </objectChanges>
+        <objectChanges xmi:id="_qpcS20rvEe26Ra5ck-ZzUA" key="_Qw1880rvEe26Ra5ck-ZzUA">
+          <value xmi:id="_qpcS3ErvEe26Ra5ck-ZzUA" featureName="name" dataValue="LecteurPalindrome"/>
+          <value xmi:id="_qpcS3UrvEe26Ra5ck-ZzUA" featureName="ownedOperation">
+            <listChanges xmi:id="_qpcS3krvEe26Ra5ck-ZzUA" index="0" referenceValues="_Qw189ErvEe26Ra5ck-ZzUA _Qw18-UrvEe26Ra5ck-ZzUA _Qw2kAkrvEe26Ra5ck-ZzUA _Qw2kA0rvEe26Ra5ck-ZzUA"/>
+          </value>
+        </objectChanges>
+        <objectChanges xmi:id="_qpcS30rvEe26Ra5ck-ZzUA" key="_Qw189ErvEe26Ra5ck-ZzUA">
+          <value xmi:id="_qpcS4ErvEe26Ra5ck-ZzUA" featureName="ownedParameter">
+            <listChanges xmi:id="_qpcS4UrvEe26Ra5ck-ZzUA" index="0" referenceValues="_Qw189UrvEe26Ra5ck-ZzUA _Qw18-ErvEe26Ra5ck-ZzUA"/>
+          </value>
+          <value xmi:id="_qpcS4krvEe26Ra5ck-ZzUA" featureName="eAnnotations">
+            <listChanges xmi:id="_qpcS40rvEe26Ra5ck-ZzUA" index="0" referenceValues="_Qw189krvEe26Ra5ck-ZzUA"/>
+          </value>
+        </objectChanges>
+        <objectChanges xmi:id="_qpcS5ErvEe26Ra5ck-ZzUA" key="_Qw189UrvEe26Ra5ck-ZzUA">
+          <value xmi:id="_qpcS5UrvEe26Ra5ck-ZzUA" featureName="name" dataValue="file"/>
+          <value xmi:id="_qpcS5krvEe26Ra5ck-ZzUA" featureName="type">
+            <referenceValue href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </value>
+        </objectChanges>
+        <objectChanges xmi:id="_qpcS50rvEe26Ra5ck-ZzUA" key="_Qw189krvEe26Ra5ck-ZzUA">
+          <value xmi:id="_qpcS6ErvEe26Ra5ck-ZzUA" featureName="source" dataValue="http://www.eclipse.org/uml2/2.0.0/UML"/>
+          <value xmi:id="_qpcS6UrvEe26Ra5ck-ZzUA" featureName="details">
+            <listChanges xmi:id="_qpcS6krvEe26Ra5ck-ZzUA" index="0" referenceValues="_Qw1890rvEe26Ra5ck-ZzUA"/>
+          </value>
+        </objectChanges>
+        <objectChanges xmi:id="_qpcS60rvEe26Ra5ck-ZzUA" key="_Qw18-ErvEe26Ra5ck-ZzUA">
+          <value xmi:id="_qpcS7ErvEe26Ra5ck-ZzUA" featureName="direction" dataValue="return"/>
+          <value xmi:id="_qpcS7UrvEe26Ra5ck-ZzUA" featureName="type" referenceValue="_Qw1880rvEe26Ra5ck-ZzUA"/>
+        </objectChanges>
+        <objectChanges xmi:id="_qpcS7krvEe26Ra5ck-ZzUA" key="_Qw18-UrvEe26Ra5ck-ZzUA">
+          <value xmi:id="_qpcS70rvEe26Ra5ck-ZzUA" featureName="ownedParameter">
+            <listChanges xmi:id="_qpcS8ErvEe26Ra5ck-ZzUA" index="0" referenceValues="_Qw18-krvEe26Ra5ck-ZzUA _Qw2kAErvEe26Ra5ck-ZzUA _Qw2kAUrvEe26Ra5ck-ZzUA"/>
+          </value>
+        </objectChanges>
+        <objectChanges xmi:id="_qpcS8UrvEe26Ra5ck-ZzUA" key="_Qw18-krvEe26Ra5ck-ZzUA">
+          <value xmi:id="_qpcS8krvEe26Ra5ck-ZzUA" featureName="name" dataValue="begin"/>
+          <value xmi:id="_qpcS80rvEe26Ra5ck-ZzUA" featureName="type">
+            <referenceValue href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </value>
+        </objectChanges>
+        <objectChanges xmi:id="_qpcS9ErvEe26Ra5ck-ZzUA" key="_Qw2kAErvEe26Ra5ck-ZzUA">
+          <value xmi:id="_qpcS9UrvEe26Ra5ck-ZzUA" featureName="name" dataValue="end"/>
+          <value xmi:id="_qpcS9krvEe26Ra5ck-ZzUA" featureName="type">
+            <referenceValue href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </value>
+        </objectChanges>
+        <objectChanges xmi:id="_qpcS90rvEe26Ra5ck-ZzUA" key="_Qw2kAUrvEe26Ra5ck-ZzUA">
+          <value xmi:id="_qpcS-ErvEe26Ra5ck-ZzUA" featureName="direction" dataValue="return"/>
+          <value xmi:id="_qpcS-UrvEe26Ra5ck-ZzUA" featureName="type">
+            <referenceValue href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </value>
+        </objectChanges>
+        <objectChanges xmi:id="_qpcS-krvEe26Ra5ck-ZzUA" key="_Qw2kBErvEe26Ra5ck-ZzUA">
+          <value xmi:id="_qpcS-0rvEe26Ra5ck-ZzUA" featureName="base_Element" referenceValue="_Qw2kA0rvEe26Ra5ck-ZzUA"/>
+        </objectChanges>
+        <objectChanges xmi:id="_qpcS_ErvEe26Ra5ck-ZzUA" key="_Qw2kBUrvEe26Ra5ck-ZzUA">
+          <value xmi:id="_qpcS_UrvEe26Ra5ck-ZzUA" featureName="base_Element" referenceValue="_Qw2kA0rvEe26Ra5ck-ZzUA"/>
+          <value xmi:id="_qpcS_krvEe26Ra5ck-ZzUA" featureName="annotations">
+            <listChanges xmi:id="_qpcS_0rvEe26Ra5ck-ZzUA" index="0" referenceValues="_Qw2kBkrvEe26Ra5ck-ZzUA"/>
+          </value>
+        </objectChanges>
+        <objectChanges xmi:id="_qpcTAErvEe26Ra5ck-ZzUA" key="_Qw2kBkrvEe26Ra5ck-ZzUA">
+          <value xmi:id="_qpcTAUrvEe26Ra5ck-ZzUA" featureName="name" dataValue="Override"/>
+        </objectChanges>
+        <objectChanges xmi:id="_qpcTAkrvEe26Ra5ck-ZzUA" key="_Qw2kB0rvEe26Ra5ck-ZzUA">
+          <value xmi:id="_qpcTA0rvEe26Ra5ck-ZzUA" featureName="name" dataValue="LecteurReverse"/>
+          <value xmi:id="_qpcTBErvEe26Ra5ck-ZzUA" featureName="ownedOperation">
+            <listChanges xmi:id="_qpcTBUrvEe26Ra5ck-ZzUA" index="0" referenceValues="_Qw3LEErvEe26Ra5ck-ZzUA _Qw3LFUrvEe26Ra5ck-ZzUA _Qw3LFkrvEe26Ra5ck-ZzUA"/>
+          </value>
+        </objectChanges>
+        <objectChanges xmi:id="_qpcTBkrvEe26Ra5ck-ZzUA" key="_Qw3LEErvEe26Ra5ck-ZzUA">
+          <value xmi:id="_qpcTB0rvEe26Ra5ck-ZzUA" featureName="ownedParameter">
+            <listChanges xmi:id="_qpcTCErvEe26Ra5ck-ZzUA" index="0" referenceValues="_Qw3LEUrvEe26Ra5ck-ZzUA _Qw3LFErvEe26Ra5ck-ZzUA"/>
+          </value>
+          <value xmi:id="_qpcTCUrvEe26Ra5ck-ZzUA" featureName="eAnnotations">
+            <listChanges xmi:id="_qpcTCkrvEe26Ra5ck-ZzUA" index="0" referenceValues="_Qw3LEkrvEe26Ra5ck-ZzUA"/>
+          </value>
+        </objectChanges>
+        <objectChanges xmi:id="_qpcTC0rvEe26Ra5ck-ZzUA" key="_Qw3LEUrvEe26Ra5ck-ZzUA">
+          <value xmi:id="_qpcTDErvEe26Ra5ck-ZzUA" featureName="name" dataValue="file"/>
+          <value xmi:id="_qpcTDUrvEe26Ra5ck-ZzUA" featureName="type">
+            <referenceValue href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </value>
+        </objectChanges>
+        <objectChanges xmi:id="_qpcTDkrvEe26Ra5ck-ZzUA" key="_Qw3LEkrvEe26Ra5ck-ZzUA">
+          <value xmi:id="_qpcTD0rvEe26Ra5ck-ZzUA" featureName="source" dataValue="http://www.eclipse.org/uml2/2.0.0/UML"/>
+          <value xmi:id="_qpcTEErvEe26Ra5ck-ZzUA" featureName="details">
+            <listChanges xmi:id="_qpcTEUrvEe26Ra5ck-ZzUA" index="0" referenceValues="_Qw3LE0rvEe26Ra5ck-ZzUA"/>
+          </value>
+        </objectChanges>
+        <objectChanges xmi:id="_qpcTEkrvEe26Ra5ck-ZzUA" key="_Qw3LFErvEe26Ra5ck-ZzUA">
+          <value xmi:id="_qpcTE0rvEe26Ra5ck-ZzUA" featureName="direction" dataValue="return"/>
+          <value xmi:id="_qpcTFErvEe26Ra5ck-ZzUA" featureName="type" referenceValue="_Qw2kB0rvEe26Ra5ck-ZzUA"/>
+        </objectChanges>
+        <objectChanges xmi:id="_qpcTFUrvEe26Ra5ck-ZzUA" key="_Qw3LF0rvEe26Ra5ck-ZzUA">
+          <value xmi:id="_qpcTFkrvEe26Ra5ck-ZzUA" featureName="base_Element" referenceValue="_Qw3LFkrvEe26Ra5ck-ZzUA"/>
+        </objectChanges>
+        <objectChanges xmi:id="_qpcTF0rvEe26Ra5ck-ZzUA" key="_Qw3LGErvEe26Ra5ck-ZzUA">
+          <value xmi:id="_qpcTGErvEe26Ra5ck-ZzUA" featureName="base_Element" referenceValue="_Qw3LFkrvEe26Ra5ck-ZzUA"/>
+          <value xmi:id="_qpcTGUrvEe26Ra5ck-ZzUA" featureName="annotations">
+            <listChanges xmi:id="_qpcTGkrvEe26Ra5ck-ZzUA" index="0" referenceValues="_Qw3LGUrvEe26Ra5ck-ZzUA"/>
+          </value>
+        </objectChanges>
+        <objectChanges xmi:id="_qpcTG0rvEe26Ra5ck-ZzUA" key="_Qw3LGUrvEe26Ra5ck-ZzUA">
+          <value xmi:id="_qpcTHErvEe26Ra5ck-ZzUA" featureName="name" dataValue="Override"/>
+        </objectChanges>
+        <objectChanges xmi:id="_qpcTHUrvEe26Ra5ck-ZzUA" key="_Qw3LGkrvEe26Ra5ck-ZzUA">
+          <value xmi:id="_qpcTHkrvEe26Ra5ck-ZzUA" featureName="name" dataValue="Main"/>
+          <value xmi:id="_qpcTH0rvEe26Ra5ck-ZzUA" featureName="ownedOperation">
+            <listChanges xmi:id="_qpcTIErvEe26Ra5ck-ZzUA" index="0" referenceValues="_Qw3yIErvEe26Ra5ck-ZzUA"/>
+          </value>
+        </objectChanges>
+        <objectChanges xmi:id="_qpcTIUrvEe26Ra5ck-ZzUA" key="_Qw3yIErvEe26Ra5ck-ZzUA">
+          <value xmi:id="_qpcTIkrvEe26Ra5ck-ZzUA" featureName="ownedParameter">
+            <listChanges xmi:id="_qpcTI0rvEe26Ra5ck-ZzUA" index="0" referenceValues="_Qw3yIUrvEe26Ra5ck-ZzUA"/>
+          </value>
+          <value xmi:id="_qpcTJErvEe26Ra5ck-ZzUA" featureName="isStatic" dataValue="true"/>
+        </objectChanges>
+        <objectChanges xmi:id="_qpcTJUrvEe26Ra5ck-ZzUA" key="_Qw3yIUrvEe26Ra5ck-ZzUA">
+          <value xmi:id="_qpcTJkrvEe26Ra5ck-ZzUA" featureName="name" dataValue="args"/>
+          <value xmi:id="_qpcTJ0rvEe26Ra5ck-ZzUA" featureName="type">
+            <referenceValue href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </value>
+          <value xmi:id="_qpcTKErvEe26Ra5ck-ZzUA" featureName="upperValue" referenceValue="_Qw3yIkrvEe26Ra5ck-ZzUA"/>
+        </objectChanges>
+        <objectChanges xmi:id="_qpcTKUrvEe26Ra5ck-ZzUA" key="_Qw3yIkrvEe26Ra5ck-ZzUA">
+          <value xmi:id="_qpcTKkrvEe26Ra5ck-ZzUA" featureName="value" dataValue="*"/>
+        </objectChanges>
+        <objectChanges xmi:id="_qpcTK0rvEe26Ra5ck-ZzUA" key="_Qw3yI0rvEe26Ra5ck-ZzUA">
+          <value xmi:id="_qpcTLErvEe26Ra5ck-ZzUA" featureName="name" dataValue="Reader"/>
+          <value xmi:id="_qpcTLUrvEe26Ra5ck-ZzUA" featureName="isAbstract" dataValue="true"/>
+          <value xmi:id="_qpcTLkrvEe26Ra5ck-ZzUA" featureName="ownedOperation">
+            <listChanges xmi:id="_qpcTL0rvEe26Ra5ck-ZzUA" index="0" referenceValues="_Qw4ZMErvEe26Ra5ck-ZzUA"/>
+          </value>
+        </objectChanges>
+        <objectChanges xmi:id="_qpcTMErvEe26Ra5ck-ZzUA" key="_Qw4ZMErvEe26Ra5ck-ZzUA">
+          <value xmi:id="_qpcTMUrvEe26Ra5ck-ZzUA" featureName="ownedParameter">
+            <listChanges xmi:id="_qpcTMkrvEe26Ra5ck-ZzUA" index="0" referenceValues="_Qw4ZMUrvEe26Ra5ck-ZzUA"/>
+          </value>
+        </objectChanges>
+        <objectChanges xmi:id="_qpcTM0rvEe26Ra5ck-ZzUA" key="_Qw4ZMUrvEe26Ra5ck-ZzUA">
+          <value xmi:id="_qpcTNErvEe26Ra5ck-ZzUA" featureName="name" dataValue="file"/>
+          <value xmi:id="_qpcTNUrvEe26Ra5ck-ZzUA" featureName="type">
+            <referenceValue href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </value>
+        </objectChanges>
+        <objectsToAttach xsi:type="uml:Operation" xmi:id="_Qw0HyUrvEe26Ra5ck-ZzUA" name="read"/>
+        <objectsToAttach xsi:type="uml:Operation" xmi:id="_Qw0u0krvEe26Ra5ck-ZzUA" name="display"/>
+        <objectsToAttach xsi:type="UMLLabProfile:Annotation" xmi:id="_Qw0u0UrvEe26Ra5ck-ZzUA"/>
+        <objectsToAttach xsi:type="UMLLabProfile:Annotation" xmi:id="_Qw0u1UrvEe26Ra5ck-ZzUA"/>
+        <objectsToAttach xsi:type="uml:Class" xmi:id="_Qw0u1krvEe26Ra5ck-ZzUA"/>
+        <objectsToAttach xsi:type="uml:Interface" xmi:id="_Qw188ErvEe26Ra5ck-ZzUA"/>
+        <objectsToAttach xsi:type="uml:Class" xmi:id="_Qw1880rvEe26Ra5ck-ZzUA"/>
+        <objectsToAttach xsi:type="uml:Class" xmi:id="_Qw2kB0rvEe26Ra5ck-ZzUA"/>
+        <objectsToAttach xsi:type="uml:Class" xmi:id="_Qw3LGkrvEe26Ra5ck-ZzUA"/>
+        <objectsToAttach xsi:type="uml:Class" xmi:id="_Qw3yI0rvEe26Ra5ck-ZzUA"/>
+        <objectsToAttach xsi:type="uml:Operation" xmi:id="_Qw1V4ErvEe26Ra5ck-ZzUA" name="LecteurFichier"/>
+        <objectsToAttach xsi:type="uml:Operation" xmi:id="_Qw1V5UrvEe26Ra5ck-ZzUA" name="display"/>
+        <objectsToAttach xsi:type="uml:Operation" xmi:id="_Qw1V5krvEe26Ra5ck-ZzUA" name="read"/>
+        <objectsToAttach xsi:type="uml:Parameter" xmi:id="_Qw1V4UrvEe26Ra5ck-ZzUA"/>
+        <objectsToAttach xsi:type="uml:Parameter" xmi:id="_Qw1V5ErvEe26Ra5ck-ZzUA"/>
+        <objectsToAttach xsi:type="ecore:EAnnotation" xmi:id="_Qw1V4krvEe26Ra5ck-ZzUA"/>
+        <objectsToAttach xsi:type="ecore:EStringToStringMapEntry" xmi:id="_Qw1V40rvEe26Ra5ck-ZzUA" key="create"/>
+        <objectsToAttach xsi:type="UMLLabProfile:Annotation" xmi:id="_Qw1V6UrvEe26Ra5ck-ZzUA"/>
+        <objectsToAttach xsi:type="uml:Operation" xmi:id="_Qw188UrvEe26Ra5ck-ZzUA" name="read"/>
+        <objectsToAttach xsi:type="uml:Operation" xmi:id="_Qw188krvEe26Ra5ck-ZzUA" name="display"/>
+        <objectsToAttach xsi:type="uml:Operation" xmi:id="_Qw189ErvEe26Ra5ck-ZzUA" name="LecteurPalindrome"/>
+        <objectsToAttach xsi:type="uml:Operation" xmi:id="_Qw18-UrvEe26Ra5ck-ZzUA" name="palindrome"/>
+        <objectsToAttach xsi:type="uml:Operation" xmi:id="_Qw2kAkrvEe26Ra5ck-ZzUA" name="display"/>
+        <objectsToAttach xsi:type="uml:Operation" xmi:id="_Qw2kA0rvEe26Ra5ck-ZzUA" name="read"/>
+        <objectsToAttach xsi:type="uml:Parameter" xmi:id="_Qw189UrvEe26Ra5ck-ZzUA"/>
+        <objectsToAttach xsi:type="uml:Parameter" xmi:id="_Qw18-ErvEe26Ra5ck-ZzUA"/>
+        <objectsToAttach xsi:type="ecore:EAnnotation" xmi:id="_Qw189krvEe26Ra5ck-ZzUA"/>
+        <objectsToAttach xsi:type="ecore:EStringToStringMapEntry" xmi:id="_Qw1890rvEe26Ra5ck-ZzUA" key="create"/>
+        <objectsToAttach xsi:type="uml:Parameter" xmi:id="_Qw18-krvEe26Ra5ck-ZzUA"/>
+        <objectsToAttach xsi:type="uml:Parameter" xmi:id="_Qw2kAErvEe26Ra5ck-ZzUA"/>
+        <objectsToAttach xsi:type="uml:Parameter" xmi:id="_Qw2kAUrvEe26Ra5ck-ZzUA"/>
+        <objectsToAttach xsi:type="UMLLabProfile:Annotation" xmi:id="_Qw2kBkrvEe26Ra5ck-ZzUA"/>
+        <objectsToAttach xsi:type="uml:Operation" xmi:id="_Qw3LEErvEe26Ra5ck-ZzUA" name="LecteurReverse"/>
+        <objectsToAttach xsi:type="uml:Operation" xmi:id="_Qw3LFUrvEe26Ra5ck-ZzUA" name="display"/>
+        <objectsToAttach xsi:type="uml:Operation" xmi:id="_Qw3LFkrvEe26Ra5ck-ZzUA" name="read"/>
+        <objectsToAttach xsi:type="uml:Parameter" xmi:id="_Qw3LEUrvEe26Ra5ck-ZzUA"/>
+        <objectsToAttach xsi:type="uml:Parameter" xmi:id="_Qw3LFErvEe26Ra5ck-ZzUA"/>
+        <objectsToAttach xsi:type="ecore:EAnnotation" xmi:id="_Qw3LEkrvEe26Ra5ck-ZzUA"/>
+        <objectsToAttach xsi:type="ecore:EStringToStringMapEntry" xmi:id="_Qw3LE0rvEe26Ra5ck-ZzUA" key="create"/>
+        <objectsToAttach xsi:type="UMLLabProfile:Annotation" xmi:id="_Qw3LGUrvEe26Ra5ck-ZzUA"/>
+        <objectsToAttach xsi:type="uml:Operation" xmi:id="_Qw3yIErvEe26Ra5ck-ZzUA" name="main"/>
+        <objectsToAttach xsi:type="uml:Parameter" xmi:id="_Qw3yIUrvEe26Ra5ck-ZzUA"/>
+        <objectsToAttach xsi:type="uml:LiteralUnlimitedNatural" xmi:id="_Qw3yIkrvEe26Ra5ck-ZzUA"/>
+        <objectsToAttach xsi:type="uml:Operation" xmi:id="_Qw4ZMErvEe26Ra5ck-ZzUA" name="read"/>
+        <objectsToAttach xsi:type="uml:Parameter" xmi:id="_Qw4ZMUrvEe26Ra5ck-ZzUA"/>
+        <objectsToAttach xsi:type="UMLLabProfile:LegacyStyledElement" xmi:id="_Qw0HykrvEe26Ra5ck-ZzUA"/>
+        <objectsToAttach xsi:type="UMLLabProfile:Annotations" xmi:id="_Qw0u0ErvEe26Ra5ck-ZzUA"/>
+        <objectsToAttach xsi:type="UMLLabProfile:LegacyStyledElement" xmi:id="_Qw0u00rvEe26Ra5ck-ZzUA"/>
+        <objectsToAttach xsi:type="UMLLabProfile:Annotations" xmi:id="_Qw0u1ErvEe26Ra5ck-ZzUA"/>
+        <objectsToAttach xsi:type="UMLLabProfile:LegacyStyledElement" xmi:id="_Qw1V50rvEe26Ra5ck-ZzUA"/>
+        <objectsToAttach xsi:type="UMLLabProfile:Annotations" xmi:id="_Qw1V6ErvEe26Ra5ck-ZzUA"/>
+        <objectsToAttach xsi:type="UMLLabProfile:LegacyStyledElement" xmi:id="_Qw2kBErvEe26Ra5ck-ZzUA"/>
+        <objectsToAttach xsi:type="UMLLabProfile:Annotations" xmi:id="_Qw2kBUrvEe26Ra5ck-ZzUA"/>
+        <objectsToAttach xsi:type="UMLLabProfile:LegacyStyledElement" xmi:id="_Qw3LF0rvEe26Ra5ck-ZzUA"/>
+        <objectsToAttach xsi:type="UMLLabProfile:Annotations" xmi:id="_Qw3LGErvEe26Ra5ck-ZzUA"/>
+        <resourceChanges xmi:id="_qpcTNkrvEe26Ra5ck-ZzUA" resourceURI="platform:/resource/LecteurFichier/LecteurFichier.uml">
+          <listChanges xmi:id="_qpcTN0rvEe26Ra5ck-ZzUA" index="2" referenceValues="_Qw3LGErvEe26Ra5ck-ZzUA"/>
+          <listChanges xmi:id="_qpcTOErvEe26Ra5ck-ZzUA" index="2" referenceValues="_Qw3LF0rvEe26Ra5ck-ZzUA"/>
+          <listChanges xmi:id="_qpcTOUrvEe26Ra5ck-ZzUA" index="2" referenceValues="_Qw2kBUrvEe26Ra5ck-ZzUA"/>
+          <listChanges xmi:id="_qpcTOkrvEe26Ra5ck-ZzUA" index="2" referenceValues="_Qw2kBErvEe26Ra5ck-ZzUA"/>
+          <listChanges xmi:id="_qpcTO0rvEe26Ra5ck-ZzUA" index="2" referenceValues="_Qw1V6ErvEe26Ra5ck-ZzUA"/>
+          <listChanges xmi:id="_qpcTPErvEe26Ra5ck-ZzUA" index="2" referenceValues="_Qw1V50rvEe26Ra5ck-ZzUA"/>
+          <listChanges xmi:id="_qpcTPUrvEe26Ra5ck-ZzUA" index="2" referenceValues="_Qw0u1ErvEe26Ra5ck-ZzUA"/>
+          <listChanges xmi:id="_qpcTPkrvEe26Ra5ck-ZzUA" index="2" referenceValues="_Qw0u00rvEe26Ra5ck-ZzUA"/>
+          <listChanges xmi:id="_qpcTP0rvEe26Ra5ck-ZzUA" index="2" referenceValues="_Qw0u0ErvEe26Ra5ck-ZzUA"/>
+          <listChanges xmi:id="_qpcTQErvEe26Ra5ck-ZzUA" index="2" referenceValues="_Qw0HykrvEe26Ra5ck-ZzUA"/>
+        </resourceChanges>
+      </contents>
+      <contents xsi:type="change:ChangeDescription" xmi:id="_qpc5sErvEe26Ra5ck-ZzUA">
+        <objectChanges xmi:id="_qpc5sUrvEe26Ra5ck-ZzUA">
+          <key href="LecteurFichier.uml#_Qo_ogErvEe26Ra5ck-ZzUA"/>
+          <value xmi:id="_qpc5skrvEe26Ra5ck-ZzUA" featureName="packagedElement">
+            <listChanges xmi:id="_qpc5s0rvEe26Ra5ck-ZzUA" index="0" referenceValues="_QwySkErvEe26Ra5ck-ZzUA _QwzgsErvEe26Ra5ck-ZzUA"/>
+          </value>
+        </objectChanges>
+        <objectChanges xmi:id="_qpc5tErvEe26Ra5ck-ZzUA" key="_QwySkErvEe26Ra5ck-ZzUA">
+          <value xmi:id="_qpc5tUrvEe26Ra5ck-ZzUA" featureName="name" dataValue="java"/>
+          <value xmi:id="_qpc5tkrvEe26Ra5ck-ZzUA" featureName="packagedElement">
+            <listChanges xmi:id="_qpc5t0rvEe26Ra5ck-ZzUA" index="0" referenceValues="_QwySkUrvEe26Ra5ck-ZzUA _QwySkkrvEe26Ra5ck-ZzUA"/>
+          </value>
+        </objectChanges>
+        <objectChanges xmi:id="_qpc5uErvEe26Ra5ck-ZzUA" key="_QwySkUrvEe26Ra5ck-ZzUA">
+          <value xmi:id="_qpc5uUrvEe26Ra5ck-ZzUA" featureName="name" dataValue="util"/>
+        </objectChanges>
+        <objectChanges xmi:id="_qpc5ukrvEe26Ra5ck-ZzUA" key="_QwySkkrvEe26Ra5ck-ZzUA">
+          <value xmi:id="_qpc5u0rvEe26Ra5ck-ZzUA" featureName="name" dataValue="io"/>
+        </objectChanges>
+        <objectChanges xmi:id="_qpc5vErvEe26Ra5ck-ZzUA" key="_QwzgsErvEe26Ra5ck-ZzUA">
+          <value xmi:id="_qpc5vUrvEe26Ra5ck-ZzUA" featureName="name" dataValue="LecteurDiff"/>
+        </objectChanges>
+        <objectsToAttach xsi:type="uml:Package" xmi:id="_QwySkErvEe26Ra5ck-ZzUA"/>
+        <objectsToAttach xsi:type="uml:Class" xmi:id="_QwzgsErvEe26Ra5ck-ZzUA"/>
+        <objectsToAttach xsi:type="uml:Package" xmi:id="_QwySkUrvEe26Ra5ck-ZzUA"/>
+        <objectsToAttach xsi:type="uml:Package" xmi:id="_QwySkkrvEe26Ra5ck-ZzUA"/>
+      </contents>
+    </contents>
+  </eAnnotations>
+  <modelElement href="LecteurFichier.uml#_Qo_ogErvEe26Ra5ck-ZzUA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_Qxk8wErvEe26Ra5ck-ZzUA" modelElement="_QxCxQErvEe26Ra5ck-ZzUA" sourceAnchor="0.0,36.0" targetAnchor="63.0,90.0" dashed="true" superClass="_Qxlj0ErvEe26Ra5ck-ZzUA" subClass="_QxjuoErvEe26Ra5ck-ZzUA">
+    <bendpoints xmi:id="_zOvUikrvEe26Ra5ck-ZzUA" sourceX="-70" targetY="128"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_Qxk8wUrvEe26Ra5ck-ZzUA" modelElement="_QxDYUErvEe26Ra5ck-ZzUA" sourceAnchor="65.0,0.0" targetAnchor="63.0,90.0" dashed="true" superClass="_Qxlj0ErvEe26Ra5ck-ZzUA" subClass="_QxiggErvEe26Ra5ck-ZzUA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_QxmK4ErvEe26Ra5ck-ZzUA" modelElement="_QxDYVErvEe26Ra5ck-ZzUA" sourceAnchor="0.0,31.0" targetAnchor="126.0,45.0" dashed="true" superClass="_Qxlj0ErvEe26Ra5ck-ZzUA" subClass="_Qxmx8ErvEe26Ra5ck-ZzUA">
+    <bendpoints xmi:id="_zOvUgkrvEe26Ra5ck-ZzUA" sourceX="-478" targetX="69" targetY="-13"/>
+    <bendpoints xmi:id="_zOvUg0rvEe26Ra5ck-ZzUA" sourceX="-478" sourceY="13" targetX="69"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_QxnZAErvEe26Ra5ck-ZzUA" modelElement="_QxDYUkrvEe26Ra5ck-ZzUA" sourceAnchor="0.0,58.0" targetAnchor="126.0,45.0" dashed="true" superClass="_Qxlj0ErvEe26Ra5ck-ZzUA" subClass="_QxoAEErvEe26Ra5ck-ZzUA">
+    <bendpoints xmi:id="_zOvUhkrvEe26Ra5ck-ZzUA" sourceX="-30" targetX="69" targetY="60"/>
+    <bendpoints xmi:id="_zOvUh0rvEe26Ra5ck-ZzUA" sourceX="-30" sourceY="-60" targetX="69"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_QxpOMErvEe26Ra5ck-ZzUA" modelElement="_QxCxQUrvEe26Ra5ck-ZzUA" sourceAnchor="125.0,36.0" targetAnchor="0.0,49.0" superClass="_QxqcUErvEe26Ra5ck-ZzUA" subClass="_QxjuoErvEe26Ra5ck-ZzUA">
+    <bendpoints xmi:id="_zOvUi0rvEe26Ra5ck-ZzUA" sourceX="302" targetX="-82" targetY="-30"/>
+    <bendpoints xmi:id="_zOvUjErvEe26Ra5ck-ZzUA" sourceX="302" sourceY="30" targetX="-82"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_QxpOMUrvEe26Ra5ck-ZzUA" modelElement="_QxDYUUrvEe26Ra5ck-ZzUA" sourceAnchor="261.0,46.0" targetAnchor="0.0,49.0" superClass="_QxqcUErvEe26Ra5ck-ZzUA" subClass="_QxiggErvEe26Ra5ck-ZzUA">
+    <bendpoints xmi:id="_zOvUgErvEe26Ra5ck-ZzUA" sourceX="289" targetX="-82" targetY="86"/>
+    <bendpoints xmi:id="_zOvUgUrvEe26Ra5ck-ZzUA" sourceX="289" sourceY="-86" targetX="-82"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_QxpOMkrvEe26Ra5ck-ZzUA" modelElement="_QxDYU0rvEe26Ra5ck-ZzUA" sourceAnchor="305.0,61.0" targetAnchor="0.0,49.0" superClass="_QxqcUErvEe26Ra5ck-ZzUA" subClass="_QxoAEErvEe26Ra5ck-ZzUA">
+    <bendpoints xmi:id="_zOvUiErvEe26Ra5ck-ZzUA" sourceX="30" targetX="-82" targetY="-140"/>
+    <bendpoints xmi:id="_zOvUiUrvEe26Ra5ck-ZzUA" sourceX="30" sourceY="140" targetX="-82"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_Qxp1QErvEe26Ra5ck-ZzUA" modelElement="_QxDYVUrvEe26Ra5ck-ZzUA" sourceAnchor="134.0,93.0" targetAnchor="73.0,0.0" superClass="_QxqcUErvEe26Ra5ck-ZzUA" subClass="_Qxmx8ErvEe26Ra5ck-ZzUA">
+    <bendpoints xmi:id="_zOvUhErvEe26Ra5ck-ZzUA" sourceX="1" sourceY="-21" targetX="93" targetY="-125"/>
+    <bendpoints xmi:id="_zOvUhUrvEe26Ra5ck-ZzUA" sourceX="-92" sourceY="28" targetY="-76"/>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_QxiggErvEe26Ra5ck-ZzUA" modelElement="_Qw0u1krvEe26Ra5ck-ZzUA" name="LecteurFichier" generalizations="_Qxk8wUrvEe26Ra5ck-ZzUA _QxpOMUrvEe26Ra5ck-ZzUA">
+    <visualProperties xmi:id="_QxiggUrvEe26Ra5ck-ZzUA" position="-217.0,114.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_QxiggkrvEe26Ra5ck-ZzUA" label="+"/>
+    <operations xmi:id="_Qxigg0rvEe26Ra5ck-ZzUA" modelElement="_Qw1V4ErvEe26Ra5ck-ZzUA" name="LecteurFichier">
+      <keywords xmi:id="_QxighErvEe26Ra5ck-ZzUA" keyword="create"/>
+      <visibility xmi:id="_QxighUrvEe26Ra5ck-ZzUA" label="+"/>
+      <cardinality xmi:id="_QxighkrvEe26Ra5ck-ZzUA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Qxigh0rvEe26Ra5ck-ZzUA" modelElement="_Qw1V5ErvEe26Ra5ck-ZzUA">
+        <type xmi:id="_QxigiErvEe26Ra5ck-ZzUA" modelElement="_Qw0u1krvEe26Ra5ck-ZzUA" name="LecteurFichier"/>
+      </outParameters>
+      <parameters xmi:id="_QxigiUrvEe26Ra5ck-ZzUA" modelElement="_Qw1V4UrvEe26Ra5ck-ZzUA" name="file">
+        <cardinality xmi:id="_QxigikrvEe26Ra5ck-ZzUA" label="1" max="1" min="1"/>
+        <type xmi:id="_Qxigi0rvEe26Ra5ck-ZzUA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_QxigjErvEe26Ra5ck-ZzUA" modelElement="_Qw1V5UrvEe26Ra5ck-ZzUA" name="display">
+      <visibility xmi:id="_QxigjUrvEe26Ra5ck-ZzUA" label="+"/>
+      <cardinality xmi:id="_QxigjkrvEe26Ra5ck-ZzUA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_Qxigj0rvEe26Ra5ck-ZzUA" modelElement="_Qw1V5krvEe26Ra5ck-ZzUA" name="read">
+      <stereotypes xmi:id="_QxigkErvEe26Ra5ck-ZzUA" modelElement="_Qw1V50rvEe26Ra5ck-ZzUA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_QxigkUrvEe26Ra5ck-ZzUA" modelElement="_Qw1V6ErvEe26Ra5ck-ZzUA" name="Annotations"/>
+      <visibility xmi:id="_QxigkkrvEe26Ra5ck-ZzUA" label="+"/>
+      <cardinality xmi:id="_Qxigk0rvEe26Ra5ck-ZzUA" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_Qxmx8ErvEe26Ra5ck-ZzUA" modelElement="_Qw2kB0rvEe26Ra5ck-ZzUA" name="LecteurReverse" generalizations="_QxmK4ErvEe26Ra5ck-ZzUA _Qxp1QErvEe26Ra5ck-ZzUA">
+    <visualProperties xmi:id="_Qxmx8UrvEe26Ra5ck-ZzUA" position="446.0,-173.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_Qxmx8krvEe26Ra5ck-ZzUA" label="+"/>
+    <operations xmi:id="_Qxmx80rvEe26Ra5ck-ZzUA" modelElement="_Qw3LEErvEe26Ra5ck-ZzUA" name="LecteurReverse">
+      <keywords xmi:id="_Qxmx9ErvEe26Ra5ck-ZzUA" keyword="create"/>
+      <visibility xmi:id="_Qxmx9UrvEe26Ra5ck-ZzUA" label="+"/>
+      <cardinality xmi:id="_Qxmx9krvEe26Ra5ck-ZzUA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_Qxmx90rvEe26Ra5ck-ZzUA" modelElement="_Qw3LFErvEe26Ra5ck-ZzUA">
+        <type xmi:id="_Qxmx-ErvEe26Ra5ck-ZzUA" modelElement="_Qw2kB0rvEe26Ra5ck-ZzUA" name="LecteurReverse"/>
+      </outParameters>
+      <parameters xmi:id="_Qxmx-UrvEe26Ra5ck-ZzUA" modelElement="_Qw3LEUrvEe26Ra5ck-ZzUA" name="file">
+        <cardinality xmi:id="_Qxmx-krvEe26Ra5ck-ZzUA" label="1" max="1" min="1"/>
+        <type xmi:id="_Qxmx-0rvEe26Ra5ck-ZzUA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_Qxmx_ErvEe26Ra5ck-ZzUA" modelElement="_Qw3LFUrvEe26Ra5ck-ZzUA" name="display">
+      <visibility xmi:id="_Qxmx_UrvEe26Ra5ck-ZzUA" label="+"/>
+      <cardinality xmi:id="_Qxmx_krvEe26Ra5ck-ZzUA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_Qxmx_0rvEe26Ra5ck-ZzUA" modelElement="_Qw3LFkrvEe26Ra5ck-ZzUA" name="read">
+      <stereotypes xmi:id="_QxmyAErvEe26Ra5ck-ZzUA" modelElement="_Qw3LF0rvEe26Ra5ck-ZzUA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_QxmyAUrvEe26Ra5ck-ZzUA" modelElement="_Qw3LGErvEe26Ra5ck-ZzUA" name="Annotations"/>
+      <visibility xmi:id="_QxmyAkrvEe26Ra5ck-ZzUA" label="+"/>
+      <cardinality xmi:id="_QxmyA0rvEe26Ra5ck-ZzUA" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_QxqcUErvEe26Ra5ck-ZzUA" modelElement="_Qw3yI0rvEe26Ra5ck-ZzUA" name="Reader" abstractClass="true" subclassedBy="_QxpOMErvEe26Ra5ck-ZzUA _QxpOMUrvEe26Ra5ck-ZzUA _QxpOMkrvEe26Ra5ck-ZzUA _Qxp1QErvEe26Ra5ck-ZzUA">
+    <visualProperties xmi:id="_QxqcUUrvEe26Ra5ck-ZzUA" position="415.0,25.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_QxqcUkrvEe26Ra5ck-ZzUA" label="+"/>
+    <attributes xmi:id="_QxqcU0rvEe26Ra5ck-ZzUA" modelElement="_QxFNgErvEe26Ra5ck-ZzUA" name="file">
+      <stereotypes xmi:id="_QxqcVErvEe26Ra5ck-ZzUA" modelElement="_QxFNgUrvEe26Ra5ck-ZzUA" name="LegacyStyledElement"/>
+      <visibility xmi:id="_QxqcVUrvEe26Ra5ck-ZzUA" label="#"/>
+      <cardinality xmi:id="_QxqcVkrvEe26Ra5ck-ZzUA" label="1" max="1" min="1"/>
+      <type xmi:id="_QxqcV0rvEe26Ra5ck-ZzUA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_QxqcWErvEe26Ra5ck-ZzUA" modelElement="_QxFNgkrvEe26Ra5ck-ZzUA" defaultValue="&quot;&quot;" name="content">
+      <stereotypes xmi:id="_QxqcWUrvEe26Ra5ck-ZzUA" modelElement="_QxFNhErvEe26Ra5ck-ZzUA" name="LegacyStyledElement"/>
+      <visibility xmi:id="_QxqcWkrvEe26Ra5ck-ZzUA" label="#"/>
+      <cardinality xmi:id="_QxqcW0rvEe26Ra5ck-ZzUA" label="1" max="1" min="1"/>
+      <type xmi:id="_QxqcXErvEe26Ra5ck-ZzUA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_QxqcXUrvEe26Ra5ck-ZzUA" modelElement="_Qw4ZMErvEe26Ra5ck-ZzUA" name="read">
+      <visibility xmi:id="_QxqcXkrvEe26Ra5ck-ZzUA" label="+"/>
+      <cardinality xmi:id="_QxqcX0rvEe26Ra5ck-ZzUA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_QxqcYErvEe26Ra5ck-ZzUA" modelElement="_Qw4ZMUrvEe26Ra5ck-ZzUA" name="file">
+        <cardinality xmi:id="_QxqcYUrvEe26Ra5ck-ZzUA" label="1" max="1" min="1"/>
+        <type xmi:id="_QxqcYkrvEe26Ra5ck-ZzUA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_QxoAEErvEe26Ra5ck-ZzUA" modelElement="_Qw1880rvEe26Ra5ck-ZzUA" name="LecteurPalindrome" generalizations="_QxnZAErvEe26Ra5ck-ZzUA _QxpOMkrvEe26Ra5ck-ZzUA">
+    <visualProperties xmi:id="_QxoAEUrvEe26Ra5ck-ZzUA" position="-2.0,-127.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_QxoAEkrvEe26Ra5ck-ZzUA" label="+"/>
+    <operations xmi:id="_QxoAE0rvEe26Ra5ck-ZzUA" modelElement="_Qw189ErvEe26Ra5ck-ZzUA" name="LecteurPalindrome">
+      <keywords xmi:id="_QxoAFErvEe26Ra5ck-ZzUA" keyword="create"/>
+      <visibility xmi:id="_QxoAFUrvEe26Ra5ck-ZzUA" label="+"/>
+      <cardinality xmi:id="_QxoAFkrvEe26Ra5ck-ZzUA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_QxoAF0rvEe26Ra5ck-ZzUA" modelElement="_Qw18-ErvEe26Ra5ck-ZzUA">
+        <type xmi:id="_QxoAGErvEe26Ra5ck-ZzUA" modelElement="_Qw1880rvEe26Ra5ck-ZzUA" name="LecteurPalindrome"/>
+      </outParameters>
+      <parameters xmi:id="_QxoAGUrvEe26Ra5ck-ZzUA" modelElement="_Qw189UrvEe26Ra5ck-ZzUA" name="file">
+        <cardinality xmi:id="_QxoAGkrvEe26Ra5ck-ZzUA" label="1" max="1" min="1"/>
+        <type xmi:id="_QxoAG0rvEe26Ra5ck-ZzUA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_QxoAHErvEe26Ra5ck-ZzUA" modelElement="_Qw18-UrvEe26Ra5ck-ZzUA" name="palindrome">
+      <visibility xmi:id="_QxoAHUrvEe26Ra5ck-ZzUA" label="+"/>
+      <cardinality xmi:id="_QxoAHkrvEe26Ra5ck-ZzUA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_QxoAH0rvEe26Ra5ck-ZzUA" modelElement="_Qw2kAUrvEe26Ra5ck-ZzUA">
+        <type xmi:id="_QxoAIErvEe26Ra5ck-ZzUA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_QxoAIUrvEe26Ra5ck-ZzUA" modelElement="_Qw18-krvEe26Ra5ck-ZzUA" name="begin">
+        <cardinality xmi:id="_QxoAIkrvEe26Ra5ck-ZzUA" label="1" max="1" min="1"/>
+        <type xmi:id="_QxoAI0rvEe26Ra5ck-ZzUA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_QxoAJErvEe26Ra5ck-ZzUA" modelElement="_Qw2kAErvEe26Ra5ck-ZzUA" name="end">
+        <cardinality xmi:id="_QxoAJUrvEe26Ra5ck-ZzUA" label="1" max="1" min="1"/>
+        <type xmi:id="_QxoAJkrvEe26Ra5ck-ZzUA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_QxoAJ0rvEe26Ra5ck-ZzUA" modelElement="_Qw2kAkrvEe26Ra5ck-ZzUA" name="display">
+      <visibility xmi:id="_QxoAKErvEe26Ra5ck-ZzUA" label="+"/>
+      <cardinality xmi:id="_QxoAKUrvEe26Ra5ck-ZzUA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_QxoAKkrvEe26Ra5ck-ZzUA" modelElement="_Qw2kA0rvEe26Ra5ck-ZzUA" name="read">
+      <stereotypes xmi:id="_QxoAK0rvEe26Ra5ck-ZzUA" modelElement="_Qw2kBErvEe26Ra5ck-ZzUA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_QxoALErvEe26Ra5ck-ZzUA" modelElement="_Qw2kBUrvEe26Ra5ck-ZzUA" name="Annotations"/>
+      <visibility xmi:id="_QxoALUrvEe26Ra5ck-ZzUA" label="+"/>
+      <cardinality xmi:id="_QxoALkrvEe26Ra5ck-ZzUA" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_Qxlj0ErvEe26Ra5ck-ZzUA" modelElement="_Qw188ErvEe26Ra5ck-ZzUA" name="LecteurFichierInterface" subclassedBy="_Qxk8wErvEe26Ra5ck-ZzUA _Qxk8wUrvEe26Ra5ck-ZzUA _QxmK4ErvEe26Ra5ck-ZzUA _QxnZAErvEe26Ra5ck-ZzUA">
+    <visualProperties xmi:id="_Qxlj0UrvEe26Ra5ck-ZzUA" position="-227.0,-174.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_Qxlj0krvEe26Ra5ck-ZzUA" label="+"/>
+    <operations xmi:id="_Qxlj00rvEe26Ra5ck-ZzUA" modelElement="_Qw188UrvEe26Ra5ck-ZzUA" name="read">
+      <visibility xmi:id="_Qxlj1ErvEe26Ra5ck-ZzUA" label="+"/>
+      <cardinality xmi:id="_Qxlj1UrvEe26Ra5ck-ZzUA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_Qxlj1krvEe26Ra5ck-ZzUA" modelElement="_Qw188krvEe26Ra5ck-ZzUA" name="display">
+      <visibility xmi:id="_Qxlj10rvEe26Ra5ck-ZzUA" label="+"/>
+      <cardinality xmi:id="_Qxlj2ErvEe26Ra5ck-ZzUA" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_QxjuoErvEe26Ra5ck-ZzUA" modelElement="_QwzgsErvEe26Ra5ck-ZzUA" name="LecteurDiff" generalizations="_Qxk8wErvEe26Ra5ck-ZzUA _QxpOMErvEe26Ra5ck-ZzUA">
+    <visualProperties xmi:id="_QxjuoUrvEe26Ra5ck-ZzUA" position="-94.0,8.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_QxjuokrvEe26Ra5ck-ZzUA" label="+"/>
+    <operations xmi:id="_Qxjuo0rvEe26Ra5ck-ZzUA" modelElement="_Qw0HyUrvEe26Ra5ck-ZzUA" name="read">
+      <stereotypes xmi:id="_QxjupErvEe26Ra5ck-ZzUA" modelElement="_Qw0HykrvEe26Ra5ck-ZzUA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_QxjupUrvEe26Ra5ck-ZzUA" modelElement="_Qw0u0ErvEe26Ra5ck-ZzUA" name="Annotations"/>
+      <visibility xmi:id="_QxjupkrvEe26Ra5ck-ZzUA" label="+"/>
+      <cardinality xmi:id="_Qxjup0rvEe26Ra5ck-ZzUA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_QxjuqErvEe26Ra5ck-ZzUA" modelElement="_Qw0u0krvEe26Ra5ck-ZzUA" name="display">
+      <stereotypes xmi:id="_QxjuqUrvEe26Ra5ck-ZzUA" modelElement="_Qw0u00rvEe26Ra5ck-ZzUA" name="LegacyStyledElement"/>
+      <stereotypes xmi:id="_QxjuqkrvEe26Ra5ck-ZzUA" modelElement="_Qw0u1ErvEe26Ra5ck-ZzUA" name="Annotations"/>
+      <visibility xmi:id="_Qxjuq0rvEe26Ra5ck-ZzUA" label="+"/>
+      <cardinality xmi:id="_QxjurErvEe26Ra5ck-ZzUA" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_QxkVsErvEe26Ra5ck-ZzUA" modelElement="_Qw3LGkrvEe26Ra5ck-ZzUA" name="Main">
+    <visualProperties xmi:id="_QxkVsUrvEe26Ra5ck-ZzUA" position="243.0,199.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_QxkVskrvEe26Ra5ck-ZzUA" label="+"/>
+    <operations xmi:id="_QxkVs0rvEe26Ra5ck-ZzUA" modelElement="_Qw3yIErvEe26Ra5ck-ZzUA" name="main" staticOperation="true">
+      <visibility xmi:id="_QxkVtErvEe26Ra5ck-ZzUA" label="+"/>
+      <cardinality xmi:id="_QxkVtUrvEe26Ra5ck-ZzUA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_QxkVtkrvEe26Ra5ck-ZzUA" modelElement="_Qw3yIUrvEe26Ra5ck-ZzUA" name="args">
+        <cardinality xmi:id="_QxkVt0rvEe26Ra5ck-ZzUA" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_QxkVuErvEe26Ra5ck-ZzUA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

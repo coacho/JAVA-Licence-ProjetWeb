@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_Sn5LsErPEe26Ra5ck-ZzUA" name="Lecteur_de_fichiers_master">
+    <eAnnotations xmi:id="_TvwysErPEe26Ra5ck-ZzUA" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_TvwysUrPEe26Ra5ck-ZzUA" source="codegen">
+        <details xmi:id="_TvwyskrPEe26Ra5ck-ZzUA" key="codegenDirectory" value="/Lecteur-de-fichiers-master/src"/>
+        <details xmi:id="_UCT7QErPEe26Ra5ck-ZzUA" key="AssociatedSourceCode" value="/Lecteur-de-fichiers-master/src/LecteurFichier.java;1931857220/1;/Lecteur-de-fichiers-master/src/LecteurFichierInterface.java;1502665642/1;/Lecteur-de-fichiers-master/src/LecteurPalindrome.java;1527574235/1;/Lecteur-de-fichiers-master/src/LecteurReverse.java;279668081/1;/Lecteur-de-fichiers-master/src/Main.java;4017157027/1;/Lecteur-de-fichiers-master/src/Reader.java;929930331/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_T5xqUErPEe26Ra5ck-ZzUA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_T5xqUUrPEe26Ra5ck-ZzUA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_T5xqUkrPEe26Ra5ck-ZzUA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_T5xqU0rPEe26Ra5ck-ZzUA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_T5xqVErPEe26Ra5ck-ZzUA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_T5xqVUrPEe26Ra5ck-ZzUA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_T5yRYErPEe26Ra5ck-ZzUA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_T5yRYUrPEe26Ra5ck-ZzUA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_T5yRYkrPEe26Ra5ck-ZzUA">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_T5nSQErPEe26Ra5ck-ZzUA" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_T5n5UErPEe26Ra5ck-ZzUA" name="io">
+        <packagedElement xmi:type="uml:Class" xmi:id="_T8Ae8ErPEe26Ra5ck-ZzUA" name="File"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_T8CUIErPEe26Ra5ck-ZzUA" name="FileInputStream"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_T8EJUErPEe26Ra5ck-ZzUA" name="IOException"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_SAzNIEroEe26Ra5ck-ZzUA" name="util">
+        <packagedElement xmi:type="uml:Class" xmi:id="_SA2QcEroEe26Ra5ck-ZzUA" name="scanner"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_TQQC0EroEe26Ra5ck-ZzUA" name="Scanner"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_T5unAErPEe26Ra5ck-ZzUA" name="LecteurFichier">
+      <generalization xmi:id="_T7-pwErPEe26Ra5ck-ZzUA" general="_T6A64ErPEe26Ra5ck-ZzUA"/>
+      <interfaceRealization xmi:id="_T7-CsErPEe26Ra5ck-ZzUA" client="_T5unAErPEe26Ra5ck-ZzUA" supplier="_T53J4ErPEe26Ra5ck-ZzUA" contract="_T53J4ErPEe26Ra5ck-ZzUA"/>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_T8PIcErPEe26Ra5ck-ZzUA" name="LecteurFichier" specification="_T5y4cErPEe26Ra5ck-ZzUA">
+        <ownedParameter xmi:id="_T8PIcUrPEe26Ra5ck-ZzUA" name="file">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_T8PIckrPEe26Ra5ck-ZzUA" type="_T5unAErPEe26Ra5ck-ZzUA" direction="return">
+          <name xsi:nil="true"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>super.file = file;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_T8Sy0ErPEe26Ra5ck-ZzUA" name="display" specification="_T50toErPEe26Ra5ck-ZzUA">
+        <language>java</language>
+        <body>System.out.println(content);
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_T8Sy0UrPEe26Ra5ck-ZzUA" name="read" specification="_T50toUrPEe26Ra5ck-ZzUA">
+        <language>java</language>
+        <body>super.read(file);		
+	</body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_T5y4cErPEe26Ra5ck-ZzUA" name="LecteurFichier" visibility="public" method="_T8PIcErPEe26Ra5ck-ZzUA">
+        <eAnnotations xmi:id="_T50GkErPEe26Ra5ck-ZzUA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_T50GkUrPEe26Ra5ck-ZzUA" key="create"/>
+        </eAnnotations>
+        <ownedParameter xmi:id="_T5zfgErPEe26Ra5ck-ZzUA" name="file">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_T50GkkrPEe26Ra5ck-ZzUA" type="_T5unAErPEe26Ra5ck-ZzUA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_T50toErPEe26Ra5ck-ZzUA" name="display" visibility="public" method="_T8Sy0ErPEe26Ra5ck-ZzUA"/>
+      <ownedOperation xmi:id="_T50toUrPEe26Ra5ck-ZzUA" name="read" visibility="public" method="_T8Sy0UrPEe26Ra5ck-ZzUA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_T53J4ErPEe26Ra5ck-ZzUA" name="LecteurFichierInterface">
+      <ownedOperation xmi:id="_T53w8ErPEe26Ra5ck-ZzUA" name="read"/>
+      <ownedOperation xmi:id="_T54YAErPEe26Ra5ck-ZzUA" name="display"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_T54YAUrPEe26Ra5ck-ZzUA" name="LecteurPalindrome">
+      <generalization xmi:id="_T7_Q0UrPEe26Ra5ck-ZzUA" general="_T6A64ErPEe26Ra5ck-ZzUA"/>
+      <interfaceRealization xmi:id="_T7_Q0ErPEe26Ra5ck-ZzUA" client="_T54YAUrPEe26Ra5ck-ZzUA" supplier="_T53J4ErPEe26Ra5ck-ZzUA" contract="_T53J4ErPEe26Ra5ck-ZzUA"/>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_T8TZ4ErPEe26Ra5ck-ZzUA" name="LecteurPalindrome" specification="_T54_EErPEe26Ra5ck-ZzUA">
+        <ownedParameter xmi:id="_Gsv3QEruEe26Ra5ck-ZzUA" name="file">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_Gsv3QUruEe26Ra5ck-ZzUA" type="_T54YAUrPEe26Ra5ck-ZzUA" direction="return"/>
+        <language>java</language>
+        <body>super.file = file;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_T8TZ40rPEe26Ra5ck-ZzUA" name="palindrome" specification="_T55mIUrPEe26Ra5ck-ZzUA">
+        <ownedParameter xmi:id="_T8TZ5ErPEe26Ra5ck-ZzUA" name="begin">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_T8TZ5UrPEe26Ra5ck-ZzUA" name="end">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_T8TZ5krPEe26Ra5ck-ZzUA" direction="return">
+          <name xsi:nil="true"/>
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>if(begin == end) {
+ 		return true;
+ 	}
+	    if(content.charAt(begin) == content.charAt(end)) {
+	    	if(!palindrome(begin+1, end-1)) {
+	            return true; 
+	        }
+	    }
+	    else {
+	        return false;
+	    }
+	    return false; 
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_T8UA8ErPEe26Ra5ck-ZzUA" name="display" specification="_T56NMUrPEe26Ra5ck-ZzUA">
+        <language>java</language>
+        <body>if(palindrome(0, super.content.length()-1)) {
+			System.out.println(&quot;C'est un palindrome&quot;);
+		}
+		else {
+			System.out.println(&quot;Ce n'est pas un palindrome&quot;);
+		}
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_T8UA8UrPEe26Ra5ck-ZzUA" name="read" specification="_T56NMkrPEe26Ra5ck-ZzUA">
+        <language>java</language>
+        <body>super.read(file);
+	</body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_T54_EErPEe26Ra5ck-ZzUA" name="LecteurPalindrome" visibility="public" method="_T8TZ4ErPEe26Ra5ck-ZzUA">
+        <eAnnotations xmi:id="_T54_EkrPEe26Ra5ck-ZzUA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_T54_E0rPEe26Ra5ck-ZzUA" key="create"/>
+        </eAnnotations>
+        <ownedParameter xmi:id="_T54_EUrPEe26Ra5ck-ZzUA" name="file">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_T55mIErPEe26Ra5ck-ZzUA" type="_T54YAUrPEe26Ra5ck-ZzUA" direction="return"/>
+      </ownedOperation>
+      <ownedOperation xmi:id="_T55mIUrPEe26Ra5ck-ZzUA" name="palindrome" visibility="public" method="_T8TZ40rPEe26Ra5ck-ZzUA">
+        <ownedParameter xmi:id="_T55mIkrPEe26Ra5ck-ZzUA" name="begin">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_T55mI0rPEe26Ra5ck-ZzUA" name="end">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_T56NMErPEe26Ra5ck-ZzUA" direction="return">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_T56NMUrPEe26Ra5ck-ZzUA" name="display" method="_T8UA8ErPEe26Ra5ck-ZzUA"/>
+      <ownedOperation xmi:id="_T56NMkrPEe26Ra5ck-ZzUA" name="read" method="_T8UA8UrPEe26Ra5ck-ZzUA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_T58CYErPEe26Ra5ck-ZzUA" name="LecteurReverse">
+      <generalization xmi:id="_T7_34UrPEe26Ra5ck-ZzUA" general="_T6A64ErPEe26Ra5ck-ZzUA"/>
+      <interfaceRealization xmi:id="_T7_34ErPEe26Ra5ck-ZzUA" client="_T58CYErPEe26Ra5ck-ZzUA" supplier="_T53J4ErPEe26Ra5ck-ZzUA" contract="_T53J4ErPEe26Ra5ck-ZzUA"/>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_T8UA8krPEe26Ra5ck-ZzUA" name="LecteurReverse" specification="_T58pcErPEe26Ra5ck-ZzUA">
+        <ownedParameter xmi:id="_2OtXgErtEe26Ra5ck-ZzUA" type="_T58CYErPEe26Ra5ck-ZzUA" direction="return">
+          <name xsi:nil="true"/>
+        </ownedParameter>
+        <ownedParameter xmi:id="_2OtXgUrtEe26Ra5ck-ZzUA" name="file">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>super.file = file;
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_T8UoAErPEe26Ra5ck-ZzUA" name="display" specification="_T58pdUrPEe26Ra5ck-ZzUA">
+        <language>java</language>
+        <body>for(int i=super.content.length()-1; i>= 0; i--) {
+			if(content.charAt(i) != '\n') {
+				System.out.print(super.content.charAt(i));
+			}
+		}
+		System.out.println();
+	</body>
+      </ownedBehavior>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_T8UoAUrPEe26Ra5ck-ZzUA" name="read" specification="_T59QgErPEe26Ra5ck-ZzUA">
+        <language>java</language>
+        <body>super.read(file);
+	</body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_T58pcErPEe26Ra5ck-ZzUA" name="LecteurReverse" visibility="public" method="_T8UA8krPEe26Ra5ck-ZzUA">
+        <eAnnotations xmi:id="_T58pckrPEe26Ra5ck-ZzUA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+          <details xmi:id="_T58pc0rPEe26Ra5ck-ZzUA" key="create"/>
+        </eAnnotations>
+        <ownedParameter xmi:id="_T58pdErPEe26Ra5ck-ZzUA" type="_T58CYErPEe26Ra5ck-ZzUA" direction="return"/>
+        <ownedParameter xmi:id="_T58pcUrPEe26Ra5ck-ZzUA" name="file">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_T58pdUrPEe26Ra5ck-ZzUA" name="display" method="_T8UoAErPEe26Ra5ck-ZzUA"/>
+      <ownedOperation xmi:id="_T59QgErPEe26Ra5ck-ZzUA" name="read" method="_T8UoAUrPEe26Ra5ck-ZzUA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_T5-eoErPEe26Ra5ck-ZzUA" name="Main">
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_T8VPEErPEe26Ra5ck-ZzUA" name="main" specification="_T6AT0ErPEe26Ra5ck-ZzUA">
+        <ownedParameter xmi:id="_T8VPEUrPEe26Ra5ck-ZzUA" name="args">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_T8VPEkrPEe26Ra5ck-ZzUA" value="*"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>System.out.println(&quot;Entrer le chemin du fichier à tester : &quot;);
+		Scanner scan = new Scanner(System.in);
+		String userInput = scan.nextLine();
+		
+		//LecteurFichier
+		System.out.println(&quot;Lecture du fichier sans modifs: &quot;);&#xD;		LecteurFichierInterface lf = new LecteurFichier(userInput);
+		lf.read();
+		lf.display();
+		System.out.println();
+		
+		//LecteurReverse
+		System.out.println(&quot;Lecture du fichier à l'envers: &quot;);
+		LecteurFichierInterface lr = new LecteurReverse(userInput);
+		lr.read();
+		lr.display();
+		System.out.println();
+		
+		//LecteurPalindrome
+		System.out.println(&quot;Test du fichier si palindrome: &quot;);
+		LecteurFichierInterface lp = new LecteurPalindrome(userInput);
+		lp.read();
+		lp.display();
+		
+		/*//LecteurDiff
+		System.out.println(&quot;*Diff*&quot;);
+		LecteurFichierInterface ld = new LecteurDiff(userInput);
+		ld.read();
+		ld.display();
+		*/
+		&#xD;
+	</body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_T6AT0ErPEe26Ra5ck-ZzUA" name="main" isStatic="true" method="_T8VPEErPEe26Ra5ck-ZzUA">
+        <ownedParameter xmi:id="_T6AT0UrPEe26Ra5ck-ZzUA" name="args">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_T6AT0krPEe26Ra5ck-ZzUA" value="*"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_T6A64ErPEe26Ra5ck-ZzUA" name="Reader" isAbstract="true">
+      <ownedAttribute xmi:id="_T8GlkErPEe26Ra5ck-ZzUA" name="file" visibility="protected">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:id="_T8HzsUrPEe26Ra5ck-ZzUA" name="content" visibility="protected">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_T8HzskrPEe26Ra5ck-ZzUA" value="&quot;&quot;"/>
+      </ownedAttribute>
+      <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_T8VPE0rPEe26Ra5ck-ZzUA" name="read" specification="_T6CwEErPEe26Ra5ck-ZzUA">
+        <ownedParameter xmi:id="_T8VPFErPEe26Ra5ck-ZzUA" name="file">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+        <language>java</language>
+        <body>FileInputStream in = null;
+		File f = new File(file);
+		
+		try {
+			in = new FileInputStream(f);
+			int content;
+			while ((content = in.read()) != -1) {
+				//int to String
+				this.content += (char)content;
+			}
+		}
+		catch (IOException e) {
+			e.printStackTrace();
+		}
+		finally {
+			try {
+				if (in != null)
+					in.close();
+			} catch (IOException ex) {
+				ex.printStackTrace();
+			}
+		}
+	</body>
+      </ownedBehavior>
+      <ownedOperation xmi:id="_T6CwEErPEe26Ra5ck-ZzUA" name="read" method="_T8VPE0rPEe26Ra5ck-ZzUA">
+        <ownedParameter xmi:id="_T6CwEUrPEe26Ra5ck-ZzUA" name="file">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <profileApplication xmi:id="_TvzO8ErPEe26Ra5ck-ZzUA">
+      <eAnnotations xmi:id="_Tv2SQErPEe26Ra5ck-ZzUA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_Tv58oErPEe26Ra5ck-ZzUA" base_Package="_Sn5LsErPEe26Ra5ck-ZzUA">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_T51UsErPEe26Ra5ck-ZzUA" base_Element="_T50toUrPEe26Ra5ck-ZzUA"/>
+  <UMLLabProfile:Annotations xmi:id="_T517wErPEe26Ra5ck-ZzUA" base_Element="_T50toUrPEe26Ra5ck-ZzUA">
+    <annotations xmi:id="_T517wUrPEe26Ra5ck-ZzUA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_T560QErPEe26Ra5ck-ZzUA" base_Element="_T56NMkrPEe26Ra5ck-ZzUA"/>
+  <UMLLabProfile:Annotations xmi:id="_T560QUrPEe26Ra5ck-ZzUA" base_Element="_T56NMkrPEe26Ra5ck-ZzUA">
+    <annotations xmi:id="_T560QkrPEe26Ra5ck-ZzUA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_T59QgUrPEe26Ra5ck-ZzUA" base_Element="_T59QgErPEe26Ra5ck-ZzUA"/>
+  <UMLLabProfile:Annotations xmi:id="_T593kErPEe26Ra5ck-ZzUA" base_Element="_T59QgErPEe26Ra5ck-ZzUA">
+    <annotations xmi:id="_T593kUrPEe26Ra5ck-ZzUA" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_T8BtEErPEe26Ra5ck-ZzUA" base_Element="_T8Ae8ErPEe26Ra5ck-ZzUA"/>
+  <UMLLabProfile:Reference xmi:id="_T8DiQErPEe26Ra5ck-ZzUA" base_Element="_T8CUIErPEe26Ra5ck-ZzUA"/>
+  <UMLLabProfile:Reference xmi:id="_T8EwYErPEe26Ra5ck-ZzUA" base_Element="_T8EJUErPEe26Ra5ck-ZzUA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_T8HzsErPEe26Ra5ck-ZzUA" base_Element="_T8GlkErPEe26Ra5ck-ZzUA"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_T8IawErPEe26Ra5ck-ZzUA" base_Element="_T8HzsUrPEe26Ra5ck-ZzUA"/>
+  <UMLLabProfile:Reference xmi:id="_SA2QcUroEe26Ra5ck-ZzUA" base_Element="_SA2QcEroEe26Ra5ck-ZzUA"/>
+  <UMLLabProfile:Reference xmi:id="_TQQp4EroEe26Ra5ck-ZzUA" base_Element="_TQQC0EroEe26Ra5ck-ZzUA"/>
+</xmi:XMI>

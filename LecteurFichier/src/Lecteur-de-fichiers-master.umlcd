@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_Tjt6wErPEe26Ra5ck-ZzUA">
+  <modelElement href="Lecteur-de-fichiers-master.uml#_Sn5LsErPEe26Ra5ck-ZzUA"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_UDaHcErPEe26Ra5ck-ZzUA" sourceAnchor="136.0,92.0" targetAnchor="63.0,0.0" dashed="true" superClass="_UDb8oErPEe26Ra5ck-ZzUA" subClass="_UDUn4ErPEe26Ra5ck-ZzUA">
+    <modelElement href="Lecteur-de-fichiers-master.uml#_T7_34ErPEe26Ra5ck-ZzUA"/>
+    <bendpoints xmi:id="_aMSTw0rbEe26Ra5ck-ZzUA" sourceY="30" targetX="126" targetY="-129"/>
+    <bendpoints xmi:id="_aMSTxErbEe26Ra5ck-ZzUA" sourceX="-126" sourceY="30" targetY="-129"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_UDni0ErPEe26Ra5ck-ZzUA" sourceAnchor="149.0,111.0" targetAnchor="126.0,45.0" dashed="true" superClass="_UDb8oErPEe26Ra5ck-ZzUA" subClass="_UDp_EErPEe26Ra5ck-ZzUA">
+    <modelElement href="Lecteur-de-fichiers-master.uml#_T7_Q0ErPEe26Ra5ck-ZzUA"/>
+    <bendpoints xmi:id="_aMSTwErbEe26Ra5ck-ZzUA" sourceX="1" sourceY="46" targetX="369" targetY="-5"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_UDwswErPEe26Ra5ck-ZzUA" sourceAnchor="152.0,0.0" targetAnchor="74.0,99.0" superClass="_UDyh8ErPEe26Ra5ck-ZzUA" subClass="_UDp_EErPEe26Ra5ck-ZzUA">
+    <modelElement href="Lecteur-de-fichiers-master.uml#_T7_Q0UrPEe26Ra5ck-ZzUA"/>
+    <visualProperties xmi:id="_xqmOwErPEe26Ra5ck-ZzUA" position="26.0,-308.0"/>
+    <bendpoints xmi:id="_aMSTwUrbEe26Ra5ck-ZzUA" sourceY="-173" targetX="261" targetY="138"/>
+    <bendpoints xmi:id="_aMSTwkrbEe26Ra5ck-ZzUA" sourceX="-261" sourceY="-173" targetY="138"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_UDwswUrPEe26Ra5ck-ZzUA" sourceAnchor="136.0,0.0" targetAnchor="74.0,99.0" superClass="_UDyh8ErPEe26Ra5ck-ZzUA" subClass="_UDUn4ErPEe26Ra5ck-ZzUA">
+    <modelElement href="Lecteur-de-fichiers-master.uml#_T7_34UrPEe26Ra5ck-ZzUA"/>
+    <visualProperties xmi:id="_xqmOwUrPEe26Ra5ck-ZzUA" position="26.0,-308.0"/>
+    <bendpoints xmi:id="_aMSTxUrbEe26Ra5ck-ZzUA" sourceY="-39" targetX="-47" targetY="138"/>
+    <bendpoints xmi:id="_aMSTxkrbEe26Ra5ck-ZzUA" sourceX="47" sourceY="-39" targetY="138"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_UD5PoErPEe26Ra5ck-ZzUA" sourceAnchor="131.0,92.0" targetAnchor="63.0,0.0" dashed="true" superClass="_UDb8oErPEe26Ra5ck-ZzUA" subClass="_UD7E0ErPEe26Ra5ck-ZzUA">
+    <modelElement href="Lecteur-de-fichiers-master.uml#_T7-CsErPEe26Ra5ck-ZzUA"/>
+    <bendpoints xmi:id="_aMSTx0rbEe26Ra5ck-ZzUA" sourceY="39" targetX="-191" targetY="-129"/>
+    <bendpoints xmi:id="_aMSTyErbEe26Ra5ck-ZzUA" sourceX="191" sourceY="39" targetY="-129"/>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_UD5PoUrPEe26Ra5ck-ZzUA" sourceAnchor="131.0,0.0" targetAnchor="74.0,99.0" superClass="_UDyh8ErPEe26Ra5ck-ZzUA" subClass="_UD7E0ErPEe26Ra5ck-ZzUA">
+    <modelElement href="Lecteur-de-fichiers-master.uml#_T7-pwErPEe26Ra5ck-ZzUA"/>
+    <visualProperties xmi:id="_xqlnsErPEe26Ra5ck-ZzUA" position="26.0,-308.0"/>
+    <bendpoints xmi:id="_aMSTyUrbEe26Ra5ck-ZzUA" sourceY="-30" targetX="-364" targetY="138"/>
+    <bendpoints xmi:id="_aMSTykrbEe26Ra5ck-ZzUA" sourceX="364" sourceY="-30" targetY="138"/>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_UDp_EErPEe26Ra5ck-ZzUA" name="LecteurPalindrome" generalizations="_UDni0ErPEe26Ra5ck-ZzUA _UDwswErPEe26Ra5ck-ZzUA">
+    <modelElement href="Lecteur-de-fichiers-master.uml#_T54YAUrPEe26Ra5ck-ZzUA"/>
+    <visualProperties xmi:id="_UDp_EUrPEe26Ra5ck-ZzUA" position="259.0,30.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_UDp_EkrPEe26Ra5ck-ZzUA" label="+"/>
+    <operations xmi:id="_UDp_E0rPEe26Ra5ck-ZzUA" name="LecteurPalindrome">
+      <modelElement href="Lecteur-de-fichiers-master.uml#_T54_EErPEe26Ra5ck-ZzUA"/>
+      <keywords xmi:id="_UDp_FErPEe26Ra5ck-ZzUA" keyword="create"/>
+      <visibility xmi:id="_UDp_FUrPEe26Ra5ck-ZzUA" label="+"/>
+      <cardinality xmi:id="_UDp_FkrPEe26Ra5ck-ZzUA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_UDp_F0rPEe26Ra5ck-ZzUA">
+        <modelElement href="Lecteur-de-fichiers-master.uml#_T55mIErPEe26Ra5ck-ZzUA"/>
+        <type xmi:id="_UDp_GErPEe26Ra5ck-ZzUA" name="LecteurPalindrome">
+          <modelElement href="Lecteur-de-fichiers-master.uml#_T54YAUrPEe26Ra5ck-ZzUA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_UDp_GUrPEe26Ra5ck-ZzUA" name="file">
+        <modelElement href="Lecteur-de-fichiers-master.uml#_T54_EUrPEe26Ra5ck-ZzUA"/>
+        <cardinality xmi:id="_UDp_GkrPEe26Ra5ck-ZzUA" label="1" max="1" min="1"/>
+        <type xmi:id="_UDp_G0rPEe26Ra5ck-ZzUA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_UDp_HErPEe26Ra5ck-ZzUA" name="palindrome">
+      <modelElement href="Lecteur-de-fichiers-master.uml#_T55mIUrPEe26Ra5ck-ZzUA"/>
+      <visibility xmi:id="_UDp_HUrPEe26Ra5ck-ZzUA" label="+"/>
+      <cardinality xmi:id="_UDp_HkrPEe26Ra5ck-ZzUA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_UDp_H0rPEe26Ra5ck-ZzUA">
+        <modelElement href="Lecteur-de-fichiers-master.uml#_T56NMErPEe26Ra5ck-ZzUA"/>
+        <type xmi:id="_UDp_IErPEe26Ra5ck-ZzUA" name="boolean">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_UDp_IUrPEe26Ra5ck-ZzUA" name="begin">
+        <modelElement href="Lecteur-de-fichiers-master.uml#_T55mIkrPEe26Ra5ck-ZzUA"/>
+        <cardinality xmi:id="_UDp_IkrPEe26Ra5ck-ZzUA" label="1" max="1" min="1"/>
+        <type xmi:id="_UDp_I0rPEe26Ra5ck-ZzUA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_UDp_JErPEe26Ra5ck-ZzUA" name="end">
+        <modelElement href="Lecteur-de-fichiers-master.uml#_T55mI0rPEe26Ra5ck-ZzUA"/>
+        <cardinality xmi:id="_UDp_JUrPEe26Ra5ck-ZzUA" label="1" max="1" min="1"/>
+        <type xmi:id="_UDp_JkrPEe26Ra5ck-ZzUA" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_UDp_J0rPEe26Ra5ck-ZzUA" name="display">
+      <modelElement href="Lecteur-de-fichiers-master.uml#_T56NMUrPEe26Ra5ck-ZzUA"/>
+      <visibility xmi:id="_UDp_KErPEe26Ra5ck-ZzUA" label="+"/>
+      <cardinality xmi:id="_UDp_KUrPEe26Ra5ck-ZzUA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_UDp_KkrPEe26Ra5ck-ZzUA" name="read">
+      <modelElement href="Lecteur-de-fichiers-master.uml#_T56NMkrPEe26Ra5ck-ZzUA"/>
+      <stereotypes xmi:id="_UDp_K0rPEe26Ra5ck-ZzUA" name="LegacyStyledElement">
+        <modelElement href="Lecteur-de-fichiers-master.uml#_T560QErPEe26Ra5ck-ZzUA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_UDp_LErPEe26Ra5ck-ZzUA" name="Annotations">
+        <modelElement href="Lecteur-de-fichiers-master.uml#_T560QUrPEe26Ra5ck-ZzUA"/>
+      </stereotypes>
+      <visibility xmi:id="_UDp_LUrPEe26Ra5ck-ZzUA" label="+"/>
+      <cardinality xmi:id="_UDp_LkrPEe26Ra5ck-ZzUA" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_UDb8oErPEe26Ra5ck-ZzUA" name="LecteurFichierInterface" subclassedBy="_UDaHcErPEe26Ra5ck-ZzUA _UDni0ErPEe26Ra5ck-ZzUA _UD5PoErPEe26Ra5ck-ZzUA">
+    <modelElement href="Lecteur-de-fichiers-master.uml#_T53J4ErPEe26Ra5ck-ZzUA"/>
+    <visualProperties xmi:id="_UDb8oUrPEe26Ra5ck-ZzUA" position="-86.0,147.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_UDb8okrPEe26Ra5ck-ZzUA" label="+"/>
+    <operations xmi:id="_UDb8o0rPEe26Ra5ck-ZzUA" name="read">
+      <modelElement href="Lecteur-de-fichiers-master.uml#_T53w8ErPEe26Ra5ck-ZzUA"/>
+      <visibility xmi:id="_UDb8pErPEe26Ra5ck-ZzUA" label="+"/>
+      <cardinality xmi:id="_UDb8pUrPEe26Ra5ck-ZzUA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_UDb8pkrPEe26Ra5ck-ZzUA" name="display">
+      <modelElement href="Lecteur-de-fichiers-master.uml#_T54YAErPEe26Ra5ck-ZzUA"/>
+      <visibility xmi:id="_UDb8p0rPEe26Ra5ck-ZzUA" label="+"/>
+      <cardinality xmi:id="_UDb8qErPEe26Ra5ck-ZzUA" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_UCdsQErPEe26Ra5ck-ZzUA" name="Main">
+    <modelElement href="Lecteur-de-fichiers-master.uml#_T5-eoErPEe26Ra5ck-ZzUA"/>
+    <visualProperties xmi:id="_UCdsQUrPEe26Ra5ck-ZzUA" position="480.0,-88.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_UCdsQkrPEe26Ra5ck-ZzUA" label="+"/>
+    <operations xmi:id="_UCdsQ0rPEe26Ra5ck-ZzUA" name="main" staticOperation="true">
+      <modelElement href="Lecteur-de-fichiers-master.uml#_T6AT0ErPEe26Ra5ck-ZzUA"/>
+      <visibility xmi:id="_UCdsRErPEe26Ra5ck-ZzUA" label="+"/>
+      <cardinality xmi:id="_UCdsRUrPEe26Ra5ck-ZzUA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_UCdsRkrPEe26Ra5ck-ZzUA" name="args">
+        <modelElement href="Lecteur-de-fichiers-master.uml#_T6AT0UrPEe26Ra5ck-ZzUA"/>
+        <cardinality xmi:id="_UCdsR0rPEe26Ra5ck-ZzUA" label="1..*" max="-1" min="1"/>
+        <type xmi:id="_UCdsSErPEe26Ra5ck-ZzUA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_UDyh8ErPEe26Ra5ck-ZzUA" name="Reader" abstractClass="true" subclassedBy="_UDwswErPEe26Ra5ck-ZzUA _UDwswUrPEe26Ra5ck-ZzUA _UD5PoUrPEe26Ra5ck-ZzUA">
+    <modelElement href="Lecteur-de-fichiers-master.uml#_T6A64ErPEe26Ra5ck-ZzUA"/>
+    <visualProperties xmi:id="_UDyh8UrPEe26Ra5ck-ZzUA" position="76.0,-380.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_UDyh8krPEe26Ra5ck-ZzUA" label="+"/>
+    <attributes xmi:id="_UDyh80rPEe26Ra5ck-ZzUA" name="file">
+      <modelElement href="Lecteur-de-fichiers-master.uml#_T8GlkErPEe26Ra5ck-ZzUA"/>
+      <stereotypes xmi:id="_UDyh9ErPEe26Ra5ck-ZzUA" name="LegacyStyledElement">
+        <modelElement href="Lecteur-de-fichiers-master.uml#_T8HzsErPEe26Ra5ck-ZzUA"/>
+      </stereotypes>
+      <visibility xmi:id="_UDyh9UrPEe26Ra5ck-ZzUA" label="#"/>
+      <cardinality xmi:id="_UDyh9krPEe26Ra5ck-ZzUA" label="1" max="1" min="1"/>
+      <type xmi:id="_UDyh90rPEe26Ra5ck-ZzUA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_UDyh-ErPEe26Ra5ck-ZzUA" defaultValue="&quot;&quot;" name="content">
+      <modelElement href="Lecteur-de-fichiers-master.uml#_T8HzsUrPEe26Ra5ck-ZzUA"/>
+      <stereotypes xmi:id="_UDyh-UrPEe26Ra5ck-ZzUA" name="LegacyStyledElement">
+        <modelElement href="Lecteur-de-fichiers-master.uml#_T8IawErPEe26Ra5ck-ZzUA"/>
+      </stereotypes>
+      <visibility xmi:id="_UDyh-krPEe26Ra5ck-ZzUA" label="#"/>
+      <cardinality xmi:id="_UDyh-0rPEe26Ra5ck-ZzUA" label="1" max="1" min="1"/>
+      <type xmi:id="_UDyh_ErPEe26Ra5ck-ZzUA" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_UDyh_UrPEe26Ra5ck-ZzUA" name="read">
+      <modelElement href="Lecteur-de-fichiers-master.uml#_T6CwEErPEe26Ra5ck-ZzUA"/>
+      <visibility xmi:id="_UDyh_krPEe26Ra5ck-ZzUA" label="+"/>
+      <cardinality xmi:id="_UDyh_0rPEe26Ra5ck-ZzUA" label="1" max="1" min="1"/>
+      <parameters xmi:id="_UDyiAErPEe26Ra5ck-ZzUA" name="file">
+        <modelElement href="Lecteur-de-fichiers-master.uml#_T6CwEUrPEe26Ra5ck-ZzUA"/>
+        <cardinality xmi:id="_UDyiAUrPEe26Ra5ck-ZzUA" label="1" max="1" min="1"/>
+        <type xmi:id="_UDyiAkrPEe26Ra5ck-ZzUA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_UDUn4ErPEe26Ra5ck-ZzUA" name="LecteurReverse" generalizations="_UDaHcErPEe26Ra5ck-ZzUA _UDwswUrPEe26Ra5ck-ZzUA">
+    <modelElement href="Lecteur-de-fichiers-master.uml#_T58CYErPEe26Ra5ck-ZzUA"/>
+    <visualProperties xmi:id="_UDUn4UrPEe26Ra5ck-ZzUA" position="-33.0,-104.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_UDUn4krPEe26Ra5ck-ZzUA" label="+"/>
+    <operations xmi:id="_UDUn40rPEe26Ra5ck-ZzUA" name="LecteurReverse">
+      <modelElement href="Lecteur-de-fichiers-master.uml#_T58pcErPEe26Ra5ck-ZzUA"/>
+      <keywords xmi:id="_UDUn5ErPEe26Ra5ck-ZzUA" keyword="create"/>
+      <visibility xmi:id="_UDUn5UrPEe26Ra5ck-ZzUA" label="+"/>
+      <cardinality xmi:id="_UDUn5krPEe26Ra5ck-ZzUA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_UDUn50rPEe26Ra5ck-ZzUA">
+        <modelElement href="Lecteur-de-fichiers-master.uml#_T58pdErPEe26Ra5ck-ZzUA"/>
+        <type xmi:id="_UDUn6ErPEe26Ra5ck-ZzUA" name="LecteurReverse">
+          <modelElement href="Lecteur-de-fichiers-master.uml#_T58CYErPEe26Ra5ck-ZzUA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_UDUn6UrPEe26Ra5ck-ZzUA" name="file">
+        <modelElement href="Lecteur-de-fichiers-master.uml#_T58pcUrPEe26Ra5ck-ZzUA"/>
+        <cardinality xmi:id="_UDUn6krPEe26Ra5ck-ZzUA" label="1" max="1" min="1"/>
+        <type xmi:id="_UDUn60rPEe26Ra5ck-ZzUA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_UDUn7ErPEe26Ra5ck-ZzUA" name="display">
+      <modelElement href="Lecteur-de-fichiers-master.uml#_T58pdUrPEe26Ra5ck-ZzUA"/>
+      <visibility xmi:id="_UDUn7UrPEe26Ra5ck-ZzUA" label="+"/>
+      <cardinality xmi:id="_UDUn7krPEe26Ra5ck-ZzUA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_UDUn70rPEe26Ra5ck-ZzUA" name="read">
+      <modelElement href="Lecteur-de-fichiers-master.uml#_T59QgErPEe26Ra5ck-ZzUA"/>
+      <stereotypes xmi:id="_UDUn8ErPEe26Ra5ck-ZzUA" name="LegacyStyledElement">
+        <modelElement href="Lecteur-de-fichiers-master.uml#_T59QgUrPEe26Ra5ck-ZzUA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_UDUn8UrPEe26Ra5ck-ZzUA" name="Annotations">
+        <modelElement href="Lecteur-de-fichiers-master.uml#_T593kErPEe26Ra5ck-ZzUA"/>
+      </stereotypes>
+      <visibility xmi:id="_UDUn8krPEe26Ra5ck-ZzUA" label="+"/>
+      <cardinality xmi:id="_UDUn80rPEe26Ra5ck-ZzUA" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_UD7E0ErPEe26Ra5ck-ZzUA" name="LecteurFichier" generalizations="_UD5PoErPEe26Ra5ck-ZzUA _UD5PoUrPEe26Ra5ck-ZzUA">
+    <modelElement href="Lecteur-de-fichiers-master.uml#_T5unAErPEe26Ra5ck-ZzUA"/>
+    <visualProperties xmi:id="_UD7E0UrPEe26Ra5ck-ZzUA" position="-345.0,-113.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_UD7E0krPEe26Ra5ck-ZzUA" label="+"/>
+    <operations xmi:id="_UD7E00rPEe26Ra5ck-ZzUA" name="LecteurFichier">
+      <modelElement href="Lecteur-de-fichiers-master.uml#_T5y4cErPEe26Ra5ck-ZzUA"/>
+      <keywords xmi:id="_UD7E1ErPEe26Ra5ck-ZzUA" keyword="create"/>
+      <visibility xmi:id="_UD7E1UrPEe26Ra5ck-ZzUA" label="+"/>
+      <cardinality xmi:id="_UD7E1krPEe26Ra5ck-ZzUA" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_UD7E10rPEe26Ra5ck-ZzUA">
+        <modelElement href="Lecteur-de-fichiers-master.uml#_T50GkkrPEe26Ra5ck-ZzUA"/>
+        <type xmi:id="_UD7E2ErPEe26Ra5ck-ZzUA" name="LecteurFichier">
+          <modelElement href="Lecteur-de-fichiers-master.uml#_T5unAErPEe26Ra5ck-ZzUA"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_UD7E2UrPEe26Ra5ck-ZzUA" name="file">
+        <modelElement href="Lecteur-de-fichiers-master.uml#_T5zfgErPEe26Ra5ck-ZzUA"/>
+        <cardinality xmi:id="_UD7E2krPEe26Ra5ck-ZzUA" label="1" max="1" min="1"/>
+        <type xmi:id="_UD7E20rPEe26Ra5ck-ZzUA" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_UD7E3ErPEe26Ra5ck-ZzUA" name="display">
+      <modelElement href="Lecteur-de-fichiers-master.uml#_T50toErPEe26Ra5ck-ZzUA"/>
+      <visibility xmi:id="_UD7E3UrPEe26Ra5ck-ZzUA" label="+"/>
+      <cardinality xmi:id="_UD7E3krPEe26Ra5ck-ZzUA" label="1" max="1" min="1"/>
+    </operations>
+    <operations xmi:id="_UD7E30rPEe26Ra5ck-ZzUA" name="read">
+      <modelElement href="Lecteur-de-fichiers-master.uml#_T50toUrPEe26Ra5ck-ZzUA"/>
+      <stereotypes xmi:id="_UD7E4ErPEe26Ra5ck-ZzUA" name="LegacyStyledElement">
+        <modelElement href="Lecteur-de-fichiers-master.uml#_T51UsErPEe26Ra5ck-ZzUA"/>
+      </stereotypes>
+      <stereotypes xmi:id="_UD7E4UrPEe26Ra5ck-ZzUA" name="Annotations">
+        <modelElement href="Lecteur-de-fichiers-master.uml#_T517wErPEe26Ra5ck-ZzUA"/>
+      </stereotypes>
+      <visibility xmi:id="_UD7E4krPEe26Ra5ck-ZzUA" label="+"/>
+      <cardinality xmi:id="_UD7E40rPEe26Ra5ck-ZzUA" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

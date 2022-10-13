@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_Qo_ogErvEe26Ra5ck-ZzUA" name="LecteurFichier">
+    <eAnnotations xmi:id="_QrsXMErvEe26Ra5ck-ZzUA" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_QrsXMUrvEe26Ra5ck-ZzUA" source="codegen">
+        <details xmi:id="_QrsXMkrvEe26Ra5ck-ZzUA" key="codegenDirectory" value="/LecteurFichier/src"/>
+        <details xmi:id="_QxgEQErvEe26Ra5ck-ZzUA" key="AssociatedSourceCode" value="/LecteurFichier/src/LecteurDiff.java;551416651/1;/LecteurFichier/src/LecteurFichier.java;1931857220/1;/LecteurFichier/src/LecteurFichierInterface.java;1502665642/1;/LecteurFichier/src/LecteurPalindrome.java;1527574235/1;/LecteurFichier/src/LecteurReverse.java;279668081/1;/LecteurFichier/src/Main.java;4017157027/1;/LecteurFichier/src/Reader.java;929930331/1;"/>
+      </contents>
+    </eAnnotations>
+    <profileApplication xmi:id="_Qrs-QErvEe26Ra5ck-ZzUA">
+      <eAnnotations xmi:id="_Qrs-QUrvEe26Ra5ck-ZzUA" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_Qrs-QkrvEe26Ra5ck-ZzUA" base_Package="_Qo_ogErvEe26Ra5ck-ZzUA">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+</xmi:XMI>
