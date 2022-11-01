@@ -11,8 +11,9 @@ public class GenererMonstre {
 	protected static ArrayList<Object> loot;
 	protected int xp;
 	protected int mana;
+	public int attaque;
 
-	protected static String nomMonstre() {
+	private static String nomMonstre() {
 		String[] list = {"ll","b","c","d","g","h","j","k","n","m","ss","r","x","z","t","j"};
 		String[] list2 = {"a","e","i","o","u","y"};
 		String[] list3 = {" - (sick)"," - (elder)"," - (young)", " - (angry)", " - (hungry)"};
@@ -24,26 +25,46 @@ public class GenererMonstre {
         	tempnom = tempnom + list2[rand.nextInt(list2.length)];    	
         }
         tempnom = tempnom + list3[rand.nextInt(list3.length)]; 
-        Monstre.nom = tempnom;
+        //Monstre.nom = tempnom;
 		
-		return Monstre.nom;
+		return tempnom.toString();
 		
 	}
 	
-	protected static int pvMonstre() {
+	private static int pvMonstre() {
 		int min = 5;
 		int max = 100;
 		
 		int random = (int)(Math.random()*(max-min+1)+min);
-		Monstre.pv = random;
-		return Monstre.pv;
+		
+		return random;
+	}
+	private static int attaqueMonstre() {
+		int min = 5;
+		int max = 10;
+		
+		int random = (int)(Math.random()*(max-min+1)+min);
+		return random;
 	}
 	
-	protected static ArrayList<Object>  lootMonstre() {
-		Equipement newloot = Equipement.creationEquipement();
+	protected static ArrayList<Object> generate() {
+		ArrayList<Object> monstre = new ArrayList<Object>();
+		
+		monstre.add(nomMonstre());
+		monstre.add(pvMonstre());
+		monstre.add(attaqueMonstre());
+		monstre.add(lootMonstre());
+		
+		return monstre;
+	}
+	
+	
+	
+	private static ArrayList<Object>  lootMonstre() {
+		Equipement newloot = EquipementInterface.creationEquipement();
 		ArrayList<Object> lootList = new ArrayList<Object>();
-		lootList.add(EquipementInterface.nomEquipement(newloot));
-		lootList.add(EquipementInterface.propEquipement(newloot));
+		lootList.add(EquipementInterface.getNomEquipement(newloot));
+		lootList.add(EquipementInterface.getPropEquipement(newloot));
 		lootList.add(EquipementInterface.getAttaqueEquipement(newloot)-1);
 		lootList.add(EquipementInterface.getDefenseEquipement(newloot)-1);
 		lootList.add(EquipementInterface.getMagieEquipement(newloot)-1);
@@ -52,12 +73,7 @@ public class GenererMonstre {
 	}
 
 	
-	public static void displayMonstre() {
-		pvMonstre();
-		System.out.println("monstre nom : "+ Monstre.nom);
-		System.out.println("pv : "+ Monstre.pv);
-		System.out.println(lootMonstre());
-	}
+
 
 	
 }

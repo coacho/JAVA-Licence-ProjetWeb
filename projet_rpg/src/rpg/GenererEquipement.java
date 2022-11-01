@@ -4,82 +4,73 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-public class GenererEquipement {
+public class GenererEquipement{
 
-	public static String nom;
-	public static String propriete;
-	public static int attaque;
-	public static int defense;
-	public static int magie;
-	private static Random rand = new Random();
-	private static boolean special = false;
-	private static int specialUnlock = randomEquipement();
+	public String nom;
+	public String propriete;
+	public static String propPrivate;
+	public int attaque = 0;
+	public int defense = 0;
+	public int magie = 0;
 	
 	private static int randomEquipement() {
-		
 		int min = 0;
 		int max = 6;
-		
 		int random = (int)(Math.random()*(max-min+1)+min);
-		
 		return random;
-		
 	}
 	
 	
-	public static String nomEquipement() {
+	private static String nomEquipement() {
+		Random rand = new Random();
+		int specialUnlock = randomEquipement();
 		
 		List<String> typelist = new ArrayList<>();
 
 		String[] listArme = {"sword","axe","hammer","stick"};
 		String[] listeArmor = {"plastron","helmet","shield"};
 		String[] listeSpecial = {"football","spoon","beatles album"};
-		String select;
-		//int specialUnlock = testrand;  
-		//specialUnlock = 5; //test
-		
+		String select = "";
+
 		if(specialUnlock == 5) {
 		typelist.add(listeSpecial[rand.nextInt(listeSpecial.length)]);
-		special = true;
 		}
 		else {
 		typelist.add(listArme[rand.nextInt(listArme.length)]);
-		typelist.add(listeArmor[rand.nextInt(listeArmor.length)]);
+		typelist.add(listeArmor[rand.nextInt(listeArmor.length)]);  
 		}
 		
 		//System.out.println(specialTest); //test
 		select = typelist.get(rand.nextInt(typelist.size()));
-		Equipement.nom = select.toString();
 		
-        return Equipement.nom ;
+        return select.toString();
 	}
 	
-	protected static String proprieteEquipement() {
-		String select;
+	private static String proprieteEquipement() {
+		String select = "";
+		Random rand = new Random();
 		
 		List<String> propList = new ArrayList<>();
 		String[] prop = {"tin","iron","silver","gold","wood","leather"};
 		
 		propList.add(prop[rand.nextInt(prop.length)]);
 		select = propList.get(rand.nextInt(propList.size()));
-		Equipement.propriete = select.toString();
-		//Equipement.propriete = propList[rand.nextInt(propList.length)].toString();
+		propPrivate = select.toString();
 		
-        return Equipement.propriete;
+        return select.toString();
 	}
 	
-	protected static int[] statEquipement() {
+	private static int[] statEquipement() {
 		
 		int[] dirt = {0,0,0};
-;		int[] tin = {2,1,randomEquipement()};
+		int[] tin = {2,1,randomEquipement()};
 		int[] iron = {3,5,randomEquipement()};
 		int[] silver = {4,3,randomEquipement()};
 		int[] gold = {5,4,randomEquipement()};
 		int[] wood = {1,1,randomEquipement()};
 		int[] leather = {0,2,randomEquipement()};
-		//int[] special = {0,0,9};
 		
-		switch(Equipement.propriete) {
+		switch(propPrivate) {
 		  case "tin":
 			return tin;
 		case "iron":
@@ -97,29 +88,28 @@ public class GenererEquipement {
 		}
 	}
 	
-	protected static int getAttaque() {
-		return Equipement.attaque = statEquipement()[0];
+	private static int getAttaque() {
+		return statEquipement()[0];
 		}
 
-	protected static int getDefense() {
-		return Equipement.defense = statEquipement()[1];
+	private static int getDefense() {
+		return statEquipement()[1];
 		}
-	protected static int getMagie() {
-		return Equipement.magie  = statEquipement()[2];
+	private static int getMagie() {
+		return statEquipement()[2];
 		}
 	
-	public static void displayEquipement() {
-		System.out.println("Equipement nom : "+ Equipement.nom);
-		System.out.println(Equipement.propriete);
-		System.out.println(Equipement.attaque);
-		System.out.println(Equipement.defense);
-		System.out.println(Equipement.magie);
-	
-		//System.out.println(statEquipement());
+	protected static ArrayList<Object> generate() {
+		ArrayList<Object> equipement = new ArrayList<Object>();
+		
+		equipement.add(nomEquipement());
+		equipement.add(proprieteEquipement());
+		equipement.add(statEquipement());
+		equipement.add(getAttaque());
+		equipement.add(getDefense());
+		equipement.add(getMagie());
+		
+		return equipement;
 	}
 
-
-	
-	
-	
 }

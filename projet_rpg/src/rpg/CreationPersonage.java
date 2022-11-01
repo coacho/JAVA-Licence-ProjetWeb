@@ -10,6 +10,7 @@ abstract class CreationPersonage{
 	protected int pv;
 	protected int xp;
 	protected int mana;
+	public int attaque;
 
 	public CreationPersonage() {
 		
@@ -26,6 +27,7 @@ abstract class CreationPersonage{
 			Joueur.argent = 0;
 			Joueur.xp = 0;
 			Joueur.mana = 0;
+			Joueur.attaque = 10;
 			}
 			catch(Exception e) {
 				
