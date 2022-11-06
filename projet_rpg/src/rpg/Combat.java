@@ -18,21 +18,6 @@ public class Combat {
 	private static int mMana;
 	Scanner scan = new Scanner(System.in);
 	
-	
-	private void getStats(Joueur j, Monstre m) {
-		
-		jStats = getStatsJ(j);
-		mStats = getStatsM(m);
-		
-		jPv = getPv(jStats);
-		mPv = getPv(mStats);
-		jAttaque = getAttaque(jStats);
-		mAttaque = getAttaque(mStats);
-		jMana = getMana(jStats);
-		mMana = getMana(mStats);
-		
-	}
-	
 	void startCombat(Joueur j, Monstre m) {
 		
 		getStats(j,m);
@@ -40,10 +25,9 @@ public class Combat {
 		System.out.print("You encounter an Unknown Monster,");
 		System.out.println();
 		monsterMenu(m);
-		//centralMenu();
 		
 		while ( finCombat == false ) {
-			centralMenu();
+			centralMenuCombat();
 		}
 		endCombatMenu(jPv, mPv);
 		
@@ -52,23 +36,14 @@ public class Combat {
 			
 		}
 		else if(monstreMort == true) {
-			killMonstre(m);
+			m = killMonstre(m);
 		}
+		
+		Manette.waitForKey(j,m);
 
 	}
 	
-	private void monsterMenu(Monstre m){
-		System.out.println("==============");
-		System.out.println(m.getNomMonstre() +" - " + m.getClasseMonstre());
-		System.out.println("pv: " + m.getPvMonstre());
-		System.out.println("loot: " + m.getLootMonstre().nom);
-		System.out.println("xp: " + m.getXpMonstre());
-		System.out.println("mana: " + m.getManaMonstre());
-		System.out.println("attaque: " + m.getAttaqueMonstre());
-		System.out.println("==============");
-	}
-	
-	private void centralMenu() {
+	private void centralMenuCombat() {
 		String input;
 		
 		System.out.println("==============");
@@ -86,14 +61,44 @@ public class Combat {
 			  Inventaire.menuInventaire();
 			  break;
 		  case "3":
-			  fleeMenu();
+			  flee();
 			  break;
 		default:
+			 centralMenuCombat();
+			 break;
 		}
+	}	
+	
+	private void getStats(Joueur j, Monstre m) {
+		
+		jStats = getStatsJ(j);
+		mStats = getStatsM(m);
+		
+		jPv = getPv(jStats);
+		mPv = getPv(mStats);
+		jAttaque = getAttaque(jStats);
+		mAttaque = getAttaque(mStats);
+		jMana = getMana(jStats);
+		mMana = getMana(mStats);
+		
 	}
 	
-	private void fleeMenu() {
-		System.out.println("This is not a fight you flee..");	
+	
+	private void monsterMenu(Monstre m){
+		System.out.println("==============");
+		System.out.println(m.getNomMonstre() +" - " + m.getClasseMonstre());
+		System.out.println("pv: " + m.getPvMonstre());
+		System.out.println("loot: " + m.getLootMonstre().nom);
+		System.out.println("xp: " + m.getXpMonstre());
+		System.out.println("mana: " + m.getManaMonstre());
+		System.out.println("attaque: " + m.getAttaqueMonstre());
+		System.out.println("==============");
+	}
+	
+	
+	private void flee() {
+		System.out.println("You coward!");	
+		finCombat = true;
 	}
 	
 	private void endCombatMenu(int jPv, int mPv) {
@@ -130,8 +135,10 @@ public class Combat {
 	
 	private Monstre killMonstre(Monstre m) {
 		Monstre.killMonstre(m);
-		return m = null;
+		m = MonstreInterface.creationMonstre();
+		return m;
 	}
+	
 	/*
 	private Joueur killJoueur(Joueur j) {
 		Joueur.killJoueur(j);
@@ -167,7 +174,6 @@ public class Combat {
 		}
 		return mStats;
 	}
-	
 	
 	private int getMana(ArrayList<Object> stats) {
 		int mana = (int) stats.get(5);

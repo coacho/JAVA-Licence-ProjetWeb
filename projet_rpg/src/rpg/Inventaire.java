@@ -6,13 +6,18 @@ import java.util.Scanner;
 abstract class Inventaire {
 	
 	private static ArrayList<Equipement> Inventaire = new ArrayList<Equipement>();
-	private static ArrayList<Equipement> enMain = new ArrayList<Equipement>();
-	static Scanner scan = new Scanner(System.in);
+	private static ArrayList<Equipement> Equiped = new ArrayList<Equipement>();
+	private static Scanner scan = new Scanner(System.in);
 
 	//private static String equip ="";
 	
 	protected static ArrayList<Equipement> ajouter(Equipement e) {
+		e.equip = true;
 		Inventaire.add(e);	
+		return Inventaire;
+	}
+	private static ArrayList<Equipement> getInventaire(int i){
+		
 		return Inventaire;
 	}
 
@@ -27,6 +32,7 @@ abstract class Inventaire {
 					InventaireTemp.add(Inventaire.get(i));
 				}
 			}
+			e.equip = false;
 			Inventaire.clear();
 			Inventaire = InventaireTemp;
 			InventaireTemp.clear();
@@ -36,20 +42,23 @@ abstract class Inventaire {
 	}
 	
 	static void menuInventaire() {
-		String input;
+		
+		String stringPut;
+		int intPut;
 		
 		System.out.println("==============");
 		System.out.println(displayInventaire());
 		System.out.println("==============");
-		System.out.println("1 - equiper objet");
+		System.out.println("1 - retour");
 		
 		
-		input = scan.nextLine();
-		switch(input) {
+		stringPut = scan.nextLine();
+		switch(stringPut) {
 		  case "1":
-			 System.out.println("quel objet ?");
-			 equiperEnMain(scan.nextInt());
+				break;
 		default:
+				menuInventaire();
+			break;
 		}
 
 	}
@@ -75,13 +84,25 @@ abstract class Inventaire {
 		}
 		return inventaireDisplay;
 	}
-
-	private static Equipement equiperEnMain(int i) {
-		Equipement e = Inventaire.get(i);
-		e.equip = true;
-		enMain.add(e);
-		return enMain.get(0);
+/*
+	private static void setEquiped(Equipement e) {
+		if(e.equip = true) {
+		Equiped.add(e);
+		}else {
+			Equiped.clear();;
+		}
 	}
-
+	
+	private static ArrayList<Equipement> getEquiped() {
+		for(int i = 0; i< Inventaire.size();i++) {
+			if(Inventaire.get(i).equip == true) {
+				Equiped = getInventaire(i);
+				setEquiped(Equiped.get(i));
+			}
+		}
+		return Equiped;
+	}
+	
+*/
 	
 }

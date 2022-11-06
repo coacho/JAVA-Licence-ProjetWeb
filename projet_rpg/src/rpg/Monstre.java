@@ -13,7 +13,7 @@ public class Monstre extends GenererMonstre implements MonstreInterface {
 		super.xp = xp;
 		super.mana = mana;
 		super.attaque = attaque;
-			
+		super.position = position;	
 		}
 	
 	static Monstre creationMonstre() {
@@ -28,7 +28,9 @@ public class Monstre extends GenererMonstre implements MonstreInterface {
 		int xp = (int) monstre.get(4);
 		int mana = (int) monstre.get(5);
 		int attaque = (int) monstre.get(6);
-
+		@SuppressWarnings("unchecked")
+		ArrayList<Integer> position = (ArrayList<Integer>) monstre.get(7);
+		
 		
 		Monstre newMonstre = new Monstre();
 		
@@ -39,6 +41,7 @@ public class Monstre extends GenererMonstre implements MonstreInterface {
 		newMonstre.xp = xp;
 		newMonstre.mana = mana;
 		newMonstre.attaque = attaque;
+		newMonstre.position = position;
 		
 		return newMonstre;
 		
@@ -61,6 +64,7 @@ public class Monstre extends GenererMonstre implements MonstreInterface {
 	public int getXpMonstre() {return xp;}
 	public int getManaMonstre() {return mana;}
 	public int getAttaqueMonstre() {return attaque;}
+	public ArrayList<Integer> getposition() {return position;}
 	
 	/*
 	 * public static ArrayList <Object> getMonstreStats(int index) {

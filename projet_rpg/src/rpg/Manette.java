@@ -1,53 +1,52 @@
 
 package rpg;
 
-import java.awt.event.KeyEvent;
 import java.util.Scanner;
 
-public abstract class Manette {
+public abstract class Manette extends Map {
 
-	private static int x = 1;
-	private static int y = 1;
-	static String key ;
-	//private static int event;
-	private static boolean inputWanted = true;
-	private static boolean gameStatus = true;
 	
-	public static void waitForKey() {
-
+	private static String key ;
+	private static boolean inputWanted = true;
+	static boolean gameStatus = true;
+	
+	
+	
+	public static void waitForKey(Joueur j, Monstre m)  {
+		int x = j.position.get(0);
+		int y = j.position.get(1); ;
+		
 		while(gameStatus == true && inputWanted == true) {
-
-		System.out.println("Controle:(z/s/q/quit)");
-		//try (Scanner scan = new Scanner(System.in)) {
+		//displayMap();
 		Scanner scan = new Scanner(System.in);
-			key = scan.nextLine();
-			//Scanner scan2 = new Scanner(System.in);
+		
+		System.out.println("Controle:(z/s/q/d/quit)");
 			
-			int entrer =  KeyEvent.VK_ENTER;
-			
-		//	entrer = scan2.nextInt();
-			
-			switch(key) {
+		key = scan.nextLine();
+		
+		switch(key) {
 			  case "z":
-				//getArrowKeyX(scan);
 				  y--;
-				  getControle(x,y);
+				  j.position.set(1,y);
+				  getControle(j, m);
 				  inputWanted = false;
 				  break;
 			  case "s":
-				//getArrowKeyX(scan);
-				  y++;
-				  getControle(x,y);
+				 y++; 
+				  j.position.set(1,y);
+				  getControle(j, m);
 				  inputWanted = false;
 				  break;
 			  case "q":
 				  x--;
-				  getControle(x,y);
+				  j.position.set(0,x);
+				  getControle(j, m);
 				  inputWanted = false;
 				  break;
 			  case "d":
 				  x++;
-				  getControle(x,y);
+				  j.position.set(0,x);
+				  getControle(j, m);
 				  inputWanted = false;
 				  break;
 			  case "quit":
@@ -55,17 +54,21 @@ public abstract class Manette {
 				  inputWanted = false;
 				  break;
 			  default:
+				  displayMap();
 				  inputWanted = true;
 				  }
 			inputWanted = true;
-			waitForKey();
-			
+			if(getStatusOut() == "bagarre") {
+				Combat combat = new Combat();
+				combat.startCombat(j, m);
 			}
+			waitForKey(j,m);
+			}
+		
 		}
 
-	//}
-	private static void getControle(int x, int y) {
-		Map.generateMap("i",12,12,x,y);
+	private static void getControle(Joueur j, Monstre m) {
+		Map.setMap(j,m);
 	}
 	
 }

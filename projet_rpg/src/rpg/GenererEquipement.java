@@ -1,4 +1,4 @@
-package rpg;
+		package rpg;
 
 import java.util.ArrayList;
 import java.util.List;

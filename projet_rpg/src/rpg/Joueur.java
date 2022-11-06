@@ -14,6 +14,7 @@ public class Joueur extends GenererJoueur implements JoueurInterface{
 		super.xp = xp;
 		super.mana = mana;
 		super.attaque = attaque;
+		super.position = position;
 	}
 	
 	static Joueur creationPersonage() {
@@ -24,10 +25,12 @@ public class Joueur extends GenererJoueur implements JoueurInterface{
 		String nom = joueurArray.get(0).toString();
 		String classe = joueurArray.get(1).toString();
 		int pv = (int) joueurArray.get(2);
-		int argent  = (int) joueurArray.get(3);;
-		int xp = (int) joueurArray.get(4);;
-		int mana = (int) joueurArray.get(5);;
-		int attaque = (int) joueurArray.get(6);;
+		int argent  = (int) joueurArray.get(3);
+		int xp = (int) joueurArray.get(4);
+		int mana = (int) joueurArray.get(5);
+		int attaque = (int) joueurArray.get(6);
+		@SuppressWarnings("unchecked")
+		ArrayList<Integer> position = (ArrayList<Integer>) joueurArray.get(7);
 		
 		Joueur newJoueur = new Joueur();
 		newJoueur.nom = nom;
@@ -37,6 +40,7 @@ public class Joueur extends GenererJoueur implements JoueurInterface{
 		newJoueur.xp = xp;
 		newJoueur.mana = mana;
 		newJoueur.attaque = attaque;
+		newJoueur.position = position;
 		
 		return newJoueur;
 	}
@@ -48,5 +52,6 @@ public class Joueur extends GenererJoueur implements JoueurInterface{
 	public int getXpJoueur() {return xp;}
 	public int getManaJoueur() {return mana;}
 	public int getAttaqueJoueur() {return attaque;}
+	public ArrayList<Integer> getPositionJoueur() {return position;}
 	
 }

@@ -12,18 +12,19 @@ import java.util.Scanner;
 	protected int xp;
 	protected int mana;
 	protected int attaque;
+	protected ArrayList<Integer> position;
+	
 	static Scanner scan = new Scanner(System.in);
 	
-	private static String nomMonstre() {
+	private static String nomJoueur() {
 		String nom = "";
 		System.out.println("Entrez le nom du personnage : ");
 		nom = scan.nextLine();
 		return nom;
 	}
-	private static String classeMonstre() {
+	private static String classeJoueur() {
 		String classe = "";
 		System.out.println("Entrez la classe du personnage : ");
-		//Scanner scan = new Scanner(System.in);
 		classe = scan.nextLine();
 		return classe;
 	}
@@ -47,17 +48,23 @@ import java.util.Scanner;
 		int attaque = 10;
 		return attaque;
 	}
+	private static ArrayList<Integer> position(){
+		ArrayList<Integer> position = PositionMap.setPositionJoueur();
+		return position;
+	}
+
 	public static ArrayList<Object> generate() {
 		
 		ArrayList<Object> joueur = new ArrayList<Object>();
 	
-			joueur.add(nomMonstre());
-			joueur.add(classeMonstre());
+			joueur.add(nomJoueur());
+			joueur.add(classeJoueur());
 			joueur.add(pvJoueur());
 			joueur.add(argentJoueur());
 			joueur.add(xpJoueur());
 			joueur.add(manaJoueur());
 			joueur.add(attaqueJoueur());
+			joueur.add(position());
 
 			
 			return joueur;
