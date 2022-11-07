@@ -3,7 +3,7 @@ package rpg;
 import java.util.ArrayList;
 
 
-public abstract class PositionMap extends Map{
+public class PositionMap extends Map{
 	
 	static ArrayList<Integer> positionMonstre = new ArrayList<Integer>();
 	static ArrayList<Integer> positionJoueur = new ArrayList<Integer>();
