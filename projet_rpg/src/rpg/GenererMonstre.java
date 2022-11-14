@@ -12,7 +12,7 @@ public class GenererMonstre {
 	protected int xp;
 	protected int mana;
 	protected int attaque;
-	protected ArrayList<Integer> position;
+	protected Position position;
 
 	private static String nomMonstre() {
 		String[] list = {"ll","b","c","d","g","h","j","k","n","m","ss","r","x","z","t","j"};
@@ -75,12 +75,11 @@ public class GenererMonstre {
 		Equipement newloot = EquipementInterface.creationEquipement();
 		return newloot;
 	}
-	private static ArrayList<Integer> position(){
-		ArrayList<Integer> position = PositionMap.setPositionMonstre();
-		return position;
+	private static Position position(){
+		Position position = new Position(0, 0);
+		return position.positionMonstre();
 	}
 
-	
 	protected static ArrayList<Object> generate() {
 		
 		ArrayList<Object> monstre = new ArrayList<Object>();
@@ -96,11 +95,4 @@ public class GenererMonstre {
 		
 		return monstre;
 	}
-	
-	
-	
-	
-
-
-	
 }

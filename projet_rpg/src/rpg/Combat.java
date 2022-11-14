@@ -39,7 +39,7 @@ public class Combat {
 			m = killMonstre(m);
 		}
 		
-		Manette.waitForKey(j,m);
+		//Manette.waitForKey(j,m);
 
 	}
 	

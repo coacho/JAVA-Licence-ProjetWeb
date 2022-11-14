@@ -3,18 +3,18 @@ package rpg;
 
 import java.util.Scanner;
 
-public abstract class Manette extends Map {
+public abstract class Manette extends CreateMap {
 
 	
 	private static String key ;
 	private static boolean inputWanted = true;
 	static boolean gameStatus = true;
+	//private Position mouvement = new Position(0,0);
 	
 	
-	
-	public static void waitForKey(Joueur j, Monstre m)  {
-		int x = j.position.get(0);
-		int y = j.position.get(1); ;
+	public static void waitForKey(Map map, Joueur j)  {
+		int x = j.position.getPositionX();
+		int y = j.position.getPositionY(); ;
 		
 		while(gameStatus == true && inputWanted == true) {
 		//displayMap();
@@ -27,26 +27,30 @@ public abstract class Manette extends Map {
 		switch(key) {
 			  case "z":
 				  y--;
-				  j.position.set(1,y);
-				  getControle(j, m);
+				  j.setPositionJoueurY(y);
+				  map.setPositionJoueur(j.position);
+				  getControle(map, j.position);
 				  inputWanted = false;
 				  break;
 			  case "s":
-				 y++; 
-				  j.position.set(1,y);
-				  getControle(j, m);
+				 y++;
+				  j.setPositionJoueurY(y);
+				  map.setPositionJoueur(j.position);
+				  getControle(map, j.position);
 				  inputWanted = false;
 				  break;
 			  case "q":
 				  x--;
-				  j.position.set(0,x);
-				  getControle(j, m);
+				  j.setPositionJoueurX(x);
+				  map.setPositionJoueur(j.position);
+				  getControle(map, j.position);
 				  inputWanted = false;
 				  break;
 			  case "d":
-				  x++;
-				  j.position.set(0,x);
-				  getControle(j, m);
+				  x++;  
+				  j.setPositionJoueurX(x);
+				  map.setPositionJoueur(j.position);
+				  getControle(map, j.position);
 				  inputWanted = false;
 				  break;
 			  case "quit":
@@ -54,21 +58,23 @@ public abstract class Manette extends Map {
 				  inputWanted = false;
 				  break;
 			  default:
-				  displayMap();
 				  inputWanted = true;
+					Map.displayMap(map);
+				  break;
 				  }
 			inputWanted = true;
-			if(getStatusOut() == "bagarre") {
-				Combat combat = new Combat();
-				combat.startCombat(j, m);
-			}
-			waitForKey(j,m);
+			//Map.deplacerMonstre(map);
+			Map.remplirMap(map);
+			waitForKey(map,j);
 			}
 		
 		}
 
-	private static void getControle(Joueur j, Monstre m) {
-		Map.setMap(j,m);
+	private static void getControle(Map map, Position p) {
+		//Map.deplacerMonstre(map);
+		Map.remplirMap(map);
+		Map.displayMap(map);
+		  
 	}
 	
 }

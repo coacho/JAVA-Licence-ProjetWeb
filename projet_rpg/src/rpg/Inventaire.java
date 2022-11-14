@@ -24,7 +24,7 @@ abstract class Inventaire {
 	protected static ArrayList<Equipement> retirer(Equipement e){
 		
 		ArrayList<Equipement> InventaireTemp = new ArrayList<Equipement>();
-		
+		 
 		if (e != null){
 			int index = Inventaire.indexOf(e);
 			for (int i = 0; i>Inventaire.size(); i++) {

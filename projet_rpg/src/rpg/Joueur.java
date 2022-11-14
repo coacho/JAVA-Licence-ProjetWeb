@@ -29,10 +29,10 @@ public class Joueur extends GenererJoueur implements JoueurInterface{
 		int xp = (int) joueurArray.get(4);
 		int mana = (int) joueurArray.get(5);
 		int attaque = (int) joueurArray.get(6);
-		@SuppressWarnings("unchecked")
-		ArrayList<Integer> position = (ArrayList<Integer>) joueurArray.get(7);
+		Position position = (Position) joueurArray.get(7);
 		
 		Joueur newJoueur = new Joueur();
+		
 		newJoueur.nom = nom;
 		newJoueur.classe = classe;
 		newJoueur.pv = pv;
@@ -52,6 +52,10 @@ public class Joueur extends GenererJoueur implements JoueurInterface{
 	public int getXpJoueur() {return xp;}
 	public int getManaJoueur() {return mana;}
 	public int getAttaqueJoueur() {return attaque;}
-	public ArrayList<Integer> getPositionJoueur() {return position;}
+
+	public int getPositionJoueurX() {return position.getPositionX();}
+	public int getPositionJoueurY() {return position.getPositionY();}
+	public int setPositionJoueurX(int x) {return position.setPositionX(x);}
+	public int setPositionJoueurY(int y) {return position.setPositionY(y);}
 	
 }

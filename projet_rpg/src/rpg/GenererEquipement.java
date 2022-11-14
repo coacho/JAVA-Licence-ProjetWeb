@@ -21,7 +21,6 @@ public class GenererEquipement{
 		return random;
 	}
 	
-	
 	private static String nomEquipement() {
 		Random rand = new Random();
 		int specialUnlock = randomEquipement();

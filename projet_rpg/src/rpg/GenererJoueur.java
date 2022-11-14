@@ -3,7 +3,7 @@ package rpg;
 import java.util.ArrayList;
 import java.util.Scanner;
 
- public class GenererJoueur{
+ public abstract class GenererJoueur{
 
 	protected String nom;
 	protected int argent;
@@ -12,7 +12,7 @@ import java.util.Scanner;
 	protected int xp;
 	protected int mana;
 	protected int attaque;
-	protected ArrayList<Integer> position;
+	protected Position position;
 	
 	static Scanner scan = new Scanner(System.in);
 	
@@ -48,9 +48,9 @@ import java.util.Scanner;
 		int attaque = 10;
 		return attaque;
 	}
-	private static ArrayList<Integer> position(){
-		ArrayList<Integer> position = PositionMap.setPositionJoueur();
-		return position;
+	private static Position position(){
+		Position position = new Position(0,0);
+		return position.positionJoueur();
 	}
 
 	public static ArrayList<Object> generate() {

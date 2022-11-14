@@ -7,15 +7,15 @@ public class RpgMain{
 
 	public static void main(String[] args) throws AWTException, InterruptedException, IOException {
 		
-		Map.generateMap("i",30,30);
-		Monstre m1 = MonstreInterface.creationMonstre();
-		Joueur j1 = JoueurInterface.CreationPersonage();
-		Equipement e1 =  EquipementInterface.creationEquipement();
-		Inventaire.ajouter(e1);
-		Equipement e2 = EquipementInterface.creationEquipement();
-		Inventaire.ajouter(e2);
 		
-		Manette.waitForKey(j1, m1);
+		Map map1 = Map.newMap(12,12);
+		Monstre m1 = MonstreInterface.creationMonstre();
+		map1.setPositionMonstre(m1.position);
+		Joueur j1 = JoueurInterface.CreationPersonage();
+		map1.setPositionJoueur(j1.position);
+		Map.remplirMap(map1);
+		Map.displayMap(map1);
+		Manette.waitForKey(map1, j1);
 		
 
 	}
