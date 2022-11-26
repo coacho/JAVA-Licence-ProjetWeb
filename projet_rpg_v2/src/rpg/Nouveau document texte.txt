@@ -1,0 +1,113 @@
+ 
+    private static ArrayList<Position> deplacerMonstres(Map map) {
+	   
+    	int max = 1;
+        int min = 0;
+        
+        int randomMouv = (int)(Math.random()*(max-min+1)+min);
+        int randomAxe = (int)(Math.random()*(max-min+1)+min);
+        
+ 	   	int xJ = map.positionJoueur.getPositionX();
+        int yJ = map.positionJoueur.getPositionY();
+         
+        
+    	for(int iM = 0; iM < map.positionAllMonstre.size(); iM++) {
+
+    		int xM = map.positionAllMonstre.get(iM).getPositionX();
+	 	    int yM = map.positionAllMonstre.get(iM).getPositionY();
+	 	    
+	 	    int xMforward = xM;
+            int yMforward = yM;
+            		
+	 	    int distanceX = xJ - xM;
+	 	    int distanceY = yJ - yM;
+	
+			  if(distanceX <= 2 || distanceX >= -2 || distanceY <= 2 || distanceY >= -2) {
+				   if(randomAxe == 1) {
+					   if(distanceX <= 2 || distanceX >= -2) {
+								if(distanceY <= 0) {
+									if(xJ <= xM) {
+										map.positionMonstre.setPositionX(xM-1);
+											
+									}else if(xJ > xM){
+										map.positionMonstre.setPositionX(xM+1);
+									}
+								}
+							}
+				   }
+				   else if(randomAxe ==0) {
+						if(distanceY <= 2 || distanceY >= -2) {
+							if(distanceX <= 0) {
+								if(yJ <= yM) {
+									map.positionMonstre.setPositionY(yM-1);
+										
+								}
+								else if(yJ > yM){
+									map.positionMonstre.setPositionY(yM+1);
+								}
+							}		   
+						}
+					}
+			   }
+			   if(distanceY > 2 && distanceX > 2 || distanceY > -2 && distanceX > -2) {
+					if(randomAxe == 1) {
+						if(randomMouv == 1) {
+							if(xM < map.mapSize.getPositionX()) {
+								map.positionMonstre.setPositionX(xM+1);
+				    			map.positionMonstre.setPositionX(yM);
+							}
+							else if(xM == map.mapSize.getPositionX()){
+								map.positionMonstre.setPositionX(xMforward);
+				    			map.positionMonstre.setPositionX(yM);
+							}
+						}
+						else {
+							if(xM > 0) {
+								map.positionMonstre.setPositionX(xM-1);
+				    			map.positionMonstre.setPositionX(yM);
+							}
+							else if(xM <= 0) {
+								map.positionMonstre.setPositionX(xMforward);
+				    			map.positionMonstre.setPositionX(yM);
+							}
+						}
+					}
+					else if(randomAxe == 0) {
+						if(randomMouv == 1) {
+							if(yM < map.mapSize.getPositionY()) {
+							map.positionMonstre.setPositionY(yM+1);
+			    			map.positionMonstre.setPositionX(xM);
+							}
+							else if(yM == map.mapSize.getPositionY()){
+								map.positionMonstre.setPositionY(yMforward);
+				    			map.positionMonstre.setPositionX(xM);
+							}
+						}
+						else {
+							if(yM > 0) {
+				    			map.positionMonstre.setPositionY(yM-1);
+				    			map.positionMonstre.setPositionX(xM);
+							}
+							else if(yM <= 0) {
+				    			map.positionMonstre.setPositionY(yMforward);
+				    			map.positionMonstre.setPositionX(xM);
+							}
+						}
+		
+					}
+				}
+			   
+			   for(int iO = 0; iO < map.positionAllObstacle.size() ; iO++) {
+		    		if(map.positionAllObstacle.get(iO).getPositionX() == map.positionMonstre.getPositionX() && map.positionAllObstacle.get(iO).getPositionY() == map.positionMonstre.getPositionY()) {
+		    			map.positionMonstre.setPositionX(xMforward);
+		    			map.positionMonstre.setPositionY(yMforward);
+		    			deplacerMonstres(map);
+					}
+		    	}
+
+			   map.positionAllMonstre.set(iM, map.positionMonstre);
+
+    	}
+	    
+    	return map.positionAllMonstre;
+   }
