@@ -1,18 +1,35 @@
 Liste Classes:
-  - Equipement
-  - GenererEquipement
-  - EquipementInterface
+  
+  - Position
+  - PositionInterface
+  
+  - Map
+  - MapCreate
+  - MapEvenement
   
   - Joueur
-  - GenererJoueur
+  - JoueurGenerer
   - JoueurInterface
   
   - Monstre
-  - GenererMonstre
+  - MonstreGenere
+  - MonstreInterface
   
-  - Combat
+  - Ecran
+  - EcranMap
+  - EcranTexte
+  
+  - Equipement
+  - EquipementGenerer
+  - EquipementInterface
+  
   - Inventaire
-  - Map
+  - Magasin
+  
+  - Combat 
+  
   - Manette
   
+  -TexteGrille
+ 
   -RpgMain
