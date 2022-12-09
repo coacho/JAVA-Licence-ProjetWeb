@@ -23,13 +23,15 @@ Liste Classes:
   - EquipementGenerer
   - EquipementInterface
   
-  - Inventaire
-  - Magasin
+  - Manette 
   
-  - Combat 
+  - RpgMain
+
+  - Inventaire (pas intégrer à Ecran)
   
-  - Manette
+  - Magasin (pas intégrer à Ecran)
   
-  -TexteGrille
+  - Combat (pas intégrer à Ecran)
+  
+  - TexteGrille (pas intégrer à Ecran)
  
-  -RpgMain
