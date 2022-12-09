@@ -2,7 +2,7 @@
 package rpg;
 
 
-public abstract class Manette extends CreateMap {
+public abstract class Manette extends MapCreate {
 
 	public static boolean gameStatus = true;
 	public static int input;
@@ -20,8 +20,7 @@ public abstract class Manette extends CreateMap {
 		int x = j.position.getPositionX();
 		int y = j.position.getPositionY(); ;
 		
-			MapEvenement.checkEventMap(map,j);
-
+			
 			int inputCurrent;
 			
 			inputCurrent = getKey();
@@ -30,43 +29,32 @@ public abstract class Manette extends CreateMap {
 				  case 37: //haut
 					  y--;
 					  Map.deplacerJoueur(x, y, map);
-					  getControle(map);
 				break;
 				  case 39: //droite
 					  y++;
 					  Map.deplacerJoueur(x, y, map);
-					  getControle(map);
 				break;
 				  case 38: //bas
 					  x--;				  
 					  Map.deplacerJoueur(x, y, map);
-					  getControle(map);
 				break;
 				  case 40: //gauche
 					  x++;  
 					  Map.deplacerJoueur(x, y, map);
-					  getControle(map);
 				break;
 				  case 0:
 					  gameStatus = false;
 				break;
 				  default:
-				Map.displayMap(map);
-					  break;
-					  }
-			
-				Map.remplirMap(map);
 				Map.playMonstre(map);
-				
-			}
-		
-
-	private static void getControle(Map map) {
-		Map.remplirMap(map);
-		Map.playMonstre(map);
-
-	}
-		
+				map.remplirMap();
+				//Map.displayMap(map);
+					  break;
+					  }		
+				Map.playMonstre(map);
+				map.remplirMap();
+				MapEvenement.checkEventMap(map,j);					
+	}		
 }
 	
 

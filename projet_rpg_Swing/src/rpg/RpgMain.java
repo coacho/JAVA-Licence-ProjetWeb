@@ -16,15 +16,23 @@ public class RpgMain{
         } catch (ClassNotFoundException | InstantiationException | IllegalAccessException | UnsupportedLookAndFeelException ex) {
         }
         
+		Map map1 = Map.newMap(12,12);
 		
-		Map map1 = Map.newMap(15,15);
 		Monstre m1 = MonstreInterface.creationMonstre();
 		map1.setListMonstre(m1);
 		Monstre m2 = MonstreInterface.creationMonstre();
 		map1.setListMonstre(m2);
+		Monstre m3 = MonstreInterface.creationMonstre();
+		map1.setListMonstre(m3);
+		Monstre m4 = MonstreInterface.creationMonstre();
+		map1.setListMonstre(m4);
+		Monstre m5 = MonstreInterface.creationMonstre();
+		map1.setListMonstre(m5);
+		
 		Joueur j1 = JoueurInterface.CreationPersonage();
 		map1.setPositionJoueur(j1.position);
-		Map.remplirMap(map1);
+		
+		map1.remplirMap();
 		
 		Ecran newEcran = new Ecran(map1, j1);
 		newEcran.initEcran();

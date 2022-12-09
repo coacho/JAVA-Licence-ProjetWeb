@@ -22,11 +22,8 @@ public class EcranTexte {
 		grille.add(ligne);
 		grille.add(ligne);
 	
-    	//Panneau contenant ecran.grille
-		JPanel grillePanel = new JPanel();
-		//grillePanel.setLayout(new FlowLayout());
+    	JPanel grillePanel = new JPanel();
 		
-		//Instantiation ecran.grille dans une new TextArea
 		StringBuilder grilleArea = new StringBuilder();
 
 		
@@ -37,13 +34,12 @@ public class EcranTexte {
 			grilleArea.append(String.valueOf("__________"));
 		}
 		
-		JTextArea textGrilleArea = new JTextArea(grilleArea.toString()); // longueur
+		JTextArea textGrilleArea = new JTextArea(grilleArea.toString());
 		
-		textGrilleArea.setFont(textGrilleArea.getFont().deriveFont(12f)); // taille font	
+		textGrilleArea.setFont(textGrilleArea.getFont().deriveFont(12f)); 	
 		textGrilleArea.setForeground(Color.lightGray);			
 		textGrilleArea.setBackground(Color.BLACK);
 		textGrilleArea.setEditable(false); 
-		textGrilleArea.setActionMap(null); //ne pas enlever!! fait planter les direction sans
 		
 		
 	    grillePanel.add(textGrilleArea);

@@ -3,7 +3,7 @@ package rpg;
 import java.util.ArrayList;
 import java.util.Random;
 
-public class Map extends CreateMap{
+public class Map extends MapCreate{
 
 	
 	private Map() {
@@ -19,7 +19,8 @@ public class Map extends CreateMap{
 		super.listeMonstre = listeMonstre;
 	
 	}
- 
+	
+	//crée une nouvelle map
 	public static Map newMap(int h, int l) {
 		ArrayList<String>[] grille;
  		grille = generateGrille(h, l);
@@ -36,19 +37,32 @@ public class Map extends CreateMap{
 		return newMap;
 	}
 	
-    protected static ArrayList<String>[] remplirMap(Map map) {
+	//affiche la map en console
+	protected static void displayMap(Map map) {
+		int lmap = map.mapSize.getPositionX();
+		int hmap = map.mapSize.getPositionY();
+		
+		String ligne = "";
+		
+		for (int height = 0; height < hmap ; height++) {
+			ligne = "";
+			for(int i = 0; i < lmap ;i++) {
+				ligne = ligne + " " + map.grille[i].get(height);
+	            }
+	            System.out.println(ligne);
+	        }
+	}
+	
+    protected void remplirMap() {
     	
-       int xS = map.positionSortie.getPositionX();
-       int yS = map.positionSortie.getPositionY();
+       int xS = this.positionSortie.getPositionX();
+       int yS = this.positionSortie.getPositionY();
     	
-       int xJ = map.positionJoueur.getPositionX();
-       int yJ = map.positionJoueur.getPositionY();
+       int xJ = this.positionJoueur.getPositionX();
+       int yJ = this.positionJoueur.getPositionY();
        
-       int xM = map.positionMonstre.getPositionX();
-       int yM = map.positionMonstre.getPositionY();
-
-       int lmap = map.mapSize.getPositionX();
-	   int hmap = map.mapSize.getPositionY();
+       int lmap = this.mapSize.getPositionX();
+	   int hmap = this.mapSize.getPositionY();
 
        ArrayList<Integer> pointeurList = new ArrayList<Integer>();
        Position pointeur = new Position(0,0);
@@ -58,53 +72,41 @@ public class Map extends CreateMap{
 				
 				pointeur = new Position(i,height);	
 				
-				map.grille[i].set(height, null);
+				this.grille[i].set(height, null);
 				
-				if(map.grille[i].get(height) == null ) {
-					map.grille[i].set(height, " ");
+				if(this.grille[i].get(height) == null ) {
+					this.grille[i].set(height, " ");
 					}
 				
-				for(int iO = 0; iO < map.positionAllObstacle.size() ; iO++) {
+				for(int iO = 0; iO < this.positionAllObstacle.size() ; iO++) {
 				    ArrayList<Integer> pointeurP = pointeur.getPosition();
-					pointeurList = map.positionAllObstacle.get(iO).getPosition();
+					pointeurList = this.positionAllObstacle.get(iO).getPosition();
 					if(pointeurList.equals(pointeurP)) {
-						map.grille[i].set(height, "x");
+						this.grille[i].set(height, "x");
 					}
 				}
 				
-				for(int iM = 0; iM < map.listeMonstre.size(); iM++) {
+				for(int iM = 0; iM < this.listeMonstre.size(); iM++) {
 					ArrayList<Integer> pointeurP = pointeur.getPosition();  
-				    pointeurList = map.listeMonstre.get(iM).position.getPosition();
+				    pointeurList = this.listeMonstre.get(iM).position.getPosition();
 						if(pointeurList.equals(pointeurP)) {
-							map.grille[i].set(height, "m");
+							this.grille[i].set(height, "m");
 						}
 				}
 
 				if(i == xS && height == yS) {
-					map.grille[i].set(height, "o");
+					this.grille[i].set(height, "o");
 					}
 				if(i == xJ && height == yJ) {
-					map.grille[i].set(height, "i");
+					this.grille[i].set(height, "i");
 					}
 		   }
 	   }  
-	   
-	   return map.grille;
-	   
-    }
-    
-    private static Position newObstacle(Map map) {
-	
-		Position newObstacle = new Position(0,0);
-		map.positionObstacle = newObstacle.positionObstacle();
-		map.positionAllObstacle.add(map.positionObstacle);
-		
-		return map.positionObstacle;
-	
     }
     
     public static Position deplacerJoueur(int x, int y, Map map) {
     	
+    	//Parcour la liste des obstacles et interdit leur position au joueur
     	for(int iO = 0; iO < map.positionAllObstacle.size() ; iO++) {
     		if(map.positionAllObstacle.get(iO).getPosition().get(0) == x && map.positionAllObstacle.get(iO).getPosition().get(1) == y) {
 				if(map.mapSize.getPositionX()> x && map.mapSize.getPositionY() > y) {
@@ -120,16 +122,12 @@ public class Map extends CreateMap{
     	return map.positionJoueur;
     }
     
-    static void playMonstre(Map map) {
+    public static void playMonstre(Map map) {
     	
+    	//parcour la liste de monstre et initie un déplacement
     	for(int iM = 0; iM < map.listeMonstre.size(); iM++) {
-    	boolean testObstacle = map.positionAllObstacle.contains(map.listeMonstre.get(iM).position);
-			if(testObstacle != true) {
-				map.listeMonstre = mouvMonstres(map,map.listeMonstre.get(iM));
-				//testObstacle = true;
-			}
-    			
-    	}
+			map.listeMonstre = mouvMonstres(map,map.listeMonstre.get(iM));
+		}
     }
     
     private static ArrayList<Monstre> mouvMonstres(Map map, Monstre monstre) {
@@ -150,6 +148,8 @@ public class Map extends CreateMap{
 	 	    int distanceX = xJ - xM;
 	 	    int distanceY = yJ - yM;
 	 	  
+	 	    //génère un mouvement au monstre en fonction d'un axe random 1=x ou 0=y et d'un mouvement 1 ou -1
+	 	    // si la distance en le X du joueur et le x du Montre et leurs y est <= 4  ou >-4 le monstre prend pour axe celui qui le rapproche le plus du joueur
 	 	    if(yM + randMouv >= 0 && xM + randMouv >= 0 && xM + randMouv < map.mapSize.getPositionX() && yM + randMouv < map.mapSize.getPositionY()) {
 		 	    	if(distanceX > 0 || distanceY > 0 ) {
 		 	    		if(randAxe == 0) {
@@ -178,29 +178,43 @@ public class Map extends CreateMap{
 		 	    			 monstre.position.setPositionY(yM + randMouv);
 		 	    			 monstre.position.setPositionX(xM);
 		 	    		}
-		 	    	
 		 	    	}
 		 	    	
 		 	    }
-
+	 	    
+	 	    //parcour la liste des position d'Obstacle et les compare avec la position du monstre en cour
+	 	   for(int iO = 0; iO < map.positionAllObstacle.size() ; iO++) {
+	 		  
+	 		  int vXO = map.positionAllObstacle.get(iO).getPositionX();
+	 		  int vYO = map.positionAllObstacle.get(iO).getPositionY();
+	 		  int vXM = monstre.position.getPositionX();
+	 		  int vYM = monstre.position.getPositionY();
+	 				  
+		 	  if(vXO == vXM && vYO == vYM || -vXO == -vXM && -vYO == vYM) {
+		 		 
+		 		 //System.out.println(vXM+ -";"+ vYM + " || " + vXO +";" + vYO) ;
+		 		 
+		 		 monstre.position.setPositionX(xM);
+			 	 monstre.position.setPositionY(yM);
+			 	 Map.mouvMonstres(map, monstre);
+			 	 
+		 	  	}
+	    	}
+	    
     	return map.listeMonstre;    	
     }
-    
-	protected static void displayMap(Map map) {
-		int lmap = map.mapSize.getPositionX();
-		int hmap = map.mapSize.getPositionY();
+
+    private static Position newObstacle(Map map) {
+    	
+    	//génère une liste d'obstacle avec une liste de positions
+		Position newObstacle = new Position(0,0);
+		map.positionObstacle = newObstacle.positionObstacle();
+		map.positionAllObstacle.add(map.positionObstacle);
 		
-		String ligne = "";
-		
-		for (int height = 0; height < hmap ; height++) {
-			ligne = "";
-			for(int i = 0; i < lmap ;i++) {
-				ligne = ligne + " " + map.grille[i].get(height);
-	            }
-	            System.out.println(ligne);
-	        }
-	}
+		return map.positionObstacle;
 	
+    }
+    
 	
 	public static Map newPosition() {
 		return newPosition();
@@ -226,17 +240,9 @@ public class Map extends CreateMap{
 	public Position setPositionMonstre(Position p) {
 		positionMonstre = p;
 		return positionMonstre;} 
-	
+	//
 	public ArrayList<Monstre> setListMonstre(Monstre m) {
 		listeMonstre.add(m);
 		return listeMonstre;} 
 	
-	/*
-	public String getgraphikSortie() {return graphikSortie;} 
-	public String getgraphikJoueur() {return graphikJoueur;} 
-	public String getgraphikMonstre() {return graphikMonstre;} 
-	public String getgraphikObstacle() {return graphikObstacle;}  
-	*/
-
-
 }

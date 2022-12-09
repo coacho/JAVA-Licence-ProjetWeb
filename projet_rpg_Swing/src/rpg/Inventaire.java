@@ -84,7 +84,7 @@ abstract class Inventaire {
 		}
 		return inventaireDisplay;
 	}
-/*
+
 	private static void setEquiped(Equipement e) {
 		if(e.equip = true) {
 		Equiped.add(e);
@@ -103,6 +103,6 @@ abstract class Inventaire {
 		return Equiped;
 	}
 	
-*/
+
 	
 }

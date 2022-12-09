@@ -16,14 +16,19 @@ public class Combat {
 	private static int mAttaque;
 	private static int jMana;
 	private static int mMana;
+	
+	
 	Scanner scan = new Scanner(System.in);
 	
 	void startCombat(Joueur j, Monstre m) {
 		
 		getStats(j,m);
 		System.out.println("==============");
-		System.out.print("You encounter an Unknown Monster,");
+		//System.out.print("You encounter an Unknown Monster,");
+		TexteGrille newTexteGrille = new TexteGrille("You encounter an Unknown Monster,");
+		System.out.println(newTexteGrille.ligne);
 		System.out.println();
+		
 		monsterMenu(m);
 		
 		while ( finCombat == false ) {
@@ -44,6 +49,7 @@ public class Combat {
 	}
 	
 	private void centralMenuCombat() {
+		
 		String input;
 		
 		System.out.println("==============");
