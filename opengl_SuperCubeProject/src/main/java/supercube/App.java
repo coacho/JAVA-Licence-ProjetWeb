@@ -1,19 +1,12 @@
 package supercube;
 
-import org.lwjgl.opengl.*;
-
-import java.io.BufferedReader;
-import java.io.ByteArrayInputStream;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.nio.charset.Charset;
 import java.util.Objects;
 
 import static org.lwjgl.glfw.Callbacks.*;
 import static org.lwjgl.glfw.GLFW.*;
 public class App {
 
-    public void run(){
+    public void run() {
 
         Ecran newWindow = new Ecran();
         Vecteurs newVecteur = new Vecteurs();
@@ -28,7 +21,7 @@ public class App {
 
         // Terminate GLFW et libère les erreurs en sortie
         glfwTerminate();
-        glfwSetErrorCallback(null).free();
+        Objects.requireNonNull(glfwSetErrorCallback(null)).free();
 
     }
 
@@ -39,9 +32,14 @@ public class App {
 
     }
 
-    private void loop(Ecran newWindow,Vecteurs newVecteur,Shader newShader){
+    private void loop(Ecran newWindow,Vecteurs newVecteur,Shader newShader) {
 
         newShader.createShader();
+        ///debug
+        //System.out.println(newShader.vertexShader);
+        //System.out.println(newShader.fragmentShader);
+        System.out.println(newShader.ShaderId);
+        ////
         newWindow.runWindow(newVecteur);
     }
 

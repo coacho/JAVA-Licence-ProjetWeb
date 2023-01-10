@@ -22,6 +22,7 @@ public class Vecteurs {
         this.vecteurs = standardVecteurs();
         this.indices = standardIndices();
 
+
         return this;
     }
 
@@ -64,12 +65,13 @@ public class Vecteurs {
         //https://stackoverflow.com/questions/29397407/gldrawbuffers-should-have-flipped-intbuffer
         vboBuffer.flip();
 
+
         // pass data to GPU
         int positionElementCount = vecteurs.length / 4; //count nombre de vecteurs (ici = carré = 4)
         int vboID = GL30.glGenBuffers(); //Cree espace memoire où stocker info vecteurs || return Id chaque vecteur
         GL30.glBindBuffer(GL30.GL_ARRAY_BUFFER,vboID); // set id buffer créé pour plus tard modifier attributs vecteur (attributs = color/position/texture...)
 
-        //set data to specific buffer , ici data = position vecteur , GL_STATIC_DRAW = data (position), fixe la position du vecteur non modifiable à l'avenir
+        //set data to specific buffer , ici data = position vecteur , GL_STATIC_DRAW = glBindBufferdata (position), fixe la position du vecteur non modifiable à l'avenir
         GL30.glBufferData(GL30.GL_ARRAY_BUFFER,vboBuffer,GL30.GL_STATIC_DRAW);
 
         //glVertexAttribPointer = pointeur vers attributs(data)

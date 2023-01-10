@@ -3,6 +3,7 @@ package supercube;
 import org.lwjgl.glfw.GLFWErrorCallback;
 import org.lwjgl.glfw.GLFWVidMode;
 import org.lwjgl.opengl.GL;
+import org.lwjgl.opengl.GL30;
 import org.lwjgl.system.MemoryStack;
 
 import java.nio.IntBuffer;
@@ -41,7 +42,7 @@ public class Ecran {
         glfwWindowHint(GLFW_RESIZABLE,GLFW_TRUE); //window resizable pendant init | config GLFW
 
         //creation fenetre
-        window = glfwCreateWindow(960, 960,"JAUNE!", NULL, NULL);
+        window = glfwCreateWindow(960, 960,"SuperCube", NULL, NULL);
         if(window == NULL){
             throw new RuntimeException("initialisation openGL window failed, please don't ask me why, cause I don't know");
         }
@@ -65,7 +66,7 @@ public class Ecran {
             //get résolution ecran principal de l'user
             GLFWVidMode vidMode = glfwGetVideoMode(glfwGetPrimaryMonitor());
 
-            //centre la fenetre
+            //centre la fenetre :
             //xPositionEcran = tailleEcranUser - tailleWindow/2
             //yPositionEcran = hauteurEcranUser - HauteurWindow/2)
             //centreEcranUser(x,y) = centreEcranUSer(xPositionEcran, yPositionEcran)
@@ -74,7 +75,7 @@ public class Ecran {
             //context current => window
             glfwMakeContextCurrent(window);
 
-            //Active SyncroVertical (repris tuto)
+            //Active SyncroVertical
             glfwSwapInterval(1);
 
             //show => window
@@ -83,7 +84,8 @@ public class Ecran {
         }
         GL.createCapabilities();
 
-        glClearColor(1.0f,1.0f,0.0f,0.0f); // set backgroundcolor (ici jaune)
+        glClearColor(0.5f,0.5f,0.5f,1.0f); // set backgroundcolor (ici jaune)
+        glClear(GL_COLOR_BUFFER_BIT);
 
         return window;
     }
@@ -93,8 +95,9 @@ public class Ecran {
         //run window tant que glfwWindowShouldClose == false
         while(!glfwWindowShouldClose(window)){
             glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+
             // draw carre
-            glDrawElements(GL_TRIANGLES, vecteurs.indices.length,GL_UNSIGNED_INT,0 );
+            glDrawElements(GL30.GL_TRIANGLES, vecteurs.indices.length,GL_UNSIGNED_INT,0 );
             glfwSwapBuffers(window);
             glfwPollEvents();
         }

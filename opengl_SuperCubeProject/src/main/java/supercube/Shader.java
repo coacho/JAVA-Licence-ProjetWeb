@@ -2,16 +2,15 @@ package supercube;
 
 import org.lwjgl.opengl.GL30;
 
-import java.io.BufferedReader;
-import java.io.ByteArrayInputStream;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.nio.charset.Charset;
+import java.io.*;
+import java.util.Objects;
 
 public class Shader {
 
-    public String vertexShader;
-    public String fragmentShader;
+    public int vertexShader;
+    public int fragmentShader;
+
+    public int ShaderId;
 
     public Shader(){
         super();
@@ -19,49 +18,52 @@ public class Shader {
 
     public Shader createShader(){
 
-        int programID = GL30.glCreateProgram();
+        int programShaderID = GL30.glCreateProgram();
         int vertShaderObj = GL30.glCreateShader(GL30.GL_VERTEX_SHADER);
         int fragShaderObj = GL30.glCreateShader(GL30.GL_FRAGMENT_SHADER);
 
-        this.vertexShader = setVertexShader(programID,vertShaderObj);
-        this.fragmentShader = setFragmentShader(programID,fragShaderObj);
+        vertexShader = setVertexShader(programShaderID,vertShaderObj);
+        fragmentShader = setFragmentShader(programShaderID,fragShaderObj);
+        ShaderId = programShaderID;
 
-        GL30.glLinkProgram(programID);
-        GL30.glValidateProgram(programID);
-        GL30.glUseProgram(programID);
+        GL30.glLinkProgram(programShaderID);
+        GL30.glValidateProgram(programShaderID);
+        GL30.glUseProgram(programShaderID);
+
+        // int vertexColorLocation = GL30.glGetUniformLocation(programShaderID,"outColor");
+        //GL30.glUniform4f(vertexColorLocation,0.0f,1.0f,0.0f,1.0f);
+        // GL30.glBindVertexArray();
 
         return this;
     }
 
-    private String setVertexShader(int programID, int vertShaderObj){
+    private int setVertexShader(int programID, int vertShaderObj){
 
-        String vertexShader = parseShaderFromFile("src/main/java/supercube/shader/frag.shader.glsl");
+        String vertexShaderLink = parseShaderFromFile("vert.shader.glsl");
 
-        GL30.glShaderSource(vertShaderObj, vertexShader);
+        GL30.glShaderSource(vertShaderObj, vertexShaderLink);
         GL30.glCompileShader(vertShaderObj);
         GL30.glAttachShader(programID, vertShaderObj);
 
-        return vertexShader;
+        return vertShaderObj;
     }
-    private String setFragmentShader(int programID,int fragShaderObj){
+    private int setFragmentShader(int programID,int fragShaderObj){
 
-        String fragmentShader = parseShaderFromFile("src/main/java/supercube/shader/frag.shader.glsl");
+        String fragmentShaderLink = parseShaderFromFile("frag.shader.glsl");
 
-        GL30.glShaderSource(fragShaderObj, fragmentShader);
+        GL30.glShaderSource(fragShaderObj, fragmentShaderLink);
         GL30.glCompileShader(fragShaderObj);
         GL30.glAttachShader(programID, fragShaderObj);
 
-        return fragmentShader;
+        return fragShaderObj;
     }
 
     private static String parseShaderFromFile(String filePath){
         StringBuilder data = new StringBuilder();
         String line = "";
         try{
-            InputStream inputStream = new ByteArrayInputStream(filePath.getBytes());
-            InputStreamReader input = new InputStreamReader(inputStream);
-            BufferedReader reader = new BufferedReader(input);
-            //BufferedReader reader = new BufferedReader(new InputStreamReader(App.class.getResourceAsStream(filePath)));
+            //fichiers frag.shader.glsl et vert.shader.glsl || situées dans java/ressource (Maven)
+            BufferedReader reader = new BufferedReader(new InputStreamReader(Objects.requireNonNull(App.class.getClassLoader().getResourceAsStream(filePath))));
 
             line = reader.readLine();
             while(line !=null)
