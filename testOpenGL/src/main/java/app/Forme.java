@@ -8,11 +8,6 @@ import com.jogamp.opengl.glu.GLU;
 
 public class Forme extends GLCanvas implements GLEventListener {
 
-    public Forme(){
-        this.addGLEventListener(this);
-    }
-
-
     @Override
     public void init(GLAutoDrawable glAutoDrawable) {
 

@@ -1,15 +1,12 @@
 package app;
-
-import com.jogamp.opengl.GLAutoDrawable;
-import com.jogamp.opengl.GLEventListener;
-import com.jogamp.opengl.awt.GLCanvas;
-
 import javax.swing.*;
-import java.awt.*;
+import java.util.ArrayList;
+import java.util.List;
 
-public class Ecran{
+public class Ecran extends Canvas{
 
-    private GLCanvas canvas ;
+    /*private List<Canvas> listCanvas = new ArrayList<Canvas>();*/
+    private Canvas canvas = new Canvas();
     private JFrame frame ;
 
     private int cHeight;
@@ -23,24 +20,12 @@ public class Ecran{
 
     public Ecran setEcran(int cWidth, int cHeight, int fWidth, int fHeight){
 
-        this.canvas = setCanvas(cWidth,cHeight);
+        this.canvas.setCanvas(cWidth,cHeight);
         this.frame = setFrame(fWidth,fHeight);
 
         Ecran newEcran = new Ecran();
 
         return newEcran;
-    }
-
-    private GLCanvas setCanvas(int newWidth, int newHeight){
-
-        cHeight = newHeight;
-        cWidth = newWidth;
-
-        canvas = new Forme();
-
-        canvas.setPreferredSize(new Dimension(cWidth,cHeight));
-
-        return canvas;
     }
 
     private JFrame setFrame(int newWidth, int newHeight){
@@ -51,7 +36,7 @@ public class Ecran{
         frame = new JFrame();
 
         frame.setSize(fWidth,fHeight);
-        frame.getContentPane().add(canvas);
+        frame.getContentPane().add(canvas.getCanvas());
         frame.setTitle("Java - OpenGL");
         frame.pack();
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
