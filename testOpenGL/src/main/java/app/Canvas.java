@@ -16,10 +16,10 @@ public class Canvas {
 
     public void setCanvas(int newWidth,int newHeight){
 
-        this.cHeight = newHeight;
-        this.cWidth = newWidth;
+        cHeight = newHeight;
+        cWidth = newWidth;
 
-        this.canvas = new Forme();
+        canvas = new Forme();
 
         canvas.setPreferredSize(new Dimension(cWidth,cHeight));
 
