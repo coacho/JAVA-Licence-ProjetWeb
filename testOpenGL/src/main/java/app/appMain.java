@@ -9,17 +9,21 @@ public class appMain {
 
         Ecran newEcran = new Ecran();
 
-        Canvas test = new Canvas();
-        test.newCanvas(100,100);
-        //Canvas exempleCour = new Canvas();
-        //exempleCour.newCanvas(800,900);
+        Frame testFrame = new Frame();
+        testFrame.initNewFrame(2000,2000);
+
+        Canvas testCanvas = new Canvas();
+        testCanvas.initNewCanvas(100,100);
+
+        Canvas exempleCour = new Canvas();
+        exempleCour.initNewCanvas(800,900);
 
         ArrayList<Canvas> listCanvas = new ArrayList<>();
 
-        listCanvas.add(test);
-        //listCanvas.add(exempleCour);
+        listCanvas.add(testCanvas);
+        listCanvas.add(exempleCour);
 
-        newEcran.newEcran(listCanvas,900,500);
+        newEcran.newEcran(listCanvas,testFrame);
 
 
     }

@@ -1,5 +1,6 @@
 package app;
 
+import com.jogamp.opengl.GL;
 import com.jogamp.opengl.GL2;
 import com.jogamp.opengl.GLAutoDrawable;
 import com.jogamp.opengl.GLEventListener;
@@ -7,8 +8,11 @@ import com.jogamp.opengl.awt.GLCanvas;
 import com.jogamp.opengl.glu.GLU;
 
 public class Forme extends GLCanvas implements GLEventListener {
+
     public Forme(){
+
         this.addGLEventListener(this);
+
     }
 
 
@@ -16,7 +20,8 @@ public class Forme extends GLCanvas implements GLEventListener {
     public void init(GLAutoDrawable glAutoDrawable) {
 
         GL2 gl = glAutoDrawable.getGL().getGL2();
-        gl.glClearColor(0.0f, 0.0f, 0.0f, 0.0f);
+
+       gl.glClearColor(0.0f, 0.0f, 0.0f, 0.0f);
 
         //gl.glClearColor(60.0f/255.0f, 179.0f/255.0f, 113.0f/255.0f, 1.0f);
     }
@@ -39,12 +44,6 @@ public class Forme extends GLCanvas implements GLEventListener {
         gl.glVertex3f(-1.0f, -1.0f, -6.0f);
         gl.glVertex3f(1.0f, -1.0f, -6.0f);
         gl.glEnd();
-        /*gl.glBegin(GL_TRIANGLES); // draw using triangles
-        gl.glColor3f(0.1f, 0.1f, 0.9f);
-        gl.glVertex3f(0.0f, -1.5f, -6.0f);
-        gl.glVertex3f(-1.0f, 0.5f, -6.0f);
-        gl.glVertex3f(1.0f, 0.5f, -6.0f);
-        gl.glEnd();*/
     }
 
     @Override
