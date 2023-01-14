@@ -5,12 +5,8 @@ import java.util.List;
 
 public class Ecran extends Canvas{
 
-    /*private List<Canvas> listCanvas = new ArrayList<Canvas>();*/
-    private Canvas canvas = new Canvas();
-    private JFrame frame ;
-
-    private int cHeight;
-    private int cWidth;
+    private ArrayList<Canvas> ecranListCanvas = new ArrayList<>();
+   private JFrame frame ;
     private int fHeight;
     private int fWidth;
 
@@ -18,14 +14,18 @@ public class Ecran extends Canvas{
         super();
     }
 
-    public Ecran setEcran(int cWidth, int cHeight, int fWidth, int fHeight){
+    public Ecran newEcran(ArrayList<Canvas> listCanvas ,int fWidth, int fHeight){
 
-        this.canvas.setCanvas(cWidth,cHeight);
+        ecranListCanvas = listCanvas;
+        for(int i = 0; i<ecranListCanvas.size(); i++){
+            setThatCanvasInList(listCanvas.get(i));
+        }
         this.frame = setFrame(fWidth,fHeight);
+        return this;
+    }
 
-        Ecran newEcran = new Ecran();
-
-        return newEcran;
+    private void setThatCanvasInList(Canvas newCanvas){
+        newCanvas.setCanvas(newCanvas.getCanvasWidth(), newCanvas.getCanvasHeight());
     }
 
     private JFrame setFrame(int newWidth, int newHeight){
@@ -36,7 +36,9 @@ public class Ecran extends Canvas{
         frame = new JFrame();
 
         frame.setSize(fWidth,fHeight);
-        frame.getContentPane().add(canvas.getCanvas());
+        for(int i=0; i<ecranListCanvas.size();i++) {
+            frame.getContentPane().add(ecranListCanvas.get(i).getCanvas());
+        }
         frame.setTitle("Java - OpenGL");
         frame.pack();
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
